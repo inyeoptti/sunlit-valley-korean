@@ -1,8 +1,8 @@
 {
 	chapter_groups: [
-                { id: "457DCF55318282CA", title: "튜토리얼" }
-                { id: "106AD9AA3ADDE3AE", title: "번들" }
-                { id: "439B0423947443D3", title: "가이드" }
-                { id: "15230846E14B6926", title: "컬렉션" }
+		{ id: "457DCF55318282CA", title: "튜토리얼" }
+		{ id: "106AD9AA3ADDE3AE", title: "번들" }
+		{ id: "439B0423947443D3", title: "가이드" }
+		{ id: "15230846E14B6926", title: "수집" }
 	]
 }

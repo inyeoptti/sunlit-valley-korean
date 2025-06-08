@@ -7,5 +7,5 @@
 		{ item: "society:loom" }
 		{ item: "society:feeding_trough" }
 	]
-        title: "장인 기계"
+	title: "장인 기계(Artisan Machine)"
 }

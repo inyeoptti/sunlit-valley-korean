@@ -20,6 +20,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: true
-	title: "&l&6Society: Sunlit Valley"
+	title: "&l&6소사이어티: 선릿 밸리(Society: Sunlit Valley)"
 	version: 13
 }
