@@ -10,5 +10,5 @@
 		{ item: "pamhc2trees:mango_sapling" }
 		{ item: "pamhc2trees:peach_sapling" }
 	]
-	title: "Fruit Tree"
+        title: "과일나무"
 }
