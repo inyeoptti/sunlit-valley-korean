@@ -32,7 +32,7 @@
 				item: { Count: 4, id: "numismatics:crown" }
 				type: "item"
 			}]
-                        title: "2,048 묶음(2,048 Bundle)"
+			title: "2,048 번들(2,048 Bundle)"
 			x: -3.0d
 			y: 0.2d
 		}
@@ -51,7 +51,7 @@
 				item: "numismatics:sun"
 				type: "item"
 			}]
-                        title: "16,384 묶음(16,384 Bundle)"
+			title: "16,384 번들(16,384 Bundle)"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -69,7 +69,7 @@
 				item: "numismatics:sun"
 				type: "item"
 			}]
-                        title: "24,576 묶음(24,576 Bundle)"
+			title: "24,576 번들(24,576 Bundle)"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -87,7 +87,7 @@
 				item: "numismatics:sun"
 				type: "item"
 			}]
-                        title: "40,960 묶음(40,960 Bundle)"
+			title: "40,960 번들(40,960 Bundle)"
 			x: 3.0d
 			y: 0.2d
 		}
@@ -99,11 +99,11 @@
 				"7CE6C320CC9F9B87"
 			]
 			description: [
-                                "금고(Vault)를 구입하면 &6스컬 카번 텔레포터(Skull Cavern Teleporter)&r를 받을 수 있으며, 이는 &d프리즈매틱 샤드(Prismatic Shards)&r를 얻기 위한 관문입니다."
-                                ""
-                                "설치 후 우클릭하면 입장할 수 있지만, 스컬 카번의 몹은 체력과 공격력이 두 배이므로 반드시 준비를 갖추세요..."
-                                ""
-                                "&o만약 잃어버렸다면 &6대장장이&r&o에게서 비싼 값에 다시 구매할 수도 있습니다.&r"
+				"금고(Vault)를 구매하면 &6해골 동굴 순간이동기(Skull Cavern Teleporter)&r를 얻을 수 있습니다. 이 아이템은 &d프리즘 샤드(Prismatic Shards)&r를 얻는 관문입니다."
+				""
+				"설치 후 우클릭하면 입장할 수 있지만, 반드시 준비를 철저히 하세요! 해골 동굴의 몹은 체력과 공격력이 2배입니다..."
+				""
+				"&o만약 순간이동기를 잃어버렸다면 &6대장장이(Blacksmith)&r&o에게서 비싼 값에 다시 구매할 수 있습니다."
 			]
 			icon: "furniture:cash_register"
 			id: "4B9634D942E590AB"
@@ -127,20 +127,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reward: Skull Cavern Teleporter"
+			subtitle: "보상: 해골 동굴 순간이동기(Reward: Skull Cavern Teleporter)"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "12AF72DCF6F3A875"
 				stat: "minecraft:play_time"
-                                title: "금고 완성하기(Complete the Vault)"
+				title: "금고 완료(Complete the Vault)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "금고 완료!(Vault Completed!)"
+			title: "금고 완료!(Vault Completed!)"
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-        subtitle: ["Reward: Skull Cavern Teleporter"]
-        title: "금고(Vault)"
+	subtitle: ["보상: 해골 동굴 순간이동기(Reward: Skull Cavern Teleporter)"]
+	title: "금고(Vault)"
 }

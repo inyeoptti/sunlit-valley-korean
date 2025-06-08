@@ -53,7 +53,7 @@
 					type: "item"
 				}
 			]
-                        title: "봄 작물 꾸러미"
+			title: "봄 작물 번들(Spring Crops Bundle)"
 			x: -3.0d
 			y: 0.2d
 		}
@@ -93,7 +93,7 @@
 					type: "item"
 				}
 			]
-                        title: "여름 작물 꾸러미"
+			title: "여름 작물 번들(Summer Crops Bundle)"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -133,7 +133,7 @@
 					type: "item"
 				}
 			]
-                        title: "가을 작물 꾸러미"
+			title: "가을 작물 번들(Autumn Crops Bundle)"
 			x: 0.0d
 			y: -1.3d
 		}
@@ -172,7 +172,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -252,7 +252,7 @@
 					type: "item"
 				}
 			]
-                        title: "축산 꾸러미"
+			title: "축산 번들(Husbandry Bundle)"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -299,7 +299,7 @@
 					type: "item"
 				}
 			]
-                        title: "양봉 꾸러미"
+			title: "양봉 번들(Beekeeping Bundle)"
 			x: 3.0d
 			y: 0.2d
 		}
@@ -311,7 +311,7 @@
 				"314D5DDD65659FDE"
 				"3EF57F71C1C786FE"
 			]
-			description: ["Collecting crops of every season and animal products completes the Pantry. This gives you &648 Greenhouse Glass&r, an expensive material that allows crops of any season to grow when placed at most 16 blocks above it."]
+			description: ["모든 계절의 작물과 동물 생산물을 수집하면 식료품 저장실이 완성됩니다. 이 보상으로 &648 그린하우스 유리(Greenhouse Glass)&r를 받으며, 이 유리는 설치 시 위로 최대 16블록까지 어떤 계절의 작물도 자랄 수 있게 해줍니다."]
 			icon: "furniture:explorers_box"
 			id: "7CBAF0748446A0C2"
 			rewards: [
@@ -335,20 +335,20 @@
 					type: "item"
 				}
 			]
-                        subtitle: "보상: 온실 스타터"
+			subtitle: "보상: 그린하우스 스타터(Reward: Greenhouse Starter)"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "713FD6544CCC4F5C"
 				stat: "minecraft:play_time"
-                                title: "식료품 저장실 완성"
+				title: "식료품 저장실 완성(Complete the Pantry)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "식료품 저장실 완료!"
+			title: "식료품 저장실 완성!(Pantry Completed!)"
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-        subtitle: ["보상: 온실 스타터"]
-        title: "식료품 저장실"
+	subtitle: ["보상: 그린하우스 스타터(Reward: Greenhouse Starter)"]
+	title: "식료품 저장실(Pantry)"
 }

@@ -42,7 +42,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 17블록, 너비 13블록, 높이 11블록"
+			subtitle: "깊이 17블록, 너비 13블록, 높이 11블록(17 blocks deep, 13 blocks wide, and 11 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -76,7 +76,7 @@
 					layer: false
 					name: "barn"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "구조 미리보기. 다시 좌클릭하면 미리보기가 취소됩니다.(Preview structure. Left Click again to cancel preview.)"
 					type: "questsadditions:structure"
 				}
 			]
@@ -115,7 +115,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 17블록, 너비 13블록, 높이 11블록"
+			subtitle: "깊이 17블록, 너비 13블록, 높이 11블록(17 blocks deep, 13 blocks wide, and 11 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -149,7 +149,7 @@
 					layer: false
 					name: "barn_cherry"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "구조 미리보기. 다시 좌클릭하면 미리보기가 취소됩니다.(Preview structure. Left Click again to cancel preview.)"
 					type: "questsadditions:structure"
 				}
 			]
@@ -188,7 +188,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
+			subtitle: "15 blocks deep, 11 blocks wide, and 7 blocks tall"
 			tasks: [
 				{
 					count: 4L
@@ -222,7 +222,7 @@
 					layer: false
 					name: "shed"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
@@ -264,7 +264,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 20블록, 너비 20블록, 높이 13블록"
+			subtitle: "깊이 20블록, 너비 20블록, 높이 13블록(20 blocks deep, 20 blocks wide, and 13 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -298,11 +298,11 @@
 					layer: false
 					name: "large_shed"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "구조 미리보기. 다시 좌클릭하면 미리보기가 취소됩니다.(Preview structure. Left Click again to cancel preview.)"
 					type: "questsadditions:structure"
 				}
 			]
-			title: "큰 창고(Large Shed)"
+			title: "대형 창고(Large Shed)"
 			x: -4.0d
 			y: -5.0d
 		}
@@ -337,7 +337,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 20블록, 너비 20블록, 높이 13블록"
+			subtitle: "깊이 20블록, 너비 20블록, 높이 13블록(20 blocks deep, 20 blocks wide, and 13 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -371,11 +371,11 @@
 					layer: false
 					name: "large_shed_cherry"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "구조 미리보기. 다시 좌클릭하면 미리보기가 취소됩니다.(Preview structure. Left Click again to cancel preview.)"
 					type: "questsadditions:structure"
 				}
 			]
-			title: "체리 큰 창고(Cherry Large Shed)"
+			title: "체리 대형 창고(Cherry Large Shed)"
 			x: -2.5d
 			y: -5.0d
 		}
@@ -383,16 +383,16 @@
 			can_repeat: false
 			dependencies: ["6A4ABA3348125A3C"]
 			description: [
-				"Sheds are utility buildings for storing Artisan Machines, chests, and anything else you need."
+				"창고는 장인 기계, 상자 등 다양한 물건을 보관하는 유틸리티 건물입니다.(Sheds are utility buildings for storing Artisan Machines, chests, and anything else you need.)"
 				""
-				"No machines included! This is just a basic farm structure to keep you organized."
+				"기계는 포함되어 있지 않습니다! 단순히 정리를 위한 기본 농장 건물입니다.(No machines included! This is just a basic farm structure to keep you organized.)"
 			]
 			icon: "society:preserves_jar"
 			id: "62D0735680A06D71"
 			size: 1.5d
 			tasks: [{
 				id: "5C2383EED4776FAE"
-				title: "이해했습니다"
+				title: "이해함(Understood)"
 				type: "checkmark"
 			}]
 			title: "창고들(Sheds)"
@@ -430,7 +430,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
+			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록(15 blocks deep, 11 blocks wide, and 7 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -464,7 +464,7 @@
 					layer: false
 					name: "shed_cherry"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "구조 미리보기. 다시 좌클릭하면 미리보기가 취소됩니다.(Preview structure. Left Click again to cancel preview.)"
 					type: "questsadditions:structure"
 				}
 			]
@@ -476,19 +476,19 @@
 			can_repeat: false
 			dependencies: ["6A4ABA3348125A3C"]
 			description: [
-				"Large Sheds are as you may expect; larger sheds. They have plenty of room, and fit neatly in a single chunk (excluding walls). Press &6F3&r + &6G&r to see chunk boundries."
+				"대형 창고는 말 그대로 더 큰 창고입니다. 공간이 넉넉하며, 벽을 제외하면 한 청크에 딱 맞게 들어갑니다. &6F3&r + &6G&r 키를 눌러 청크 경계를 확인하세요.(Large Sheds are as you may expect; larger sheds. They have plenty of room, and fit neatly in a single chunk (excluding walls). Press &6F3&r + &6G&r to see chunk boundries.)"
 				""
-				"No machines included! This is just a basic farm structure to keep you organized."
+				"기계는 포함되어 있지 않습니다! 단순히 정리를 위한 기본 농장 건물입니다.(No machines included! This is just a basic farm structure to keep you organized.)"
 			]
 			icon: "society:aging_cask"
 			id: "118A9A2B8922DA00"
 			size: 1.5d
 			tasks: [{
 				id: "57A6189427F3031E"
-				title: "이해했습니다"
+				title: "이해함(Understood)"
 				type: "checkmark"
 			}]
-			title: "큰 창고들(Large Sheds)"
+			title: "대형 창고들(Large Sheds)"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -496,16 +496,16 @@
 			can_repeat: false
 			dependencies: ["6A4ABA3348125A3C"]
 			description: [
-				"Barns are perfectly sized for indoor farm animals. The first floor is intended for animals, perfectly spaced so Feeding Troughs don't leave them hungry."
+				"헛간은 실내 가축 사육에 딱 맞는 크기입니다. 1층은 동물을 위한 공간이며, 먹이통이 완벽하게 배치되어 동물이 배고프지 않습니다.(Barns are perfectly sized for indoor farm animals. The first floor is intended for animals, perfectly spaced so Feeding Troughs don't leave them hungry.)"
 				""
-				"Two &6Feeding Troughs&r are included in the building. "
+				"&6먹이통&f 2개가 건물에 포함되어 있습니다.(Two &6Feeding Troughs&r are included in the building.)"
 			]
 			icon: "society:milk"
 			id: "0B3AAC4CEC0098A3"
 			size: 1.5d
 			tasks: [{
 				id: "2115EFA4F1F6CEB9"
-				title: "이해했습니다"
+				title: "이해함(Understood)"
 				type: "checkmark"
 			}]
 			title: "헛간들(Barns)"
@@ -516,23 +516,23 @@
 			can_repeat: false
 			dependencies: ["66D159252C70D5F2"]
 			description: [
-				"This chapter has prebuilt buildings for sale in the form of capsules. They can be bought as many times as you wish."
+				"이 챕터에서는 캡슐 형태의 미리 만들어진 건물을 판매합니다. 원하는 만큼 구매할 수 있습니다.(This chapter has prebuilt buildings for sale in the form of capsules. They can be bought as many times as you wish.)"
 				""
-				"&6Right Click&r with a Capsule to preview the structure. Click again to build."
+				"캡슐을 &6우클릭&f하면 구조 미리보기가 나타납니다. 다시 클릭하면 건물이 설치됩니다.(&6Right Click&r with a Capsule to preview the structure. Click again to build.)"
 				""
-				"&6Left Click&r to rotate, &6Shift + Left Click&r to mirror"
+				"&6좌클릭&f으로 회전, &6Shift + 좌클릭&f으로 미러링(&6Left Click&r to rotate, &6Shift + Left Click&r to mirror)"
 				""
-				"&oNote: If the preview doesn't show at first, use &6Left Click&r&o to rotate."
+				"&o참고: 미리보기가 처음에 보이지 않으면 &6좌클릭&f으로 회전해보세요.(&oNote: If the preview doesn't show at first, use &6Left Click&r&o to rotate.)"
 			]
 			icon: "minecraft:spruce_door"
 			id: "049EB48B999881A3"
 			size: 2.0d
 			tasks: [{
 				id: "2584D5E401EEFB26"
-				title: "이해했습니다"
+				title: "이해함(Understood)"
 				type: "checkmark"
 			}]
-			title: "건축 상점"
+			title: "건축 상점(Building Shop)"
 			x: -10.0d
 			y: -9.0d
 		}
@@ -541,7 +541,7 @@
 			description: [
 				"{image:society:textures/gui/buildings/deluxe_barn_entrana.png width:221 height:183 align:center}"
 				""
-				"Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete."
+				"엔트라나 건물은 파란색 콘크리트를 대체할 수 있는 콘크리트 및 장식 블록 상자가 함께 제공됩니다.(Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete.)"
 			]
 			icon: "quark:ancient_chest"
 			id: "71B7C3D4C9EC4CAC"
@@ -569,17 +569,17 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 26블록, 너비 15블록, 높이 14블록"
+			subtitle: "27블록 깊이, 21블록 너비, 12블록 높이(27 blocks deep, 21 blocks wide, and 12 blocks tall)"
 			tasks: [
 				{
 					count: 20L
-					id: "16FF1B2FF0A60373"
+					id: "4D55F4AED608AB4A"
 					item: "numismatics:sun"
 					type: "item"
 				}
 				{
 					count: 256L
-					id: "49287E2EF533808A"
+					id: "748ECD105591DE48"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -592,22 +592,22 @@
 				}
 				{
 					count: 256L
-					id: "6AA0DAEEB356253E"
+					id: "23F34B06770DB8DC"
 					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 				{
 					hasCustomPicture: false
-					id: "7D43B3DC3F42C7B7"
+					id: "7E816EB036593B20"
 					ignoreState: false
 					layer: false
 					name: "deluxe_barn_entrana"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "엔트라나 고급 헛간(Entrana Deluxe Barn)"
+			title: "시베리안 디럭스 헛간(Siberian Deluxe Barn)"
 			x: -20.5d
 			y: -5.0d
 		}
@@ -615,19 +615,19 @@
 			can_repeat: false
 			dependencies: ["6A4ABA3348125A3C"]
 			description: [
-				"Deluxe Barns are larger, grander versions of barns, with seperate sections to divide up animals."
+				"디럭스 헛간은 더 크고 웅장한 헛간으로, 동물을 구분할 수 있는 별도의 공간이 있습니다.(Deluxe Barns are larger, grander versions of barns, with seperate sections to divide up animals.)"
 				""
-				"It includes 4 &6Feeding Troughs&r to cover the area of the buildings."
+				"건물 전체를 커버하는 &6먹이통&f 4개가 포함되어 있습니다.(It includes 4 &6Feeding Troughs&r to cover the area of the buildings.)"
 			]
 			icon: "society:large_milk"
 			id: "07FEA26673F89CE0"
 			size: 1.5d
 			tasks: [{
 				id: "441DDFCE3589E529"
-				title: "이해했습니다"
+				title: "이해함(Understood)"
 				type: "checkmark"
 			}]
-			title: "고급 헛간들(Deluxe Barns)"
+			title: "디럭스 헛간들(Deluxe Barns)"
 			x: -13.5d
 			y: -5.0d
 		}
@@ -635,25 +635,25 @@
 			can_repeat: false
 			dependencies: ["049EB48B999881A3"]
 			description: [
-				"Each building has a preview task that can be used to check out what a building looks like in-world."
+				"각 건물에는 미리보기 태스크가 있어 실제로 건물이 어떻게 보이는지 확인할 수 있습니다.(Each building has a preview task that can be used to check out what a building looks like in-world.)"
 				""
 				""
-				"&6Left Click&r the \"Preview structure\" task to start previewing."
+				"&6좌클릭&f으로 '구조 미리보기' 태스크를 시작하세요.(&6Left Click&r the \"Preview structure\" task to start previewing.)"
 				""
-				"&6Right Click&r on a block to lock the structure preview in place."
+				"&6우클릭&f으로 구조 미리보기를 고정할 수 있습니다.(&6Right Click&r on a block to lock the structure preview in place.)"
 				""
-				"&6Left Click&r the \"Preview structure\" task again to close the preview. If this doesn't work, right click on a block and try again!"
+				"&6좌클릭&f으로 '구조 미리보기' 태스크를 다시 눌러 미리보기를 종료하세요. 작동하지 않으면 우클릭 후 다시 시도해보세요!(&6Left Click&r the \"Preview structure\" task again to close the preview. If this doesn't work, right click on a block and try again!)"
 			]
 			icon: "exposure:camera"
 			id: "6A4ABA3348125A3C"
 			size: 2.0d
-			subtitle: "&6Left Click&r the \"Preview structure\" task again to close the preview!"
+			subtitle: "&6좌클릭&f으로 '구조 미리보기' 태스크를 다시 눌러 미리보기를 종료하세요!(&6Left Click&r the \"Preview structure\" task again to close the preview!)"
 			tasks: [{
 				id: "26CC337AED0A141A"
-				title: "이해했습니다!"
+				title: "이해함(Understood!)"
 				type: "checkmark"
 			}]
-			title: "게임 내에서 건물 보기"
+			title: "월드에서 건물 보기(Seeing the buildings in-world)"
 			x: -10.0d
 			y: -6.0d
 		}
@@ -661,19 +661,19 @@
 			can_repeat: false
 			dependencies: ["049EB48B999881A3"]
 			description: [
-				"Farmhouses are the main housing of your farm."
+				"농가(Farmhouses)는 농장의 주요 주택입니다.(Farmhouses are the main housing of your farm.)"
 				""
-				"You can put anything in there really, but you should at least have a bed."
+				"사실 무엇이든 넣을 수 있지만, 최소한 침대는 있어야 합니다.(You can put anything in there really, but you should at least have a bed.)"
 			]
 			icon: "tanukidecor:antique_bed"
 			id: "145DAA4D0C7740A3"
 			size: 1.5d
 			tasks: [{
 				id: "7E975B5359DCAEA1"
-				title: "이해했습니다"
+				title: "이해함(Understood)"
 				type: "checkmark"
 			}]
-			title: "농가들(Farmhouses)"
+			title: "농가(Farmhouses)"
 			x: -10.0d
 			y: -3.0d
 		}
@@ -708,7 +708,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 20블록, 너비 11블록, 높이 15블록"
+			subtitle: "20블록 깊이, 11블록 너비, 15블록 높이(20 blocks deep, 11 blocks wide, and 15 blocks tall)"
 			tasks: [
 				{
 					count: 8L
@@ -735,7 +735,7 @@
 					layer: false
 					name: "home_tudor"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
@@ -774,7 +774,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 17블록, 너비 19블록, 높이 8블록"
+			subtitle: "17블록 깊이, 19블록 너비, 8블록 높이(17 blocks deep, 19 blocks wide, and 8 blocks tall)"
 			tasks: [
 				{
 					count: 8L
@@ -808,11 +808,11 @@
 					layer: false
 					name: "home_siberian"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "시베리아 농가(Siberian Farmhouse)"
+			title: "시베리안 농가(Siberian Farmhouse)"
 			x: -9.0d
 			y: -1.5d
 		}
@@ -847,7 +847,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
+			subtitle: "15 blocks deep, 11 blocks wide, and 7 blocks tall"
 			tasks: [
 				{
 					count: 4L
@@ -881,11 +881,11 @@
 					layer: false
 					name: "shed_siberian"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "시베리아 창고(Siberian Shed)"
+			title: "시베리안 창고(Siberian Shed)"
 			x: -1.0d
 			y: -7.0d
 		}
@@ -918,7 +918,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 17블록, 너비 13블록, 높이 11블록"
+			subtitle: "17 blocks deep, 13 blocks wide, and 11 blocks tall"
 			tasks: [
 				{
 					count: 4L
@@ -952,11 +952,11 @@
 					layer: false
 					name: "barn_siberian"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "시베리아 헛간(Siberian Barn)"
+			title: "시베리안 헛간(Siberian Barn)"
 			x: -19.0d
 			y: -7.0d
 		}
@@ -965,7 +965,7 @@
 			description: [
 				"{image:society:textures/gui/buildings/shed_entrana.png width:221 height:183 align:center}"
 				""
-				"Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete."
+				"엔트라나 건물은 파란색 콘크리트를 대체할 수 있는 콘크리트 및 장식 블록 상자가 함께 제공됩니다.(Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete.)"
 			]
 			icon: "quark:ancient_chest"
 			id: "094C6DED5CE8D9E5"
@@ -993,7 +993,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
+			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록(15 blocks deep, 11 blocks wide, and 7 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -1027,7 +1027,7 @@
 					layer: false
 					name: "shed_entrana"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
@@ -1040,7 +1040,7 @@
 			description: [
 				"{image:society:textures/gui/buildings/house_entrana.png width:221 height:183 align:center}"
 				""
-				"Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete."
+				"엔트라나 건물은 파란색 콘크리트를 대체할 수 있는 콘크리트 및 장식 블록 상자가 함께 제공됩니다.(Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete.)"
 			]
 			icon: "quark:ancient_chest"
 			id: "28A1164FD04782DB"
@@ -1068,7 +1068,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 18블록, 너비 16블록, 높이 15블록"
+			subtitle: "깊이 18블록, 너비 16블록, 높이 15블록(18 blocks deep, 16 blocks wide, and 15 blocks tall)"
 			tasks: [
 				{
 					count: 8L
@@ -1105,7 +1105,7 @@
 			description: [
 				"{image:society:textures/gui/buildings/barn_entrana.png width:221 height:183 align:center}"
 				""
-				"Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete."
+				"엔트라나 건물은 파란색 콘크리트를 대체할 수 있는 콘크리트 및 장식 블록 상자가 함께 제공됩니다.(Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete.)"
 			]
 			icon: "quark:ancient_chest"
 			id: "7080056E1C1CBCE9"
@@ -1133,7 +1133,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
+			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록(15 blocks deep, 11 blocks wide, and 7 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -1167,7 +1167,7 @@
 					layer: false
 					name: "barn_entrana"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
@@ -1180,7 +1180,7 @@
 			description: [
 				"{image:society:textures/gui/buildings/large_shed_entrana.png width:221 height:183 align:center}"
 				""
-				"Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete."
+				"엔트라나 건물은 파란색 콘크리트를 대체할 수 있는 콘크리트 및 장식 블록 상자가 함께 제공됩니다.(Entrana buildings come with a chest of concrete and accent blocks to replace the blue concrete.)"
 			]
 			icon: "quark:ancient_chest"
 			id: "2FBDE6A8B7ABE074"
@@ -1208,7 +1208,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 21블록, 너비 21블록, 높이 12블록"
+			subtitle: "깊이 21블록, 너비 21블록, 12블록 높이(21 blocks deep, 21 blocks wide, and 12 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -1242,11 +1242,11 @@
 					layer: false
 					name: "large_shed_entrana"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "엔트라나 큰 창고(Entrana Large Shed)"
+			title: "엔트라나 대형 창고(Entrana Large Shed)"
 			x: 0.5d
 			y: -5.0d
 		}
@@ -1279,7 +1279,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 22블록, 너비 21블록, 높이 14블록"
+			subtitle: "22블록 깊이, 21블록 너비, 14블록 높이(22 blocks deep, 21 blocks wide, and 14 blocks tall)"
 			tasks: [
 				{
 					count: 4L
@@ -1313,11 +1313,11 @@
 					layer: false
 					name: "large_shed_siberian"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "시베리아 큰 창고(Siberian Large Shed)"
+			title: "시베리안 대형 창고(Siberian Large Shed)"
 			x: -1.0d
 			y: -5.0d
 		}
@@ -1350,7 +1350,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 21블록, 너비 19블록, 높이 13블록"
+			subtitle: "21블록 깊이, 19블록 너비, 13블록 높이(21 blocks deep, 19 blocks wide, and 13 blocks tall)"
 			tasks: [
 				{
 					count: 8L
@@ -1377,7 +1377,7 @@
 					layer: false
 					name: "home_cherry"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
@@ -1414,17 +1414,17 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 27블록, 너비 21블록, 높이 14블록"
+			subtitle: "27블록 깊이, 21블록 너비, 12블록 높이(27 blocks deep, 21 blocks wide, and 12 blocks tall)"
 			tasks: [
 				{
 					count: 20L
-					id: "4D55F4AED608AB4A"
+					id: "674CE45EB0C37D98"
 					item: "numismatics:sun"
 					type: "item"
 				}
 				{
 					count: 256L
-					id: "748ECD105591DE48"
+					id: "55CF62CDD7DCF65B"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -1437,22 +1437,22 @@
 				}
 				{
 					count: 256L
-					id: "23F34B06770DB8DC"
+					id: "43747080561C75CD"
 					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 				{
 					hasCustomPicture: false
-					id: "7E816EB036593B20"
+					id: "079CE668C550ACA1"
 					ignoreState: false
 					layer: false
 					name: "deluxe_barn_siberian"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "시베리아 고급 헛간(Siberian Deluxe Barn)"
+			title: "Siberian Deluxe Barn"
 			x: -19.0d
 			y: -5.0d
 		}
@@ -1485,7 +1485,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 27블록, 너비 21블록, 높이 12블록"
+			subtitle: "27블록 깊이, 21블록 너비, 12블록 높이(27 blocks deep, 21 blocks wide, and 12 blocks tall)"
 			tasks: [
 				{
 					count: 20L
@@ -1519,11 +1519,11 @@
 					layer: false
 					name: "deluxe_barn_cherry"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "체리 고급 헛간(Cherry Deluxe Barn)"
+			title: "체리 디럭스 헛간(Cherry Deluxe Barn)"
 			x: -17.5d
 			y: -5.0d
 		}
@@ -1556,7 +1556,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "깊이 27블록, 너비 21블록, 높이 12블록"
+			subtitle: "27블록 깊이, 21블록 너비, 12블록 높이(27 blocks deep, 21 blocks wide, and 12 blocks tall)"
 			tasks: [
 				{
 					count: 20L
@@ -1590,14 +1590,14 @@
 					layer: false
 					name: "deluxe_barn"
 					rightclick: false
-					title: "미리보기 구조. 취소하려면 다시 좌클릭."
+					title: "Preview structure. Left Click again to cancel preview."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "고급 헛간(Deluxe Barn)"
+			title: "디럭스 헛간(Deluxe Barn)"
 			x: -16.0d
 			y: -5.0d
 		}
 	]
-	title: "건축 상점"
+	title: "건축 상점(Building Shop)"
 }

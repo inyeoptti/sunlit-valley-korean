@@ -16,11 +16,11 @@
 	quests: [
 		{
 			description: [
-				"The &6Mystical Botanist&r sells a device used for elvish flower magic. "
-				""
-				"It's expensive, but studying this magic will undoubtly be useful to developing your farm and earning money."
-				""
-				"The &6Lexica Botania&r will tell you most things you need to know about magic, and this questline will highlight Sunlit Valley specific applications."
+				"&6신비한 식물학자&r가 엘프의 꽃 마법에 사용되는 장치를 판매합니다.",
+				"",
+				"가격은 비싸지만, 이 마법을 연구하면 농장을 발전시키고 돈을 버는 데 분명히 도움이 될 것입니다.",
+				"",
+				"&6Lexica Botania&r(렉시카 보타니아)에서 마법에 대한 대부분의 정보를 얻을 수 있으며, 이 퀘스트라인에서는 Sunlit Valley(선릿 밸리)에서만 적용되는 내용을 다룹니다."
 			]
 			id: "5E5E6E09E6C6DF02"
 			rewards: [{
@@ -34,16 +34,16 @@
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-                        title: "꽃 마법 입문"
+			title: "꽃 마법 입문(Flower Magic)"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5E5E6E09E6C6DF02"]
 			description: [
-				"In order to work with botanical magic, you need the petals of &aMystical Flowers&r."
-				""
-				"Fill the &6Petal Apothecary&r using a &6Water Bucket&r. From there, you'll need to toss 4 of a crop depending on the petal color, and any kind of seed."
+				"식물 마법을 사용하려면 &a신비한 꽃(Mystical Flowers)&r의 꽃잎이 필요합니다.",
+				"",
+				"&6꽃잎 혼합기(Petal Apothecary)&r에 &6물 양동이(Water Bucket)&r로 물을 채우세요. 그 다음, 꽃잎 색상에 따라 작물 4개와 아무 씨앗이나 던지면 됩니다."
 			]
 			icon: "botania_seeds:white_mystical_flower_seed"
 			id: "44C80D7C3D2B11E8"
@@ -61,19 +61,19 @@
 						value: "society:botania_seeds"
 					}
 				}
-                                title: "모든 신비한 꽃 씨앗"
+				title: "아무 신비한 꽃 씨앗(Any Mystical Flower Seed)"
 				type: "item"
 			}]
-                        title: "신비한 꽃 기르기"
+			title: "신비한 꽃 재배(Growing Mystical Flowers)"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1BF054DD14781BAD"]
 			description: [
-				"The &6Pure Daisy&r is an essential flower. When logs or stone is placed in the 8 spaces around it, they are slowly converted into more magical variants."
-				""
-				"You'll need plenty of these blocks to progress through magic."
+				"&6순수한 데이지(Pure Daisy)&r는 매우 중요한 꽃입니다. 주변 8칸에 통나무나 돌을 두면, 시간이 지나면서 더 마법적인 재료로 변환됩니다.",
+				"",
+				"이 블록들은 마법을 진행하는 데 많이 필요합니다."
 			]
 			icon: "botania:pure_daisy"
 			id: "3EC0E2F632F6A20D"
@@ -106,9 +106,9 @@
 		{
 			dependencies: ["5797BBD7788369E3"]
 			description: [
-				"There are certain fruits native to Alfheim that the elves will be willing to trade for."
-				""
-				"In return they require their overworldian counterparts."
+				"알프하임(Alfheim) 고유의 과일 중 일부는 엘프들이 교환해줍니다.",
+				"",
+				"대신 그들은 오버월드(Overworld)의 과일을 요구합니다."
 			]
 			icon: "vintagedelight:gearo_berry"
 			id: "42DA09B2A18E2ED1"
@@ -135,21 +135,21 @@
 						]
 					}
 				}
-                                title: "아무 엘프 과일"
+				title: "아무 엘프 과일(Any Elven fruit)"
 				type: "item"
 			}]
-                        title: "엘프 과일"
+			title: "엘프 과일(Elven Fruits)"
 			x: 16.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["46F86152B5B36A3B"]
 			description: [
-				"The &6Elven Gateway&r is the link between the otherworldy, giving you access to materials beyond this mortal plane's comprehension."
-				""
-				"Once activated according to the instructions in the &6Lexica Botania&r, items can be thrown in as an offering."
-				""
-				"You should start by tossing your Lexica Botania in."
+				"&6엘프 관문(Elven Gateway)&r은 이계(異界)와 연결되어, 이 세상의 이해를 넘어선 재료에 접근할 수 있게 해줍니다.",
+				"",
+				"&6Lexica Botania&r(렉시카 보타니아)의 설명에 따라 관문을 활성화하면, 아이템을 제물로 던질 수 있습니다.",
+				"",
+				"먼저 렉시카 보타니아를 던져보세요."
 			]
 			icon: "botania:pixie_dust"
 			id: "5797BBD7788369E3"
@@ -178,18 +178,18 @@
 					type: "item"
 				}
 			]
-                        title: "알프하임으로 가는 관문"
+			title: "엘프 관문(Gateway to Alfheim)"
 			x: 15.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3B0A3083FFE1416B"]
 			description: [
-				"&6Terrasteel&r is the beginning of the most powerful items botanical magic has to offer."
-				""
-				"You'll need half a Mana Pool's worth of mana to craft a Terrasteel ingot, provided using &6Sparks&r."
-				""
-				"Toss the three required items on the plate, and be careful not to interrupt the ritual by picking up a crafting item."
+				"&6테라스틸(Terrasteel)&r은 식물 마법에서 가장 강력한 아이템의 시작점입니다.",
+				"",
+				"테라스틸 주괴를 만들려면 마나 풀(Mana Pool)의 절반 정도의 마나가 필요하며, &6스파크(Spark)&r를 사용해 공급할 수 있습니다.",
+				"",
+				"세 가지 재료를 접시에 던지고, 제작 아이템을 실수로 주워 의식을 방해하지 않도록 주의하세요."
 			]
 			id: "46F86152B5B36A3B"
 			rewards: [{
@@ -208,9 +208,9 @@
 		{
 			dependencies: ["46F86152B5B36A3B"]
 			description: [
-				"&6Terrasteel armor&r is a highly protective armor with various bonuses for the botanical master."
-				""
-				"Unlike mundane armors, it takes durability damage from attacks, but can slowly be repaired using any mana in your inventory."
+				"&6테라스틸 방어구(Terrasteel armor)&r는 식물 마법사에게 다양한 보너스를 제공하는 매우 강력한 방어구입니다.",
+				"",
+				"일반 방어구와 달리, 공격을 받으면 내구도가 감소하지만, 인벤토리의 마나로 천천히 수리할 수 있습니다."
 			]
 			icon: {
 				Count: 1
@@ -263,21 +263,21 @@
 						]
 					}
 				}
-                                title: "테라스틸 방어구 아무 부위"
+				title: "아무 테라스틸 방어구(Any Terrasteel Armor Piece)"
 				type: "item"
 			}]
-                        title: "테라스틸 방어구"
+			title: "테라스틸 방어구(Terrasteel Armor)"
 			x: 12.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["46F86152B5B36A3B"]
 			description: [
-				"The Terra set of tools and weapons have various bonues."
-				""
-				"- &6Truncators&r fell trees in a single blow"
-				"- &6Shatterers&r allow you to mine in a large area, and can be upgraded using mana to increase the area mined"
-				"- &6Blades&r come with an additional ranged attack using mana"
+				"테라(Terra) 도구와 무기 세트는 다양한 보너스를 가지고 있습니다.",
+				"",
+				"- &6트렁케이터(Truncator)&r: 나무를 한 번에 베어냅니다.",
+				"- &6섀터러(Shatterer)&r: 넓은 범위를 채굴할 수 있으며, 마나로 업그레이드해 범위를 확장할 수 있습니다.",
+				"- &6블레이드(Blade)&r: 마나를 사용해 추가 원거리 공격이 가능합니다."
 			]
 			icon: {
 				Count: 1
@@ -318,21 +318,21 @@
 						]
 					}
 				}
-                                title: "테라 도구 아무것"
+				title: "아무 테라 도구(Any Terra Tool)"
 				type: "item"
 			}]
-                        title: "테라 도구"
+			title: "테라 도구(Terra Tools)"
 			x: 14.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["44C80D7C3D2B11E8"]
 			description: [
-				"Once grown, Mystical flowers can be crafted into petals that are used to magically create different flowers."
-				""
-				"You'll need at least &6white&r, &6yellow&r, and &6orange&r to start magic."
-				""
-				"&oPetals cannot be planted and bonemeal like you may be able to do in other packs...&r"
+				"신비한 꽃(Mystical flowers)이 자라면, 꽃잎으로 가공해 다양한 마법 꽃을 만들 수 있습니다.",
+				"",
+				"마법을 시작하려면 최소한 &6흰색(white)&r, &6노란색(yellow)&r, &6주황색(orange)&r 꽃잎이 필요합니다.",
+				"",
+				"&o꽃잎은 다른 팩처럼 심거나 뼛가루로 성장시킬 수 없습니다...&r"
 			]
 			id: "1BF054DD14781BAD"
 			rewards: [{
@@ -346,7 +346,7 @@
 				item: "botania:white_petal"
 				type: "item"
 			}]
-                        title: "신비한 꽃잎"
+			title: "신비한 꽃잎(The Mystical Petals)"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -356,13 +356,13 @@
 				"3C7C3242A6A3E081"
 			]
 			description: [
-				"To use the mana stored in your &6Cropnolia&r, you'll need two devices."
-				""
-				"The &6Mana Spreader&r is placed near your flower, and can move mana from it into a &6Mana Pool&r."
-				""
-				"Using the &6Wand of the Forest&r, Shift + Right Click the Cropnolia, and then the Mana Spreader. "
-				""
-				"Finally, Shift + Right click the Mana Spreader and then the Mana Pool to bind them."
+				"&6크롭놀리아(Cropnolia)&r에 저장된 마나를 사용하려면 두 가지 장치가 필요합니다.",
+				"",
+				"&6마나 스프레더(Mana Spreader)&r를 꽃 근처에 설치하면, 꽃에서 마나를 &6마나 풀(Mana Pool)&r로 옮길 수 있습니다.",
+				"",
+				"&6숲의 지팡이(Wand of the Forest)&r로 Shift + 우클릭하여 크롭놀리아와 마나 스프레더를 연결하세요.",
+				"",
+				"마지막으로, Shift + 우클릭으로 마나 스프레더와 마나 풀을 연결하면 됩니다."
 			]
 			icon: "botania:mana_pool"
 			id: "33B78DFDDC041570"
@@ -390,16 +390,16 @@
 					type: "item"
 				}
 			]
-                        title: "마나 저장"
+			title: "마나 저장(Storing Mana)"
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1D0F4F3CFC1585A9"]
 			description: [
-				"Strangely enough, the energies of magic demand a financial tribute to work in your favor."
-				""
-				"You shouldn't neglect your income on the farm, the flowers demand it."
+				"마법의 에너지는 때때로 금전적 제물을 요구합니다. 신기하게도, 꽃들은 농장에서의 수입을 원합니다.",
+				"",
+				"농장에서의 수입을 소홀히 하지 마세요. 꽃들이 원합니다."
 			]
 			id: "0B3038ABD80F2633"
 			rewards: [{
@@ -407,7 +407,7 @@
 				item: "numismatics:crown"
 				type: "item"
 			}]
-                    subtitle: "꽃들이 대가를 요구한다"
+			subtitle: "꽃들은 대가를 원한다(The flowers demand payment)"
 			tasks: [{
 				id: "282D73A45C348D10"
 				item: "society:botanical_tribute"
@@ -419,9 +419,9 @@
 		{
 			dependencies: ["1BF054DD14781BAD"]
 			description: [
-				"The &6Cropnolia&r is your entrypoint to magic, converting fully grown crops in a 7x7 area around it into &bMana&r proportional to how long they took to grow."
-				""
-				"It should be planted in a field where the harvest isn't so important, as crops that are culled by the Cropnolia do not drop anything."
+				"&6크롭놀리아(Cropnolia)&r는 마법의 시작점으로, 주변 7x7 범위의 완전히 자란 작물을 성장 시간에 비례해 &b마나(Mana)&r로 변환합니다.",
+				"",
+				"수확이 중요한 밭이 아니라면 이 장치를 설치하세요. 크롭놀리아에 의해 제거된 작물은 아무것도 드롭하지 않습니다."
 			]
 			id: "3C7C3242A6A3E081"
 			rewards: [{
@@ -434,16 +434,16 @@
 				item: "croptania:cropnolia"
 				type: "item"
 			}]
-                        title: "작물의 마법"
+			title: "작물의 마법(The Magic of Crops)"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["33B78DFDDC041570"]
 			description: [
-				"&6Bismuth&r is a metal that works as a conduit for magic."
-				""
-				"Toss an ingot into a filled Mana Pool to create &6Manasteel&r, a common crafting ingredient for magic."
+				"&6비스무트(Bismuth)&r는 마법의 매개체로 사용되는 금속입니다.",
+				"",
+				"비스무트 주괴를 가득 찬 마나 풀에 던지면 &6마나스틸(Manasteel)&r로 변환되며, 이는 마법 제작에 자주 쓰입니다."
 			]
 			id: "1D0F4F3CFC1585A9"
 			rewards: [{
@@ -463,11 +463,11 @@
 		{
 			dependencies: ["33B78DFDDC041570"]
 			description: [
-				"A &6Heart of Diamond&r has enough magical energy to be transformed into a &6Mana Diamond&r using mana when tossed into a pool."
-				""
-				"If a heart isn't availible, a tribute of a &6Diamond Block&r can be transformed into one as a substitute."
-				""
-				"Both transformations require a significant amount of mana."
+				"&6다이아몬드의 심장(Heart of Diamond)&r은 충분한 마법 에너지를 가지고 있어, 마나 풀에 던지면 &6마나 다이아몬드(Mana Diamond)&r로 변환됩니다.",
+				"",
+				"심장이 없다면, &6다이아몬드 블록(Diamond Block)&r을 제물로 바쳐 대체할 수 있습니다.",
+				"",
+				"두 변환 모두 상당한 양의 마나가 필요합니다."
 			]
 			id: "31BC474EE5C53DAB"
 			rewards: [{
@@ -485,7 +485,9 @@
 		}
 		{
 			dependencies: ["33B78DFDDC041570"]
-			description: ["&6Pearls&r are inherently magical in nature, but throwing one in a Mana Pool will bring out the energy using mana. "]
+			description: [
+				"&6진주(Pearls)&r는 본래 마법적 성질을 지니고 있지만, 마나 풀에 던지면 마나를 사용해 그 힘을 끌어낼 수 있습니다."
+			]
 			id: "4AF0A434148274AC"
 			rewards: [{
 				id: "4C43B38656C01222"
@@ -503,11 +505,11 @@
 		{
 			dependencies: ["69A2A84A2830134C"]
 			description: [
-				"Runes can be harnessed to create oceanic weather changing shells. The &6Fluvial Shell&r sets the weather to rain, and is used as a base. These have a low durability, so careful usage is recommended."
-				""
-				"Using more advanced runes, you create two mystical shells."
-				""
-				"The &6Thunderous Shell&r turns the weather into a thunderstorm, while the &6Clement&r clears all weather."
+				"룬(Rune)으로 바다의 날씨를 바꾸는 신비한 조개를 만들 수 있습니다. &6플루비얼 셸(Fluvial Shell)&r은 비를 내리게 하며, 기본 재료로 사용됩니다. 내구도가 낮으니 주의해서 사용하세요.",
+				"",
+				"더 발전된 룬으로 두 가지 신비한 조개를 만들 수 있습니다.",
+				"",
+				"&6썬더러스 셸(Thunderous Shell)&r은 천둥번개를, &6클레멘트 셸(Clement Shell)&r은 모든 날씨를 맑게 만듭니다."
 			]
 			icon: {
 				Count: 1
@@ -558,11 +560,11 @@
 							]
 						}
 					}
-                                    title: "클레멘트 또는 썬더러스 조개"
+					title: "클레멘트 또는 썬더러스 셸(Clement or Thunderous Shell)"
 					type: "item"
 				}
 			]
-                        title: "마법의 날씨 조개"
+			title: "마법의 날씨 조개(Magical Weather Shells)"
 			x: 10.0d
 			y: -1.5d
 		}
@@ -572,11 +574,11 @@
 				"31BC474EE5C53DAB"
 			]
 			description: [
-				"&6Runes&r unlock the magical potential of the earth, allowing you to create more complex devices and flora."
-				""
-				"They are crafted by tossing one of each ingredient into a &6Runic Altar&r and filling the altar with mana using a spreader."
-				""
-				"Once the mana has filled, toss a peice of &6Living Rock&r on and use the &6Wand of the Forest&r."
+				"&6룬(Rune)&r은 대지의 마법적 잠재력을 열어, 더 복잡한 장치와 꽃을 만들 수 있게 해줍니다.",
+				"",
+				"각 재료를 &6룬 제단(Runic Altar)&r에 던지고, 스프레더로 마나를 채워 만듭니다.",
+				"",
+				"마나가 가득 차면 &6리빙락(Living Rock)&r을 던지고, &6숲의 지팡이(Wand of the Forest)&r로 마무리하세요."
 			]
 			id: "69A2A84A2830134C"
 			rewards: [{
@@ -589,16 +591,16 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-                        title: "룬 제작"
+			title: "룬 제작(Crafting Runes)"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5797BBD7788369E3"]
 			description: [
-				"By ascending your mana pylons into &6Gaia Pylons&r, you can engage in a deadly battle with the primal magical world..."
-				""
-				"You should refer to your &6Lexica Botania&r for the details."
+				"마나 파일런(Mana Pylon)을 &6가이아 파일런(Gaia Pylon)&r으로 승격시키면, 원초적 마법 세계와의 치명적인 전투에 도전할 수 있습니다...",
+				"",
+				"자세한 내용은 &6렉시카 보타니아(Lexica Botania)&r를 참고하세요."
 			]
 			id: "13A0704DCABC95E9"
 			rewards: [{
@@ -612,16 +614,16 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-                        title: "신비한 투기장"
+			title: "신비한 투기장(The Mystical Arena)"
 			x: 19.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5797BBD7788369E3"]
 			description: [
-				"Harvesting from fruit trees with your bare hands gets old."
-				""
-				"The &6Cornucopia&r harnesses elven wind magic to knock ripe fruits down for collection."
+				"과일나무에서 맨손으로 수확하는 것은 금방 지루해집니다.",
+				"",
+				"&6코르누코피아(Cornucopia)&r는 엘프의 바람 마법을 이용해 익은 과일을 떨어뜨려줍니다."
 			]
 			id: "247D9F5D8A4FAE35"
 			rewards: [{
@@ -635,16 +637,16 @@
 				item: "society:cornucopia"
 				type: "item"
 			}]
-                        title: "마법의 수확"
+			title: "마법의 수확(Magical Harvesting)"
 			x: 16.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["69A2A84A2830134C"]
 			description: [
-				"With the power of the runes, an even greater power can be reached."
-				""
-				"Follow the directions for assembling the &6Terrestrial Agglomeration Plate&r in the Lexica Botania."
+				"룬의 힘으로 더 강력한 힘에 도달할 수 있습니다.",
+				"",
+				"&6테라스틸 응집판(Terrestrial Agglomeration Plate)&r 조립법은 렉시카 보타니아를 참고하세요."
 			]
 			icon: "botania:terra_plate"
 			id: "3B0A3083FFE1416B"
@@ -672,9 +674,9 @@
 		{
 			dependencies: ["69A2A84A2830134C"]
 			description: [
-				"&6Functional Flora&r are classified as magical flowers that utilize mana for peforming various actions."
-				""
-				"The &6Lexica Botania&r will have information on all the different types."
+				"&6기능성 꽃(Functional Flora)&r은 마나를 사용해 다양한 동작을 수행하는 마법 꽃입니다.",
+				"",
+				"&6렉시카 보타니아(Lexica Botania)&r에서 모든 종류의 정보를 확인할 수 있습니다."
 			]
 			icon: "botania:jaded_amaranthus"
 			id: "137994A312B7CAEB"
@@ -692,19 +694,19 @@
 						value: "botania:functional_special_flowers"
 					}
 				}
-                                title: "아무 기능성 꽃"
+				title: "아무 기능성 꽃(Any Functional Flower)"
 				type: "item"
 			}]
-                        title: "기능성 플로라"
+			title: "기능성 꽃(Functional Flora)"
 			x: 10.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["46F86152B5B36A3B"]
 			description: [
-				"Keeping up with milking farm animals can be time consuming with all your other farming chores. The &6Mana Milker&r does this for you by gently milking farm animals using &bMana&r recieved from a Mana Spreader."
-				""
-				"Unlike Deployers, farm animals don't mind being milked by this, but they won't recieve affection from being milked like usual."
+				"농장 동물의 젖을 짜는 일은 다른 농사 일과와 함께라면 시간이 많이 듭니다. &6마나 밀커(Mana Milker)&r는 마나 스프레더에서 받은 &b마나(Mana)&r로 동물을 부드럽게 착유해줍니다.",
+				"",
+				"디플로이어(Deployers)와 달리, 동물들은 이 장치로 착유되어도 불만이 없지만, 평소처럼 애정도는 오르지 않습니다."
 			]
 			id: "18EDA9E2559C26E1"
 			rewards: [{
@@ -717,18 +719,18 @@
 				item: "society:mana_milker"
 				type: "item"
 			}]
-                        title: "마나 착유"
+			title: "마나 착유(Mana Milking)"
 			x: 13.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["33B78DFDDC041570"]
 			description: [
-				"While the Cropnolia may be a good start for generating mana, it's far from the fastest."
-				""
-				"&6Generating Flora&r are classified as flowers that are able to synthesize mana. As you progress, look to utilize the different types to upgrade your mana generating capacity."
-				""
-				"The &6Lexica Botania&r will have information on all the different types."
+				"크롭놀리아(Cropnolia)는 마나 생성의 시작일 뿐, 가장 빠른 방법은 아닙니다.",
+				"",
+				"&6생성 꽃(Generating Flora)&r은 마나를 합성할 수 있는 꽃입니다. 진행하면서 다양한 종류를 활용해 마나 생성 능력을 업그레이드하세요.",
+				"",
+				"&6렉시카 보타니아(Lexica Botania)&r에서 모든 종류의 정보를 확인할 수 있습니다."
 			]
 			icon: "botania:kekimurus"
 			id: "27437A0F629AF989"
@@ -746,13 +748,13 @@
 						value: "botania:generating_special_flowers"
 					}
 				}
-                                title: "#botania:generating_special_flowers 아무 꽃"
+				title: "아무 #botania:generating_special_flowers(Any #botania:generating_special_flowers)"
 				type: "item"
 			}]
-                        title: "생산 플로라"
+			title: "생성 꽃(Generating Flora)"
 			x: 6.0d
 			y: 1.5d
 		}
 	]
-    title: "IV - 신비한 농사"
+	title: "IV - 신비한 농사"
 }

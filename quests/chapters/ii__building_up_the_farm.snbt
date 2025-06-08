@@ -14,15 +14,15 @@
 				"3F759C6DEEBC61FD"
 				"0A39B0C0A77E57B0"
 			]
-                        description: [
-                                "농사 여정은 &6시장(Market)&r에서 시작됩니다. 이곳에서는 기본 씨앗과 묘목을 판매합니다."
-                                ""
-                                "일부 작물은 특정 계절에만 자라며, 작물 툴팁에서 확인할 수 있습니다."
-                                ""
-                                "계절은 &630 마인크래프트 일&r 동안 지속되며, 더운 생물 군계는 항상 여름, 추운 곳은 항상 겨울입니다."
-                                ""
-                                "캘린더를 장비하면 화면 왼쪽 위에 현재 세부 계절이 표시됩니다."
-                        ]
+			description: [
+				"농사 여정은 다양한 기본 씨앗과 묘목을 판매하는 &6마켓&f에서 시작됩니다.(Your journey into farming starts with the &6Market&r, which sells a variety of basic seeds and saplings.)"
+				""
+				"일부 작물은 특정 계절에만 자라며, 이는 작물 툴팁에 표시됩니다.(Some crops only grow in certain seasons, which is designated in the crops's tooltip.) "
+				""
+				"계절은 &630 마인크래프트 일&f 동안 지속되며, 더운/추운 바이옴은 각각 항상 여름/겨울입니다.(Seasons last &630 minecraft days&r, and hot or cold biomes will be always be Summer and Winter respectively.)"
+				""
+				"달력을 착용하면 화면 좌상단에 현재 소계절이 표시됩니다.(Equipping the Calendar will show the current sub-season in the top left of your screen.)"
+			]
 			id: "6ADD884F3FFE5D42"
 			rewards: [{
 				id: "2040ACC30B4DC0CC"
@@ -32,20 +32,20 @@
 			tasks: [{
 				id: "6F097F151D433739"
 				item: "farmingforblockheads:market"
-				title: "Buying Seeds"
+				title: "씨앗 구매하기(Buying Seeds)"
 				type: "item"
 			}]
-			title: "Starting Farming"
+			title: "농사 시작하기(Starting Farming)"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6ADD884F3FFE5D42"]
-                        description: [
-                                "&6농부(Farmer)&r는 비료와 같이 농사 효율을 높여 주는 물품을 판매합니다."
-                                ""
-                                "마을 주민을 &6의자(Seat)&r에 앉히면 돌아다니는 것을 막을 수 있습니다."
-                        ]
+			description: [
+				"&6농부&f는 비료 등 농사 효율을 높여주는 도구를 판매합니다.(The &6Farmer&r sells supplies that'll help increase the efficiency of your farming, such as fertilizers.)"
+				""
+				"주민을 &6의자&f에 앉히면 멀리 가지 않게 할 수 있습니다.(You can place the villager on the &6Seat&r to keep them from wandering off.) "
+			]
 			id: "2134CA6B3880D089"
 			rewards: [
 				{
@@ -64,21 +64,21 @@
 				item: "minecraft:composter"
 				type: "item"
 			}]
-			title: "Farmer Villager"
+			title: "농부 주민(Farmer Villager)"
 			x: 3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6ADD884F3FFE5D42"]
-                        description: [
-                                "매일 아침 작물에 물을 주는 일은 금세 지루해집니다."
-                                ""
-                                "&6스프링클러(Sprinkler)&r를 설치하면 주변 농지를 자동으로 물을 주어 편리합니다."
-                                ""
-                                "기본 아이언 등급은 중심을 기준으로 3x3 영역을 커버합니다."
-                                ""
-                                "막대로 우클릭하면 장식을 달 수 있는 지지대를 추가할 수 있습니다."
-                        ]
+			description: [
+				"매일 아침 작물에 물을 주는 일은 금방 지루해집니다.(Watering your crops every morning gets old fast.)"
+				""
+				"&6스프링클러&f는 주변 경작지에 수분을 공급해줍니다.(&6Sprinklers&r help you out by keeping farmland hydrated in a radius around them.)"
+				""
+				"기본 철제 스프링클러는 3x3 범위에 작동합니다.(The basic Iron tier works in a 3x3 area centered around it.)"
+				""
+				"막대기로 우클릭하면 장식용 지지대를 추가할 수 있습니다.(They can also be right clicked with a stick to add support for decoration.)"
+			]
 			id: "54B618CF0AB9DC20"
 			rewards: [{
 				id: "09B894343F6EDD1E"
@@ -94,11 +94,11 @@
 			y: -2.5d
 		}
 		{
-                        description: [
-                                "농장을 시작할 장소를 찾았다면, 가장 먼저 할 일은 경작지를 만드는 것입니다."
-                                ""
-                                "완전히 자란 작물은 &6우클릭&r만으로 씨앗을 잃지 않고 수확할 수 있습니다! 괭이로는 범위 수확도 가능합니다."
-                        ]
+			description: [
+				"경작지 준비(Once you find an appropriate place to start your farm, your first step should be preparing a field of farmland.)"
+				""
+				"완전히 자란 작물은 &6우클릭&f으로 씨앗을 잃지 않고 수확할 수 있습니다! 괭이는 범위 수확도 가능합니다.(Once fully grown, you can &6Right Click&r to harvest without losing the seed! Hoes can do this an an area.)"
+			]
 			icon: "minecraft:farmland"
 			id: "0A39B0C0A77E57B0"
 			rewards: [{
@@ -117,10 +117,10 @@
 						value: "minecraft:hoes"
 					}
 				}
-				title: "Any Hoe"
+				title: "아무 괭이(Any Hoe)"
 				type: "item"
 			}]
-			title: "Preparing the Fields"
+			title: "경작지 준비(Preparing the Fields)"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -129,11 +129,11 @@
 				"2134CA6B3880D089"
 				"3D324E99DF28D224"
 			]
-                        description: [
-                                "&6농부의 연감(Farmer's Almanac)&r에는 각 계절마다 어떤 작물과 가축을 돌봐야 할지 결정할 때 필요한 상세 정보가 담겨 있습니다."
-                                ""
-                                "이 책은 &6농부(Farmer)&r와 &6양치기(Shepherd)&r가 판매합니다."
-                        ]
+			description: [
+				"&6농부 연감&f에는 작물과 가축에 대한 자세한 정보가 담겨 있어, 계절마다 집중할 대상을 결정하는 데 필수적입니다.(The &6Farmer's Almanac&r has detailed information of crops and farm animals, which is essential when deciding what to focus on every season.)"
+				""
+				"농부와 목동이 판매합니다.(It is sold by the &6Farmer&r and &6Shepherd&r)"
+			]
 			id: "596D2298299CCEED"
 			rewards: [{
 				count: 8
@@ -152,7 +152,7 @@
 				}
 				type: "item"
 			}]
-			title: "All on Farming"
+			title: "농사 백과(All on Farming)"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -161,11 +161,11 @@
 				"54B618CF0AB9DC20"
 				"2134CA6B3880D089"
 			]
-                        description: [
-                                "지금쯤이면 작물을 심느라 자금이 바닥났을지도 모릅니다."
-                                ""
-                                "스프링클러 제작이나 도구 업그레이드에 필요한 광물을 캐러 돌 속으로 들어가 볼 때입니다."
-                        ]
+			description: [
+				"이제 작물을 심느라 돈이 다 떨어졌을 수도 있습니다.(By now you might have ran out of money while getting your crops started.) "
+				""
+				"이럴 때는 돌을 캐서 스프링클러 제작이나 도구 업그레이드에 필요한 재료를 얻는 것이 좋습니다.(It's a good time to dig into stone to get materials needed to craft sprinklers or upgrade tools.)"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:iron_pickaxe"
@@ -191,19 +191,19 @@
 				item: { Count: 16, id: "minecraft:raw_iron" }
 				type: "item"
 			}]
-			title: "Hitting the Mines"
+			title: "광산으로!(Hitting the Mines)"
 			x: 5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["02327F6FDF987266"]
-                        description: [
-                                "동굴을 탐험하다 보면 드물게 이런 광물을 발견할 수 있습니다."
-                                ""
-                                "&6지구 수정(Earth Crystal)&r은 중요한 제작 재료이니 많이 모아 두세요."
-                                ""
-                                "희미하게 빛나기 때문에 어두운 동굴에서도 쉽게 찾을 수 있습니다."
-                        ]
+			description: [
+				"동굴을 탐험하다 보면 이런 희귀 광물을 발견할 수 있습니다.(While caving, you might come across these rare minerals.)"
+				""
+				"&6대지 수정&f은 중요한 제작 재료이니 최대한 많이 모아두세요.(&6Earth Crystals&r are an important crafting ingredient, so collect as many as you can.)"
+				""
+				"어두운 동굴에서 은은하게 빛나기 때문에 쉽게 찾을 수 있습니다.(Their soft glow gives them away in dark caves.)"
+			]
 			id: "07858B887B222BC2"
 			rewards: [{
 				id: "7400FB36CD4F9C87"
@@ -215,17 +215,17 @@
 				item: "society:earth_crystal"
 				type: "item"
 			}]
-			title: "Hidden in the Stone"
+			title: "돌 속에 숨겨진 것(Hidden in the Stone)"
 			x: 7.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2134CA6B3880D089"]
-                        description: [
-                                "&6비료(Fertilizer)&r를 사용하면 농장의 생산량을 크게 늘릴 수 있습니다."
-                                ""
-                                "농지에 우클릭만 하면 효과가 적용됩니다."
-                        ]
+			description: [
+				"&6비료&f는 농장 생산량을 크게 높여주는 업그레이드입니다.(&6Fertilizer&r is a huge step in upgrading how much your farm produces.)"
+				""
+				"경작지에 우클릭만 하면 효과를 얻을 수 있습니다.(Simply right click on the farmland to gain the affects.) "
+			]
 			icon: "dew_drop_farmland_growth:weak_fertilizer"
 			id: "1D5820FBDD8EB900"
 			rewards: [
@@ -276,21 +276,21 @@
 						]
 					}
 				}
-				title: "Any Fertilizer"
+				title: "아무 비료(Any Fertilizer)"
 				type: "item"
 			}]
-			title: "All on Fertilizers"
+			title: "비료 백과(All on Fertilizers)"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["07858B887B222BC2"]
 			description: [
-				"Cooking is essential early on, for both keeping you alive in the mines and making profit."
+				"요리는 초반에 생존과 수익 모두에 필수적입니다.(Cooking is essential early on, for both keeping you alive in the mines and making profit.)"
 				""
-				"A few basic ones can be crafted using &6Earth Crystals&r."
+				"기본 요리 몇 가지는 &6대지 수정&f으로 만들 수 있습니다.(A few basic ones can be crafted using &6Earth Crystals&r.)"
 				""
-				"In general, cooked meals are worth &61.2x-2x the sum of their ingredients&r! Complex dishes (ones with many ingredients) have an additional boost to their value as well."
+				"일반적으로 조리된 음식은 재료 합계의 &61.2~2배 가치&f를 가집니다! 재료가 많은 복잡한 요리는 추가 가치가 붙습니다.(In general, cooked meals are worth &61.2x-2x the sum of their ingredients&r! Complex dishes (ones with many ingredients) have an additional boost to their value as well.)"
 			]
 			icon: "farmersdelight:cooking_pot"
 			id: "122BB9885C33C85F"
@@ -322,19 +322,19 @@
 						]
 					}
 				}
-				title: "Any cooking station"
+				title: "아무 조리대(Any cooking station)"
 				type: "item"
 			}]
-			title: "Getting Cooking"
+			title: "요리 시작(Getting Cooking)"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["07858B887B222BC2"]
 			description: [
-				"Oak, Dark Oak, Spruce, and Pine trees can be tapped using a &6Tree Tap&r. "
+				"참나무, 흑참나무, 가문비, 소나무는 &6수액 채취기&f로 수액을 뽑을 수 있습니다.(Oak, Dark Oak, Spruce, and Pine trees can be tapped using a &6Tree Tap&r.) "
 				""
-				"Hang a bucket of any kind from the tap and it will slowly accumulate fluid."
+				"어떤 양동이든 채취기에 걸어두면 천천히 액체가 모입니다.(Hang a bucket of any kind from the tap and it will slowly accumulate fluid.)"
 			]
 			id: "2B3BEC36F6C0F6BE"
 			rewards: [{
@@ -347,18 +347,18 @@
 				item: "treetap:tap"
 				type: "item"
 			}]
-			title: "Tapping Wood"
+			title: "나무에서 수액 채취(Tapping Wood)"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["230E02067CBC21CF"]
 			description: [
-				"Buying seeds for crops that require them really eats into your margins. The &6Seed Maker&r turns crops into seeds for free."
+				"씨앗이 필요한 작물의 씨앗을 사는 것은 수익에 큰 타격을 줍니다.(Buying seeds for crops that require them really eats into your margins.) &6씨앗 제조기&f는 작물을 무료로 씨앗으로 바꿔줍니다.(The &6Seed Maker&r turns crops into seeds for free.)"
 				""
-				"Using crops with any quality will turn the seed into the lowest quality inputed into the &6Seed Maker&r in &61&r day. "
+				"어떤 품질의 작물이든 넣으면 &6씨앗 제조기&f에서 가장 낮은 품질의 씨앗으로 1일 만에 변환됩니다.(Using crops with any quality will turn the seed into the lowest quality inputed into the &6Seed Maker&r in &61&r day.) "
 				""
-				"Quality seeds will have a higher chance to grow quality crops, making it worth your time to produce good seeds!"
+				"고품질 씨앗은 고품질 작물로 자랄 확률이 높으니, 좋은 씨앗을 생산할 가치가 있습니다!(Quality seeds will have a higher chance to grow quality crops, making it worth your time to produce good seeds!)"
 			]
 			id: "057A1891E5864EBF"
 			rewards: [{
@@ -377,9 +377,9 @@
 		{
 			dependencies: ["07858B887B222BC2"]
 			description: [
-				"&6Greenhouse Glass&r is a special material that lets crops up to 16 blocks underneath grow during any season."
+				"&6온실 유리&f는 최대 16블록 아래의 작물이 어떤 계절에도 자랄 수 있게 해주는 특수 재료입니다.(&6Greenhouse Glass&r is a special material that lets crops up to 16 blocks underneath grow during any season.)"
 				""
-				"It's probably far too expensive at this point in the game to craft, but a few blocks over key crops can make a difference."
+				"아직 게임 초반에는 제작하기 너무 비싸지만, 주요 작물 위에 몇 블록만 설치해도 큰 차이를 만들 수 있습니다.(It's probably far too expensive at this point in the game to craft, but a few blocks over key crops can make a difference.)"
 			]
 			id: "477FFAD808985736"
 			rewards: [{
@@ -397,7 +397,7 @@
 		}
 		{
 			dependencies: ["2B3BEC36F6C0F6BE"]
-			description: ["&6Pine Tar&r is tapped from Spruce and Pine trees and is mainly used for advanced farming devices."]
+			description: ["&6소나무 타르&f는 가문비와 소나무에서 채취하며, 주로 고급 농기구 제작에 사용됩니다.(&6Pine Tar&r is tapped from Spruce and Pine trees and is mainly used for advanced farming devices.)"]
 			id: "230E02067CBC21CF"
 			rewards: [{
 				id: "5D513DA30D642A58"
@@ -414,7 +414,7 @@
 		}
 		{
 			dependencies: ["2B3BEC36F6C0F6BE"]
-			description: ["&6Oak Resin&r is tapped from oak logs, and is used as a sealant for many fluid-related items."]
+			description: ["&6참나무 수지&f는 참나무 원목에서 채취하며, 다양한 유체 관련 아이템의 실란트로 사용됩니다.(&6Oak Resin&r is tapped from oak logs, and is used as a sealant for many fluid-related items.)"]
 			id: "7B2EB2B56F155E49"
 			rewards: [{
 				id: "1FB60E6724AEDA99"
@@ -432,11 +432,11 @@
 		{
 			dependencies: ["7B2EB2B56F155E49"]
 			description: [
-				"Brewing beer is a good way to start on producing &6Artisan Goods&r on your farm."
+				"맥주 양조는 농장에서 &6장인 생산품&f을 만들기 시작하는 좋은 방법입니다.(Brewing beer is a good way to start on producing &6Artisan Goods&r on your farm.)"
 				""
-				"Dried ingredients need to be processed in the &6Silo&r."
+				"건조 재료는 &6사일로&f에서 가공해야 합니다.(Dried ingredients need to be processed in the &6Silo&r.)"
 				""
-				"The Brewing process itself requires attention and is slightly complex. You can hold &6W&r while hovering over the Brewingstation to learn how to brew beer."
+				"양조 과정은 주의가 필요하며 약간 복잡합니다. 양조대 위에 마우스를 올리고 &6W&f를 누르면 양조법을 확인할 수 있습니다.(The Brewing process itself requires attention and is slightly complex. You can hold &6W&r while hovering over the Brewingstation to learn how to brew beer.)"
 			]
 			icon: "brewery:beer_wheat"
 			id: "1AADE5D96B701A97"
@@ -458,7 +458,7 @@
 					type: "item"
 				}
 			]
-			title: "Brewing Beer"
+			title: "맥주 양조(Brewing Beer)"
 			x: 12.5d
 			y: 0.5d
 		}
@@ -468,14 +468,14 @@
 				"230E02067CBC21CF"
 			]
 			description: [
-				"Each sellable item in the pack has one of four categories:"
+				"이 팩에서 판매 가능한 아이템은 네 가지 범주 중 하나에 속합니다:(Each sellable item in the pack has one of four categories:)"
 				""
-				"- :corn: &6Farmer&r - Raw crops and cooked meals"
-				"- :art: &6Artisan&r - Items made in Artisan Machines by hand, such as Preserves, Beer, Wine, Cheese, etc."
-				"- :gem: &6Geologist&r - Ores, gems, and minerals. Anything out of the ground."
-				"- :crossed_swords: &6Adventurer&r - Looted artifacts and other rare items."
+				"- :corn: &6농부&f - 원작물 및 조리된 음식(- :corn: &6Farmer&r - Raw crops and cooked meals)"
+				"- :art: &6장인&f - 손으로 만든 장인 기계 생산품(보존식품, 맥주, 와인, 치즈 등)(- :art: &6Artisan&r - Items made in Artisan Machines by hand, such as Preserves, Beer, Wine, Cheese, etc.)"
+				"- :gem: &6지질학자&f - 광석, 보석, 광물 등 땅에서 나오는 모든 것(- :gem: &6Geologist&r - Ores, gems, and minerals. Anything out of the ground.)"
+				"- :crossed_swords: &6모험가&f - 유물 및 기타 희귀 아이템(- :crossed_swords: &6Adventurer&r - Looted artifacts and other rare items.)"
 				""
-				"The category is only relevant when it comes to skills, which may increase certain categories if taken."
+				"이 분류는 스킬에만 영향을 주며, 특정 범주를 강화하는 스킬이 존재합니다.(The category is only relevant when it comes to skills, which may increase certain categories if taken.)"
 			]
 			icon: {
 				Count: 1
@@ -494,23 +494,23 @@
 			}]
 			tasks: [{
 				id: "029277086FFC13F5"
-				title: "Understood!"
+				title: "이해함(Understood!)"
 				type: "checkmark"
 			}]
-			title: "Artisan Goods?"
+			title: "장인 생산품?(Artisan Goods?)"
 			x: 13.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2DD84A5F127B1463"]
 			description: [
-				"Bundles are the first large goal of the pack. They require certain items to be submitted, giving small rewards for each bundle, and large rewards when all bundles are completed."
+				"번들은 이 팩의 첫 번째 큰 목표입니다.(Bundles are the first large goal of the pack.) 특정 아이템을 제출해야 하며, 각 번들마다 작은 보상, 모든 번들 완성 시 큰 보상을 받습니다.(They require certain items to be submitted, giving small rewards for each bundle, and large rewards when all bundles are completed.)"
 				""
-				"The most important right now is:"
+				"지금 가장 중요한 번들은:(The most important right now is:)"
 				""
-				"{ \"text\": \"The Spring Crops Bundle (Click Me)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7D155FD0EFEEB5AC\" } }"
+				"{ \"text\": \"봄 작물 번들(클릭)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7D155FD0EFEEB5AC\" } }({ \"text\": \"The Spring Crops Bundle (Click Me)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7D155FD0EFEEB5AC\" } })"
 				""
-				"Consisting of products that can grow on your farm."
+				"농장에서 재배 가능한 작물로 구성되어 있습니다.(Consisting of products that can grow on your farm.)"
 			]
 			icon: "supplementaries:present_green"
 			id: "5B6FD08D6063D6AA"
@@ -522,7 +522,7 @@
 			}]
 			tasks: [{
 				id: "46F8239D1B4C5FC4"
-				title: "Bundles"
+				title: "번들(Bundles)"
 				type: "checkmark"
 			}]
 			x: 15.0d
@@ -531,9 +531,9 @@
 		{
 			dependencies: ["5B6FD08D6063D6AA"]
 			description: [
-				"The next place to exploit for its resources is the &6Nether&r."
+				"다음으로 자원을 얻을 곳은 &6네더&f입니다.(The next place to exploit for its resources is the &6Nether&r.)"
 				""
-				"It's a dangerous place, but has the important resource &6Fire Quartz&r, needed for advanced farm building."
+				"위험한 곳이지만, 고급 농장 건설에 필요한 중요한 자원인 &6파이어 쿼츠&f가 있습니다.(It's a dangerous place, but has the important resource &6Fire Quartz&r, needed for advanced farm building.)"
 			]
 			id: "1DC8E69A916864DC"
 			rewards: [{
@@ -553,15 +553,15 @@
 				}
 				type: "item"
 			}]
-			title: "Getting to the Nether"
+			title: "네더로!(Getting to the Nether)"
 			x: 18.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"In this pack, raising farm animals requires care, money and attention. "
+				"이 팩에서 가축을 기르려면 관리, 돈, 관심이 필요합니다.(In this pack, raising farm animals requires care, money and attention.) "
 				""
-				"A &6Shepherd&r villager will be needed for basic supplies."
+				"기본 용품은 &6목동&f 주민이 판매합니다.(A &6Shepherd&r villager will be needed for basic supplies.)"
 			]
 			icon: "minecraft:cow_spawn_egg"
 			id: "6EEBD017839FF628"
@@ -576,16 +576,16 @@
 				item: "minecraft:loom"
 				type: "item"
 			}]
-			title: "Raising Farm Animals"
+			title: "가축 기르기(Raising Farm Animals)"
 			x: -1.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6EEBD017839FF628"]
 			description: [
-				"All farm animals require &6Animal Feed&r regularly to produce their products. They need to be fed at least once every Minecraft day."
+				"모든 가축은 제품을 생산하기 위해 정기적으로 &6동물 사료&f가 필요합니다. 마인크래프트 하루에 최소 한 번은 먹이를 주어야 합니다."
 				""
-				"If an animal goes too long without being fed, they won't be very happy with you..."
+				"동물이 너무 오래 먹이를 주지 않으면, 그들은 당신에게 매우 불행해질 것입니다..."
 			]
 			id: "2C3FD9E2DA520620"
 			rewards: [{
@@ -597,21 +597,21 @@
 			tasks: [{
 				id: "64A0EB754F93BA1D"
 				item: "society:animal_feed"
-				title: "Feeding Animals"
+				title: "동물에게 먹이주기"
 				type: "item"
 			}]
-			title: "Raising Animals"
+			title: "동물 기르기"
 			x: 1.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2C3FD9E2DA520620"]
 			description: [
-				"Farm animals require love and attention! They can be pet once a day with an added bonus if you feed them by hand."
+				"가축은 사랑과 관심이 필요합니다! 하루에 한 번 쓰다듬을 수 있으며, 손으로 직접 먹이를 주면 추가 보너스를 받을 수 있습니다."
 				""
-				"Cramped conditions where more than 4 or so animals are walled in or packed together will make them lose happiness."
+				"4마리 이상의 동물이 벽으로 둘러싸이거나 한 곳에 모여 있으면 행복도가 떨어집니다."
 				""
-				"Right click a farm animal with an empty hand to see their affection."
+				"빈 손으로 가축을 우클릭하면 애정도를 확인할 수 있습니다."
 			]
 			icon: "candlelight:hearth"
 			id: "3D324E99DF28D224"
@@ -623,19 +623,19 @@
 			}]
 			tasks: [{
 				id: "7F4B6A5EB91157E6"
-				title: "Understood"
+				title: "이해함"
 				type: "checkmark"
 			}]
-			title: "Affection"
+			title: "애정도"
 			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2C3FD9E2DA520620"]
 			description: [
-				"Hand feeding animals can be a challenge with the amount of everyday farming chores. "
+				"일상적인 농장 일과가 많아서 동물들에게 직접 먹이를 주는 것은 어려울 수 있습니다."
 				""
-				"A &6Feeding Trough&r does this for you to any animals in range, provided it has Animal Feed."
+				"&6사료통&r이 있으면 범위 내의 모든 동물에게 자동으로 동물 사료를 공급해줍니다."
 			]
 			id: "6D534E699BF820CE"
 			rewards: [{
@@ -654,9 +654,9 @@
 		{
 			dependencies: ["3D324E99DF28D224"]
 			description: [
-				"Birds such as Chickens will produce eggs, but only when they are fed and have at least 2 hearts of affection."
+				"닭과 같은 새들은 먹이를 먹고 애정도가 최소 2하트 이상일 때만 알을 낳습니다."
 				""
-				"They'll produce larger eggs at high levels of affection."
+				"애정도가 높을수록 더 큰 알을 낳습니다."
 			]
 			icon: "minecraft:egg"
 			id: "45739CCE73037CBB"
@@ -691,21 +691,21 @@
 						]
 					}
 				}
-				title: "Any egg"
+				title: "아무 알이나"
 				type: "item"
 			}]
-			title: "Eggs"
+			title: "알"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3D324E99DF28D224"]
 			description: [
-				"Cows, Sheep, Goats, Wooly Cows, and Water Buffalos can all be milked."
+				"소, 양, 염소, 털복숭이 소, 물소 모두 젖을 짤 수 있습니다."
 				""
-				"Milking animals requires a special &6Milk Pail&r for collection."
+				"동물의 젖을 짜려면 특별한 &6우유통&r이 필요합니다."
 				""
-				"The size of the milk willl depend on how much the animal likes you!"
+				"우유의 양은 동물이 당신을 얼마나 좋아하는지에 따라 달라집니다!"
 			]
 			icon: "society:milk"
 			id: "5B5A764F0E02E5FF"
@@ -746,7 +746,7 @@
 							]
 						}
 					}
-					title: "Any milk"
+					title: "아무 우유나"
 					type: "item"
 				}
 				{
@@ -755,13 +755,13 @@
 					type: "item"
 				}
 			]
-			title: "Milk"
+			title: "우유"
 			x: 5.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3D324E99DF28D224"]
-			description: ["&6Truffles&r are valuable goods, found by Pigs when they have at least 5 hearts of affection."]
+			description: ["&6송로버섯&f은 돼지의 애정도가 5 하트 이상일 때 찾을 수 있는 귀한 생산품입니다.(&6Truffles&r are valuable goods, found by Pigs when they have at least 5 hearts of affection.)"]
 			id: "3719F024051F60DA"
 			rewards: [{
 				id: "66CC0638F629C86F"
@@ -779,11 +779,11 @@
 		{
 			dependencies: ["3D324E99DF28D224"]
 			description: [
-				"There's no reason to kill your farm animals you love and care for!"
-				""
-				"&6Magic Shears&r will allow you to harvest their drops using otherworldy magic on right click."
-				""
-				"Animals will only let you do this if they have high enough affection, and it can only be done once per day."
+				"사랑하는 농장 동물을 죽일 필요는 없습니다!(There's no reason to kill your farm animals you love and care for!)",
+				"",
+				"&6마법 가위&f로 우클릭하면 마법으로 드랍을 수확할 수 있습니다.(&6Magic Shears&r will allow you to harvest their drops using otherworldy magic on right click.)",
+				"",
+				"동물의 애정도가 충분히 높아야 하며, 하루에 한 번만 가능합니다.(Animals will only let you do this if they have high enough affection, and it can only be done once per day.)"
 			]
 			id: "729467D224F25987"
 			rewards: [{
@@ -796,18 +796,18 @@
 				item: "society:magic_shears"
 				type: "item"
 			}]
-			title: "Cruelty Free Meat"
+			title: "비폭력 고기(Cruelty Free Meat)"
 			x: 3.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["45739CCE73037CBB"]
 			description: [
-				"Turning Eggs into Mayonnaise is a good way of increasing profits from chickens."
+				"달걀을 마요네즈로 만드는 것은 닭에서 얻는 수익을 늘리는 좋은 방법입니다."
 				""
-				"This can be done with a &6Mayonnaise Machine&r in &61&r day."
+				"&6마요네즈 기계&r로 &61&r일 만에 만들 수 있습니다."
 				""
-				"&oYou'll want to take a look at the farming quest line for information on how to get the ingredients for one.&r"
+				"&o재료를 얻는 방법에 대한 정보는 농사 퀘스트 라인을 확인하세요.&r"
 			]
 			hide_dependency_lines: false
 			id: "1A300B5030B2A1C1"
@@ -827,13 +827,13 @@
 		{
 			dependencies: ["5B5A764F0E02E5FF"]
 			description: [
-				"Milk can be pressed into cheese using an aptly named &6Cheese Press&r."
-				""
-				"You'll also need a little &6Rennet&r, made from Eggs and Salt."
-				""
-				"&6Salt&r can be mined in Meadow biomes or bought from a &6Farmer&r villager."
-				""
-				"&oYou'll want to take a look at the farming quest line for information on how to get the ingredients for one.&r"
+				"우유는 &6치즈 프레스&f로 치즈로 만들 수 있습니다.(Milk can be pressed into cheese using an aptly named &6Cheese Press&r.)",
+				"",
+				"&6레넷&f은 달걀과 소금으로 만듭니다.(You'll also need a little &6Rennet&r, made from Eggs and Salt.)",
+				"",
+				"&6소금&f은 초원 바이옴에서 채굴하거나 &6농부&f 주민에게서 구입할 수 있습니다.(&6Salt&r can be mined in Meadow biomes or bought from a &6Farmer&r villager.)",
+				"",
+				"치즈 재료 획득법은 농사 퀘스트 라인을 참고하세요.(&oYou'll want to take a look at the farming quest line for information on how to get the ingredients for one.&r)"
 			]
 			id: "75181B22DAF5E9A6"
 			rewards: [{
@@ -853,9 +853,9 @@
 		{
 			dependencies: ["20C76D194ECEDB76"]
 			description: [
-				"Fish are valuable, and a great way to make money early game."
-				""
-				"Your first rod will come from the &6Fisher&r villager, and they otherwise sell aquatic and fishing related supplies."
+				"물고기는 가치가 높아 초반 돈벌이에 좋습니다.(Fish are valuable, and a great way to make money early game.)",
+				"",
+				"첫 낚싯대는 &6어부&f 주민에게서 얻을 수 있으며, 이 주민은 수중/낚시 관련 용품도 판매합니다.(Your first rod will come from the &6Fisher&r villager, and they otherwise sell aquatic and fishing related supplies.)"
 			]
 			id: "429FEBEC239B975F"
 			rewards: [{
@@ -864,22 +864,22 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Barrel"
+			subtitle: "통(Barrel)"
 			tasks: [{
 				id: "64812EE7AA8EA20D"
 				item: "minecraft:barrel"
 				type: "item"
 			}]
-			title: "Fishing"
+			title: "낚시(Fishing)"
 			x: -1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["26315E4AC203348C"]
 			description: [
-				"Upgraded rods can be equipped with attachments using a &6Tackle Box&r."
-				""
-				"They will also have a chance to upgrade enchantments from succesful catches. The chance increases on higher upgraded rods."
+				"업그레이드된 낚싯대는 &6태클 박스&f로 부착물을 장착할 수 있습니다.(Upgraded rods can be equipped with attachments using a &6Tackle Box&r.)",
+				"",
+				"성공적으로 물고기를 잡으면 인챈트가 업그레이드될 확률이 있습니다. 더 좋은 낚싯대일수록 확률이 높아집니다.(They will also have a chance to upgrade enchantments from succesful catches. The chance increases on higher upgraded rods.)"
 			]
 			icon: {
 				Count: 1
@@ -935,16 +935,16 @@
 				title: "Any upgraded fishing rod"
 				type: "item"
 			}]
-			title: "Upgrading Your Rod"
+			title: "낚싯대 업그레이드(Upgrading Your Rod)"
 			x: 3.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["21B07E7D0C412FFA"]
 			description: [
-				"&6Tackle Box&r are used to customize your rod using the slots on the right. They also retain their inventory when broken."
-				""
-				"&oOnly upgraded rods can be customized&r"
+				"&6태클 박스&f는 우측 슬롯을 이용해 낚싯대를 커스터마이즈할 수 있습니다. 박스를 부수어도 인벤토리가 유지됩니다.(&6Tackle Box&r are used to customize your rod using the slots on the right. They also retain their inventory when broken.)",
+				"",
+				"&o업그레이드된 낚싯대만 커스터마이즈할 수 있습니다.&r(&oOnly upgraded rods can be customized&r)"
 			]
 			id: "63FDC7BA6801CF64"
 			rewards: [{
@@ -962,7 +962,7 @@
 		}
 		{
 			dependencies: ["63FDC7BA6801CF64"]
-			description: ["Baits can be added using a &6Tackle Box&r and have various effects on your rod."]
+			description: ["&6태클 박스&f에 미끼를 추가하면 낚싯대에 다양한 효과를 부여할 수 있습니다.(Baits can be added using a &6Tackle Box&r and have various effects on your rod.)"]
 			icon: "aquaculture:iron_hook"
 			id: "3E48E03F3F044FF2"
 			rewards: [{
@@ -1016,16 +1016,16 @@
 				title: "Any fishing hook"
 				type: "item"
 			}]
-			title: "Fishing Hooks"
+			title: "낚시 훅(Fishing Hooks)"
 			x: 7.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["63FDC7BA6801CF64"]
 			description: [
-				"Baits can be added using a &6Tackle Box&r and decrease the amount of time between bites."
-				""
-				"They are slowly consumed, and better baits such as &6Leeches&r and &6Minnows&r have a higher amount of durability."
+				"미끼는 &6태클 박스&f로 장착할 수 있으며, 입질 간격을 줄여줍니다.",
+				"",
+				"미끼는 서서히 소모되며, &6거머리&f나 &6미노우&f 같은 고급 미끼는 내구도가 더 높습니다."
 			]
 			icon: {
 				Count: 1
@@ -1077,19 +1077,19 @@
 						]
 					}
 				}
-				title: "Any Bait"
+				title: "아무 미끼나"
 				type: "item"
 			}]
-			title: "Baiting Fish"
+			title: "물고기 미끼주기"
 			x: 5.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["63FDC7BA6801CF64"]
 			description: [
-				"Any compostable material can be used on a &6Worm Farm&r to produce worms."
-				""
-				"A much cheaper alternative to pruchasing them."
+				"어떤 퇴비화 재료든 &6지렁이 농장&f에 넣으면 지렁이를 생산할 수 있습니다.",
+				"",
+				"지렁이를 구매하는 것보다 훨씬 저렴한 대안입니다."
 			]
 			id: "187FBE0E4FB5B7AD"
 			rewards: [{
@@ -1108,7 +1108,7 @@
 		}
 		{
 			dependencies: ["26315E4AC203348C"]
-			description: ["&6Geode Nodes&r rarely found in caves have a chance of dropping &6Aquamarine,&r the main crafting material for fishing related tools. "]
+			description: ["&6지오드 노드&f는 동굴에서 드물게 발견되며, 낚시 관련 도구의 주요 재료인 &6아쿠아마린&f을 드랍할 수 있습니다."]
 			id: "03773C88CA88552A"
 			rewards: [{
 				id: "5BA652C925897448"
@@ -1125,7 +1125,7 @@
 		}
 		{
 			dependencies: ["03773C88CA88552A"]
-			description: ["Crab Traps will provide certain fish, junk, or treasure over time. They must be surrounded by a 3x3 of water, and be provided with &6Crab Trap Bait&r."]
+			description: ["게 통발은 시간이 지나면 특정 물고기, 쓰레기, 보물을 제공합니다. 3x3 물로 둘러싸야 하며, &6게 통발 미끼&f가 필요합니다."]
 			id: "761F68396065119B"
 			rewards: [{
 				count: 8
@@ -1144,9 +1144,9 @@
 		{
 			dependencies: ["4A48308E11476E9B"]
 			description: [
-				"&6Deluxe Crab Trap Bait&r improves the chance of catching seafood and treasure from Crab traps, and decreases the chance of junk."
-				""
-				"The Deluxe Worm Bin upgrades basic &6Crab Trap Bait&r in &61&r day."
+				"&6디럭스 게 통발 미끼&f는 해산물과 보물 획득 확률을 높이고, 쓰레기 확률을 줄여줍니다.",
+				"",
+				"디럭스 지렁이 통은 기본 &6게 통발 미끼&f를 1일 만에 업그레이드합니다."
 			]
 			id: "238D909D360FC27C"
 			rewards: [{
@@ -1165,7 +1165,7 @@
 		}
 		{
 			dependencies: ["4A48308E11476E9B"]
-			description: ["&6Fish Smokers&r are used to create smoked fish, which multiplies the value of a fish by &64&r in &62&r days. "]
+			description: ["&6어류 훈제기&f는 생선을 훈제하여 가치가 4배가 되게 만듭니다. 2일이 소요됩니다."]
 			id: "6132A6DBE97F16BD"
 			rewards: [{
 				count: 4
@@ -1178,24 +1178,24 @@
 				item: "society:fish_smoker"
 				type: "item"
 			}]
-			title: "Artisan Fish"
+			title: "장인 어류"
 			x: 9.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["4A48308E11476E9B"]
 			description: [
-				"&6Fish Ponds&r cultivate fish over time once a single fish is placed in. Roe and other items can be harvested from them, and more items are unlocked at certain fish populations. "
+				"&6물고기 연못&r에 물고기를 한 마리 넣으면 시간이 지남에 따라 물고기가 번식합니다. 알과 다른 아이템을 수확할 수 있으며, 특정 물고기 개체 수에 도달하면 더 많은 아이템이 해금됩니다."
 				""
-				"Sometimes the fish will request items in order to grow their populaton."
+				"가끔 물고기들이 개체 수를 늘리기 위해 아이템을 요구할 수 있습니다."
 				""
-				"You'll need a 3x4 of water (or lava for nether fish) behind the pond according to this professional diagram:"
+				"전문가 다이어그램에 따르면 연못 뒤에 3x4 크기의 물(또는 네더 물고기의 경우 용암)이 필요합니다:"
 				""
 				"&3⬜⬜⬜"
 				"&3⬜⬜⬜"
-				"&3⬜⬜⬜ <- Water/Lava"
+				"&3⬜⬜⬜ <- 물/용암"
 				"&3⬜⬜⬜"
-				"  &6⬜   <- Fish Pond block"
+				"  &6⬜   <- 물고기 연못 블록"
 				""
 				"{image:society:textures/gui/fish_pond_example.png width:150 height:150 align:center}"
 				" "
@@ -1212,13 +1212,13 @@
 				item: "society:fish_pond"
 				type: "item"
 			}]
-			title: "Farming Fish"
+			title: "물고기 양식"
 			x: 9.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["7B2EB2B56F155E49"]
-			description: ["&6Treated Logs&r can be made by right clicking Oak Resin onto any Log in world."]
+			description: ["&6처리된 통나무&r는 월드의 모든 통나무에 참나무 수지를 우클릭하여 만들 수 있습니다."]
 			id: "55FAFBCDEDDA41A5"
 			rewards: [{
 				count: 4
@@ -1237,9 +1237,9 @@
 		{
 			dependencies: ["761F68396065119B"]
 			description: [
-				"&3Neptunium&r is a precious material used in crafting advanced fishing gear."
+				"&3넵투늄&r은 고급 낚시 장비 제작에 사용되는 귀중한 재료입니다."
 				""
-				"It can be found in &3Neptune's Bounty&r you fish up, or rarely in Crab Traps."
+				"낚시로 얻은 &3넵투누스의 선물&r이나 가끔 게 덫에서 발견할 수 있습니다."
 			]
 			id: "4A48308E11476E9B"
 			rewards: [{
@@ -1258,11 +1258,11 @@
 		{
 			dependencies: ["6ADD884F3FFE5D42"]
 			description: [
-				"Fruit trees slowly grow fruits that can be hand picked. "
+				"과일 나무는 천천히 자라며 손으로 수확할 수 있는 과일을 맺습니다."
 				""
-				"They are subject to the same seasonal restrictions as crops, but tend to be more valuable."
+				"작물과 같은 계절 제한을 받지만, 일반적으로 더 가치가 높습니다."
 				""
-				"A handfull of basic ones can be purchased from the Market, but you'll need to dive into the &6Skull Cavern&r for more advanced ones."
+				"기본적인 것들은 시장에서 구매할 수 있지만, 더 고급 나무들은 &6해골 동굴&r에 들어가야 얻을 수 있습니다."
 			]
 			icon: "pamhc2trees:starfruit_sapling"
 			id: "0E68DD5DFB2DFD97"
@@ -1321,16 +1321,16 @@
 						]
 					}
 				}
-				title: "Any Fruit Tree"
+				title: "아무 과일 나무나"
 				type: "item"
 			}]
-			title: "Fruit Trees"
+			title: "과일 나무"
 			x: 0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6ADD884F3FFE5D42"]
-			description: ["Bone Meal cannot be used to grow crops, so you'll need to find more advanced and expensive options."]
+			description: ["뼛가루는 작물을 자라게 하는 데 사용할 수 없으므로, 더 발전되고 비싼 옵션을 찾아야 합니다."]
 			id: "66DEF5ED5F277804"
 			rewards: [{
 				count: 8
@@ -1343,16 +1343,16 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			title: "Weaker Bone Meal"
+			title: "약한 뼛가루"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["55FAFBCDEDDA41A5"]
 			description: [
-				"The &6Canvas Loom&r is an artisan machine for making &6Artisan Canvas&r and &6Merino Wool&r in &61&r day."
+				"&6캔버스 직조기&r는 &61&r일 만에 &6장인의 캔버스&r와 &6메리노 양모&r를 만드는 장인의 기계입니다."
 				""
-				"These products can either be sold, crafted into useful items, or sewn into clothing using a &6Sewing Table&r."
+				"이 제품들은 판매하거나, 유용한 아이템으로 제작하거나, &6재봉 테이블&r을 사용하여 옷을 만들 수 있습니다."
 			]
 			id: "5AD7C2BCDA001A53"
 			rewards: [{
@@ -1370,7 +1370,7 @@
 		}
 		{
 			dependencies: ["55FAFBCDEDDA41A5"]
-			description: ["Some large fruits will need to be mashed using an &6Apple Press&r to process into other drinks."]
+			description: ["일부 큰 과일들은 &6사과 압착기&r를 사용하여 다른 음료로 가공해야 합니다."]
 			id: "0F643DD3F3B61A7D"
 			rewards: [{
 				id: "0837A666AB8B54FB"
@@ -1382,16 +1382,16 @@
 				item: "vinery:apple_press"
 				type: "item"
 			}]
-			title: "Pressing Large Fruits"
+			title: "큰 과일 압착하기"
 			x: 12.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5AD7C2BCDA001A53"]
 			description: [
-				"&6Small Ships&r can be crafted using &6Artisan Canvas&r, allowing quicker sailing through the ocean. By default, the &6R&r hotkey can be used to drop the sail."
+				"&6작은 배&r는 &6장인의 캔버스&r를 사용하여 제작할 수 있으며, 바다를 더 빠르게 항해할 수 있습니다. 기본적으로 &6R&r 단축키를 사용하여 돛을 내릴 수 있습니다."
 				""
-				"These can be used to transport large amounts of exotic farm animals from far away lands."
+				"이것들은 먼 곳에서 많은 양의 이국적인 농장 동물들을 운반하는 데 사용할 수 있습니다."
 			]
 			icon: "smallships:acacia_brigg"
 			id: "4513A91DA55E8069"
@@ -1405,16 +1405,16 @@
 				item: "smallships:sail"
 				type: "item"
 			}]
-			title: "Set Sail"
+			title: "출항"
 			x: 9.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["5AD7C2BCDA001A53"]
 			description: [
-				"Beds can keep you stuck in one place to avoid losing your home. "
+				"침대는 집을 잃지 않으려고 한 곳에만 머물게 만듭니다.",
 				""
-				"The &6Sleeping Bag&r solves this by allowing you to sleep away the night while not setting your spawn."
+				"&6슬리핑 백&f은 어디서든 밤을 보낼 수 있게 해주며, 스폰 지점을 변경하지 않습니다."
 			]
 			id: "546AA268840CA5B3"
 			rewards: [{
@@ -1427,7 +1427,7 @@
 				item: "comforts:sleeping_bag_white"
 				type: "item"
 			}]
-			title: "Sleep Anywhere"
+			title: "어디서든 잠자기"
 			x: 8.5d
 			y: 2.5d
 		}
@@ -1435,11 +1435,11 @@
 			dependencies: ["429FEBEC239B975F"]
 			description: [
 				""
-				"The fish you'll catch depends on two things: &aSeason&r, &6Location&r and &5Time&r."
+				"낚을 수 있는 물고기는 &a계절&f, &6위치&f, &5시간&f에 따라 달라집니다.",
 				""
-				"Each of the four &aseasons&r have their own fish. Each &6location&r (Ocean, River, or Freshwater) has its own pool."
+				"네 가지 &a계절&f마다 고유한 물고기가 있습니다. 각 &6위치&f(바다, 강, 민물)마다 고유한 풀이 있습니다.",
 				""
-				"Finally, some fish can only be caught during night or day."
+				"마지막으로, 일부 물고기는 밤이나 낮에만 잡을 수 있습니다."
 			]
 			id: "26315E4AC203348C"
 			tasks: [{
@@ -1459,9 +1459,9 @@
 		{
 			dependencies: ["5B6FD08D6063D6AA"]
 			description: [
-				"Mining ores in cold biomes or &bWinter&r will have a chance to give you &6Frozen Geodes&r. "
+				"추운 생물군계나 &b겨울&r에 광석을 채굴하면 &6얼어붙은 지오드&r를 얻을 수 있는 확률이 있습니다."
 				""
-				"Outside of that they can drop from &6Slush&r in cold biomes (affected by fortune), or frozen zombies in &bWinter&r."
+				"그 외에는 추운 생물군계의 &6슬러시&r에서(행운의 영향을 받음) 또는 &b겨울&r의 얼어붙은 좀비에서 드롭될 수 있습니다."
 			]
 			id: "242D49A4D71EDBEA"
 			rewards: [{
@@ -1481,11 +1481,11 @@
 		{
 			dependencies: ["5AD7C2BCDA001A53"]
 			description: [
-				"The &6Sewing Table&r can cut Artisan Canvas into clothing and hats when combined with other materials."
+				"&6재봉 테이블(Sewing Table)&f은 장인의 캔버스(Artisan Canvas)를 다른 재료와 조합해 옷과 모자(clothing and hats)로 만들 수 있습니다."
 				""
-				"It requires a &6Sewing Needle&r to craft."
+				"제작에는 &6재봉 바늘(Sewing Needle)&f이 필요합니다."
 				""
-				"Crafting it with a &6Chest&r allows it to retain its inventory."
+				"&6상자(Chest)&f와 함께 제작하면 인벤토리가 보존됩니다."
 			]
 			icon: "sewingkit:sewing_station"
 			id: "1E2D2FF9428F96DA"
@@ -1512,7 +1512,7 @@
 					type: "item"
 				}
 			]
-			title: "Sewing Clothing"
+			title: "의류 제작(Sewing Clothing)"
 			x: 11.0d
 			y: 3.5d
 		}
@@ -1522,9 +1522,9 @@
 				"1E2D2FF9428F96DA"
 			]
 			description: [
-				"Is your hotbar a mess? A &6Toolbelt&r can store your tools for quick access using a single hotkey (&6X&r by default)."
+				"단축바가 지저분한가요? &6툴벨트(Toolbelt)&f는 도구를 한 번에 꺼낼 수 있도록 단축키(&6X&f 기본값)로 빠르게 접근할 수 있게 해줍니다."
 				""
-				"By default it can only carry two slots, but multiple &6Belt Pouches&r can be sewn in for more slots."
+				"기본적으로 2칸만 사용할 수 있지만, &6벨트 파우치(Belt Pouch)&f를 추가로 달면 더 많은 슬롯을 사용할 수 있습니다."
 			]
 			icon: {
 				Count: 1
@@ -1559,9 +1559,9 @@
 		{
 			dependencies: ["230E02067CBC21CF"]
 			description: [
-				"&6Preserve Jars&r turn fruits and vegetables into preserves in &64&r days, multiplying their selling value by over &63&r."
+				"&6보존병(Preserve Jar)&f은 과일과 채소를 &64&f일 만에 보존식품으로 만들어, 판매가를 &63&f배 이상으로 올려줍니다."
 				""
-				"Having many run in the background is worth the investment."
+				"여러 개를 동시에 돌리면 투자할 가치가 있습니다."
 			]
 			id: "166D3A381C5C9A8F"
 			rewards: [{
@@ -1580,11 +1580,11 @@
 		{
 			dependencies: ["2134CA6B3880D089"]
 			description: [
-				"Tropical biomes such as &6Savannas&r and &6Jungles&r will always be treated as &6Summer&r for crop growth only."
+				"&6사바나(Savanna)&f, &6정글(Jungle)&f 등 열대 생물군계는 작물 성장에 한해 항상 &6여름(Summer)&f으로 간주됩니다."
 				""
-				"This can be used to create a secondary farm that has no need to worry about seasons!"
+				"이를 이용해 계절에 구애받지 않는 보조 농장을 만들 수 있습니다!"
 				""
-				"The same applies to frozen biomes for &6Winter&r."
+				"얼어붙은 생물군계는 항상 &6겨울(Winter)&f로 간주됩니다."
 			]
 			icon: "atmospheric:sun_pottery_sherd"
 			id: "24F09C4D4D9DDF79"
@@ -1596,21 +1596,21 @@
 			tasks: [{
 				biome: "#sereneseasons:tropical_biomes"
 				id: "556DB951D3C9AA77"
-				title: "Visit a tropical Biome"
+				title: "열대 생물군계 방문(Visit a tropical Biome)"
 				type: "biome"
 			}]
-			title: "Eternal Summer"
+			title: "영원한 여름(Eternal Summer)"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4A48308E11476E9B"]
 			description: [
-				"There are occasions where you may need a large quantity of one specific fish. The &6Bait Maker&r turns one of any type of fish into targed bait!"
+				"특정 물고기가 대량으로 필요할 때가 있습니다. &6미끼 제조기(Bait Maker)&f는 아무 물고기나 한 마리를 원하는 미끼로 바꿔줍니다!"
 				""
-				"This bait can be placed inside of a &6Crab Trap&r,"
+				"이 미끼는 &6게 통발(Crab Trap)&f에 넣을 수 있습니다."
 				""
-				"&oNether Fish can be caught in a Crab Trap placed in water... Strange.&r"
+				"&o네더 물고기(Nether Fish)는 물에 설치한 게 통발로도 잡을 수 있습니다... 신기하네요.&r"
 			]
 			id: "73E15D00539BF7CD"
 			rewards: [{
@@ -1629,9 +1629,9 @@
 		{
 			dependencies: ["2C3FD9E2DA520620"]
 			description: [
-				"Don't just stuff your farm with nameless livestock- naming a farm animal will make them like you a good bit more!"
+				"이름 없는 가축만 키우지 마세요—가축에게 이름을 지어주면 더 잘 따릅니다!"
 				""
-				"&oRenaming will have no effect.&r"
+				"&o이름을 다시 바꾸는 것은 효과가 없습니다.&r"
 			]
 			id: "649860C19CAE0F17"
 			rewards: [{
@@ -1645,16 +1645,16 @@
 				item: "minecraft:name_tag"
 				type: "item"
 			}]
-			title: "Pet Names"
+			title: "애완동물 이름짓기(Pet Names)"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["02327F6FDF987266"]
 			description: [
-				"&6Watering Cans&r can be upgraded to hold more water, work faster, and also work in an area!"
+				"&6물뿌리개(Watering Can)&f는 업그레이드하여 더 많은 물을 담고, 더 빠르게, 그리고 범위로 물을 줄 수 있습니다!"
 				""
-				"Hold &6Right Click&r to charge up the area of affect watering ability. Higher tiers have higher areas!"
+				"&6우클릭(Right Click)&f을 길게 누르면 범위 물주기 기능이 충전됩니다. 상위 등급일수록 범위가 넓어집니다!"
 			]
 			id: "0EE5A175B0417403"
 			rewards: [{
@@ -1674,10 +1674,10 @@
 				}
 				type: "item"
 			}]
-			title: "Upgraded Watering"
+			title: "물뿌리개 업그레이드(Upgraded Watering)"
 			x: 6.0d
 			y: -3.0d
 		}
 	]
-	title: "II - Farm Building"
+	title: "II - 농장 건설"
 }

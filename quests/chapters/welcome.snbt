@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-                                "&l&6Society: Sunlit Valley&r에 오신 것을 환영합니다!"
-                                ""
-                                "이곳은 농사와 약간 산업화된 자본주의가 만나는 곳입니다."
-                                ""
-                                "농사 제국을 확장하며 부자가 되어 보세요."
-                                ""
-                                "이 퀘스트북은 팩의 개념을 소개하고 수집 아이템을 기록하는 일지 역할을 합니다."
+				"&l&6소사이어티: 선릿 밸리(Society: Sunlit Valley)에 오신 것을 환영합니다!"
+				""
+				"이곳은 농업과 가벼운 산업 자본주의가 만나는 곳입니다."
+				""
+				"농업 제국을 확장하고 그 과정에서 부자가 되어보세요."
+				""
+				"이 퀘스트북은 팩의 개념을 소개하고, 수집 가능한 아이템의 저널 역할을 합니다."
 			]
 			icon: "betterarcheology:growth_totem"
 			id: "2B6877708A709B5C"
@@ -45,58 +45,58 @@
 				}
 			]
 			size: 2.0d
-                        subtitle: "이것만 읽으면 됩니다"
+			subtitle: "이것만 읽으면 돼요(You only have to read this one)"
 			tasks: [{
 				id: "072C2039D178F97E"
-                                title: "클릭하여 완료!"
+				title: "클릭해서 완료!(Click to complete!)"
 				type: "checkmark"
 			}]
-                        title: "환영합니다!"
+			title: "환영합니다!(Welcome!)"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-                                "이 팩의 많은 제작법이 변경되었거나 화폐가 필요합니다."
-                                ""
-                                "Stardew Valley와 Harvest Moon 같은 게임처럼 땅을 이용해 수익을 올려 보세요!"
+				"이 팩의 많은 조리법이 수정되었거나 화폐가 필요합니다."
+				""
+				"스타듀밸리(Stardew Valley), 하베스트 문(Harvest Moon) 같은 게임처럼, 땅을 이용해 이익을 얻으세요!"
 			]
 			icon: "numismatics:cog"
 			id: "42BBE95A6DE1DD19"
 			tasks: [{
 				id: "18D7A7C05EC66667"
-                                title: "현상금"
+				title: "현상금(Bounties)"
 				type: "checkmark"
 			}]
-                        title: "배송과 화폐"
+			title: "배송과 화폐(Shipping and Currency)"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-                                "순간 이동이 가능하긴 하지만 많은 자금을 투자해야 합니다."
-                                ""
-                                "대신 길을 놓고 표지판을 이용해 그 사이를 이동할 수도 있습니다."
+				"순간이동도 존재하지만, 엄청난 금액을 투자해야 구매할 수 있습니다."
+				""
+				"대신 도로망을 구축하고 표지판을 이용해 그 사이를 이동할 수도 있습니다."
 			]
 			icon: "minecraft:chorus_fruit"
 			id: "25777939975C3CEE"
 			tasks: [{
 				id: "12B5F8FF7A12B850"
-                                title: "내 말을 데려다 줘"
+				title: "내 말 가져와(Get me my horse)"
 				type: "checkmark"
 			}]
-                        title: "이동 수단"
+			title: "교통(Transportation)"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-                                "다양한 음식을 먹도록 장려하기 위해 'Spice of Life: Onion Edition'이 추가되었습니다."
-                                ""
-                                "음식 종류가 일정 수준에 도달하면 책에 적힌 보너스를 얻는데, 가장 눈에 띄는 것은 추가 체력입니다!"
+				"스파이스 오브 라이프: 어니언 에디션(Spice of Life: Onion Edition)이 추가되어 다양한 음식을 먹도록 유도합니다."
+				""
+				"음식 다양성의 특정 기준을 달성하면 책에 나열된 혜택을 받을 수 있습니다. 가장 눈에 띄는 것은 추가 체력!"
 			]
 			icon: "solonion:food_book"
 			id: "7A7B131D229E5279"
@@ -107,86 +107,86 @@
 			}]
 			tasks: [{
 				id: "1751982CCE09E023"
-                                title: "알겠습니다!"
+				title: "이해했어요!(Understood!)"
 				type: "checkmark"
 			}]
-                        title: "다양한 음식의 힘"
+			title: "스파이스 오브 라이프(The Spice of Life)"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-                                "셰이더가 기본으로 설치되어 있습니다!"
-                                ""
-                                "컴퓨터 사양이 된다면 &6o&r 키를 눌러 활성화해 보세요."
+				"셰이더가 기본으로 설치되어 있습니다!"
+				""
+				"PC 사양이 충분하다면 &6o&r 키를 눌러 활성화할 수 있습니다."
 			]
 			icon: "simplehats:rainboworbiters"
 			id: "4F7FB7C8808AF152"
 			tasks: [{
 				id: "5268786D837BACF0"
-                                title: "알겠습니다!"
+				title: "이해했어요!(Understood!)"
 				type: "checkmark"
 			}]
-                        title: "셰이더?"
+			title: "셰이더?(Shaders?)"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-                                "여러 사람이 서로 다른 시간대에 접속하는 서버라면 설정에서 계절 길이를 조정하는 것이 좋습니다."
-                                ""
-                                "&6config/sereneseasons/seasons.toml&r 파일의 &6sub_season_duration&r 값을 변경하면 됩니다."
-                                ""
-                                "값을 16~20 정도로 설정하면 누군가가 하루 만에 한 계절을 모두 보내는 일을 막아 대규모 서버에 추천됩니다."
-                                ""
-                                "&o참고: 플레이어들도 서버와 맞추기 위해 자신의 설정을 업데이트해야 합니다.&r"
+				"여러 명이 시간차로 접속하는 서버라면 config에서 계절 길이를 변경하는 것이 좋습니다."
+				""
+				"&6config/sereneseasons/seasons.toml&r의 &6sub_season_duration&r 값을 변경하면 됩니다."
+				""
+				"대형 서버에서는 이 값을 16~20으로 설정하면 한 사람이 하루 만에 한 계절을 다 보내는 것을 방지할 수 있습니다."
+				""
+				"&o참고: 플레이어들도 계절 UI가 서버와 맞도록 config를 업데이트해야 합니다.&r"
 			]
 			icon: "refurbished_furniture:computer"
 			id: "18490F31FFAB134E"
 			tasks: [{
 				id: "7A3A17A854FF5FAB"
-                                title: "알겠습니다!"
+				title: "이해했어요!(Understood!)"
 				type: "checkmark"
 			}]
-                        title: "서버 운영자를 위한 팁"
+			title: "서버 운영자를 위한 안내(For Server Owners)"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-                                "이 모드팩은 설정을 통해 스타듀 낚시 미니게임을 끄거나 동물 먹이 시간을 변경할 수 있습니다."
-                                ""
-                                "모드팩 폴더에서 &6kubejs&r 폴더로 이동해 &6startup_scripts&r 폴더를 여세요."
-                                ""
-                                "그 안의 &6_config.js&r 파일을 메모장으로 열어 값을 수정한 뒤 저장하고 게임을 재시작하세요."
-                                ""
-                                "서버를 이용한다면 서버 관리자도 이 값을 변경해야 할 수 있습니다."
+				"이 팩은 다양한 설정이 가능합니다! 스타듀 낚시 미니게임을 끄거나 동물 먹이 시간도 변경할 수 있습니다."
+				""
+				"모드팩 폴더에서 &6kubejs&r → &6startup_scripts&r로 이동하세요."
+				""
+				"&6_config.js&r 파일을 메모장으로 열어 값을 수정하고 저장한 뒤 게임을 재시작하세요."
+				""
+				"서버라면 서버 관리자도 이 값을 변경해야 할 수 있습니다."
 			]
 			icon: "gamediscs:gaming_console"
 			id: "6EA5618181628D34"
-                        subtitle: "무언가 바꾸고 싶다면? 지금 해보세요!"
+			subtitle: "뭔가 바꾸고 싶나요? 가능합니다!(Want to change something? Do it!)"
 			tasks: [{
 				id: "56C063A91C4834B3"
-                                title: "알겠습니다!"
+				title: "이해했어요!(Understood!)"
 				type: "checkmark"
 			}]
-                        title: "팩 설정하기"
+			title: "팩 설정(Configuring the Pack)"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			description: [
-                                "썬릿 밸리는 보다 평화 지향적인 모드팩입니다! 이는 다음을 의미합니다:"
-                                ""
-                                "- 죽어도 인벤토리는 유지됩니다(단, 도구 내구도는 감소)"
-                                "- 지상에는 몬스터가 스폰되지 않습니다"
-                                "- 팬텀과 약탈자 순찰대가 나타나지 않습니다"
-                                "- 크리퍼는 축제 분위기입니다!"
-                                ""
-                                "하지만 위험이 없는 것은 아닙니다. &6지하와 네더, 스컬 캐번은 여전히 위험합니다&r..."
+				"선릿 밸리는 평화지향 모드팩입니다! 즉:"
+				""
+				"- 죽어도 인벤토리가 유지됩니다(도구 내구도는 감소)"
+				"- 몹이 지상에 스폰되지 않습니다"
+				"- 팬텀과 약탈자 순찰대가 더 이상 스폰되지 않습니다"
+				"- 크리퍼는 축제 분위기!"
+				""
+				"하지만 위험이 없는 것은 아닙니다. &6지하, 네더, 해골 동굴은 여전히 위험합니다...&r"
 			]
 			disable_toast: true
 			icon: "minecraft:lily_of_the_valley"
@@ -206,7 +206,7 @@
 					id: "59471FAB210830B3"
 					ignore_reward_blocking: true
 					silent: true
-                                title: "알겠습니다!"
+					title: "Got it!"
 					type: "command"
 				}
 				{
@@ -242,36 +242,36 @@
 				disable_toast: true
 				icon: "minecraft:grass_block"
 				id: "0570B72A57438956"
-                                title: "스폰하기"
+				title: "스폰 인(Spawn in)"
 				type: "dimension"
 			}]
-                        title: "더 평화로운 경험"
+			title: "더 평화로운 경험(More Peaceful Experience)"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-                                "기지를 보호하거나 로딩 상태로 유지하려면 JourneyMap에서 기본 키 &6j&r로 청크를 Claim할 수 있습니다."
-                                ""
-                                "우측의 \"FTBChunks Claming Mode\" 버튼을 클릭한 후 다음을 수행하세요:"
-                                "- &6좌클릭&r으로 청크 Claim"
-                                "- &6우클릭&r으로 Claim 해제"
-                                ""
-                                "- &6Shift&r + &6좌클릭&r으로 청크 강제 로드(최대 2개)"
-                                "- &6Shift&r + &6우클릭&r으로 강제 로드 해제"
+				"기지를 보호하거나 항상 로드되게 하고 싶으신가요? 저니맵(JourneyMap)에서 청크를 claim할 수 있습니다 - 기본 단축키는 &6j&r입니다."
+				""
+				"먼저 오른쪽의 'FTBChunks Claming Mode' 버튼을 클릭하세요. 그런 다음:"
+				"- &6좌클릭(Left-Click)&r: 청크 claim"
+				"- &6우클릭(Right-Click)&r: claim 해제"
+				""
+				"- &6Shift&r + &6좌클릭(Left-Click)&r: 청크 강제 로드(forceload, 최대 2개)"
+				"- &6Shift&r + &6우클릭(Right-Click)&r: 강제 로드 해제(un-forceload)"
 			]
 			icon: "supplementaries:flag_light_blue"
 			id: "1375AE2ECAC8C147"
 			tasks: [{
 				id: "656AD09E45594435"
-                                title: "알겠습니다!"
+				title: "이해했어요!(Understood!)"
 				type: "checkmark"
 			}]
-                        title: "청크 Claim하기"
+			title: "청크 claim(Claiming Chunks)"
 			x: 1.5d
 			y: -1.5d
 		}
 	]
-        title: "환영"
+	title: "환영합니다(Welcome)"
 }

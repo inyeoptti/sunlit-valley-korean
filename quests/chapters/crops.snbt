@@ -482,12 +482,12 @@
 		}
 		{
 			description: [
-				"Seeds can be purchased from the &6Master Cultivator&r villager."
+				"&b고대 과일&f의 씨앗은 다양한 경로로 얻을 수 있습니다... 하지만 그 방법은 직접 찾아내야 합니다.(The seed for &bAncient Fruit&r is found from a variety of sources... But you'll need to figure that out for yourself.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "262E7E71CF6AD26A"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "4E0B4FEE5F9B497E"
 				item: "farmersdelight:cabbage"
@@ -508,12 +508,12 @@
 		}
 		{
 			description: [
-				"Can be purchased from the &6Master Cultivator&r villager."
+				"&b고대 과일&f의 씨앗은 다양한 경로로 얻을 수 있습니다... 하지만 그 방법은 직접 찾아내야 합니다.(The seed for &bAncient Fruit&r is found from a variety of sources... But you'll need to figure that out for yourself.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "0FF95378E683DF5E"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "139EB44EBB2C6495"
 				item: "vintagedelight:peanut"
@@ -524,12 +524,12 @@
 		}
 		{
 			description: [
-				"Seeds can be purchased from the &6Master Cultivator&r villager."
+				"&b고대 과일&f의 씨앗은 다양한 경로로 얻을 수 있습니다... 하지만 그 방법은 직접 찾아내야 합니다.(The seed for &bAncient Fruit&r is found from a variety of sources... But you'll need to figure that out for yourself.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "18E4EF841B0D1DC7"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "4DC4C3119CF01A49"
 				item: "vintagedelight:ghost_pepper"
@@ -540,12 +540,12 @@
 		}
 		{
 			description: [
-				"Seeds can be purchased from the &6Master Cultivator&r villager."
+				"&b고대 과일&f의 씨앗은 다양한 경로로 얻을 수 있습니다... 하지만 그 방법은 직접 찾아내야 합니다.(The seed for &bAncient Fruit&r is found from a variety of sources... But you'll need to figure that out for yourself.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "56865D2E8C786C7D"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "552AA3E8B98FF5DB"
 				item: "vintagedelight:cucumber"
@@ -567,12 +567,12 @@
 		}
 		{
 			description: [
-				"Fruit tree sapling can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Fruit tree sapling can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "3A1EFD1023C8C09B"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "36514AEE32301F45"
 				item: "pamhc2trees:lycheeitem"
@@ -583,12 +583,12 @@
 		}
 		{
 			description: [
-				"Fruit tree sapling can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Fruit tree sapling can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "12716A71DB8FB7B8"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "1BC26BC3178F72D3"
 				item: "pamhc2trees:bananaitem"
@@ -599,12 +599,12 @@
 		}
 		{
 			description: [
-				"Fruit tree sapling can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Fruit tree sapling can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "3E57558B04952D59"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "0130993A589F918B"
 				item: "pamhc2trees:peachitem"
@@ -615,12 +615,12 @@
 		}
 		{
 			description: [
-				"Fruit tree sapling can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Fruit tree sapling can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "6C656EEBAD2B5DAF"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "71BEC726204AE10B"
 				item: "pamhc2trees:plumitem"
@@ -631,12 +631,12 @@
 		}
 		{
 			description: [
-				"Fruit tree sapling can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Fruit tree sapling can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "071B9936A0F6425F"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "15A51121384FB49C"
 				item: "pamhc2trees:mangoitem"
@@ -647,12 +647,12 @@
 		}
 		{
 			description: [
-				"Fruit tree sapling can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Fruit tree sapling can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "1D39A308673157BA"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "5347F6226E74E47C"
 				item: "atmospheric:orange"
@@ -663,12 +663,12 @@
 		}
 		{
 			description: [
-				"Fruit tree sapling can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Fruit tree sapling can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "7ED74D28362C25CE"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "1CB79A19BD74B467"
 				item: "pamhc2trees:dragonfruititem"
@@ -679,12 +679,12 @@
 		}
 		{
 			description: [
-				"Fruit tree sapling can be purchased from the &6Master Cultivator&r villager."
+				"&b고대 과일&f의 씨앗은 다양한 경로로 얻을 수 있습니다... 하지만 그 방법은 직접 찾아내야 합니다.(The seed for &bAncient Fruit&r is found from a variety of sources... But you'll need to figure that out for yourself.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "34AD1E2CEE6966B5"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "51D5DC2521CB0EFD"
 				item: "pamhc2trees:starfruititem"
@@ -816,16 +816,16 @@
 				}
 				id: "14B9889CA24FCD78"
 				stat: "minecraft:play_time"
-				title: "모든 작물 수집"
+				title: "모든 작물 수집(Collect all crops)"
 				type: "stat"
 				value: 1
 			}]
-			title: "작물 수집 완료!"
+			title: "작물 컬렉션 완성!(Crop Collection Complete!)"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
-			description: ["The seed for &bAncient Fruit&r is found from a variety of sources... But you'll need to figure that out for yourself."]
+			description: ["&b고대 과일&f의 씨앗은 다양한 경로로 얻을 수 있습니다... 하지만 그 방법은 직접 찾아내야 합니다.(The seed for &bAncient Fruit&r is found from a variety of sources... But you'll need to figure that out for yourself.)"]
 			id: "455F9A4D9B1FF43E"
 			subtitle: "???"
 			tasks: [{
@@ -837,9 +837,9 @@
 			y: 1.0d
 		}
 		{
-			description: ["Fruit tree sapling a possible reward from a &5Prize Machine&r."]
+			description: ["과일나무 묘목은 &5경품 기계&f에서 보상으로 얻을 수 있습니다.(Fruit tree sapling a possible reward from a &5Prize Machine&r.)"]
 			id: "751852642BED95D0"
-			subtitle: "&5경품 기계"
+			subtitle: "&5경품 기계(Prize Machine)"
 			tasks: [{
 				id: "22919A73C577461C"
 				item: "pamhc2trees:pawpawitem"
@@ -849,9 +849,9 @@
 			y: 2.0d
 		}
 		{
-			description: ["Fruit tree sapling a possible reward from a &5Prize Machine&r."]
+			description: ["과일나무 묘목은 &5경품 기계&f에서 보상으로 얻을 수 있습니다.(Fruit tree sapling a possible reward from a &5Prize Machine&r.)"]
 			id: "449B0ECBBD4E743D"
-			subtitle: "&5경품 기계"
+			subtitle: "&5경품 기계(Prize Machine)"
 			tasks: [{
 				id: "5703E9BC753916D6"
 				item: "pamhc2trees:hazelnutitem"
@@ -861,9 +861,9 @@
 			y: 3.5d
 		}
 		{
-			description: ["Cinnamon Tree Saplings have a rare chance to drop from &bWinter Zombies&r."]
+			description: ["계피나무 묘목은 &b겨울 좀비&f에게서 드물게 드롭됩니다.(Cinnamon Tree Saplings have a rare chance to drop from &bWinter Zombies&r.)"]
 			id: "354AB867025A3019"
-			subtitle: "&b겨울 좀비"
+			subtitle: "&b겨울 좀비(Winter Zombies)"
 			tasks: [{
 				id: "2E9453049DBD8724"
 				item: "pamhc2trees:cinnamonitem"
@@ -884,12 +884,12 @@
 		}
 		{
 			description: [
-				"Seeds can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Seeds can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "5C6688D9ADAB129D"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "5BC5D85279454506"
 				item: "society:tubabacco_leaf"
@@ -950,12 +950,12 @@
 		}
 		{
 			description: [
-				"Seeds can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Seeds can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "4CE5E17948C31E2A"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "53E8C57AF7BE0A8D"
 				item: "veggiesdelight:garlic"
@@ -986,12 +986,12 @@
 		}
 		{
 			description: [
-				"Seeds can be purchased from the &6Master Cultivator&r villager."
+				"&6마스터 재배자&f 주민에게서 구매할 수 있습니다.(Seeds can be purchased from the &6Master Cultivator&r villager.)"
 				""
-				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
+				"작업대를 만들려면 해골 동굴 깊은 곳에서 &d프리즘 샤드&f를 찾아야 합니다.(You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation.)"
 			]
 			id: "530890B3F0CE32B1"
-			subtitle: "&6달인 경작자"
+			subtitle: "&6마스터 재배자(Master Cultivator)"
 			tasks: [{
 				id: "3D7DDDF60546C23E"
 				item: "veggiesdelight:sweet_potato"
@@ -1041,5 +1041,5 @@
 			y: 3.5d
 		}
 	]
-	title: "작물"
+	title: "작물(Crops)"
 }

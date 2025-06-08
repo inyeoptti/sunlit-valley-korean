@@ -137,7 +137,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -231,7 +231,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -279,7 +279,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -306,11 +306,11 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 			]
-			title: "와인메이커의 보따리(Winemaker's Bundle)"
+			title: "와인메이커 꾸러미(Winemaker's Bundle)"
 			x: -3.0d
 			y: 0.2d
 		}
@@ -358,7 +358,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -408,7 +408,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -454,11 +454,11 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 			]
-			title: "양조사의 보따리(Brewer's Bundle)"
+			title: "양조가 꾸러미(Brewer's Bundle)"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -548,7 +548,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -586,7 +586,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -595,12 +595,12 @@
 					type: "item"
 				}
 			]
-			title: "장인의 보따리(Artisan's Bundle)"
+			title: "장인 꾸러미(Artisan's Bundle)"
 			x: 0.0d
 			y: -1.3d
 		}
 		{
-			description: ["Only &66&r required for bundle completion."]
+			description: ["오직 &66&r만 꾸러미 완성에 필요합니다.(Only &66&r required for bundle completion.)"]
 			icon: "supplementaries:present_green"
 			id: "1E6139BDE9202B6A"
 			min_required_tasks: 6
@@ -699,7 +699,7 @@
 					type: "item"
 				}
 			]
-			title: "요리사의 보따리(Chef's Bundle)"
+			title: "요리사 꾸러미(Chef's Bundle)"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -743,7 +743,7 @@
 					type: "item"
 				}
 			]
-			title: "발효자의 보따리(Fermenter's Bundle)"
+			title: "발효사 꾸러미(Fermenter's Bundle)"
 			x: 3.0d
 			y: 0.2d
 		}
@@ -756,11 +756,11 @@
 				"0403045A4DA7A770"
 			]
 			description: [
-				"The reward for completing the Crafts Room is the magnificant &6Magic Mirror&r!"
+				"공예실을 완성하면 멋진 &6매직 미러&f를 보상으로 받습니다!(The reward for completing the Crafts Room is the magnificant &6Magic Mirror&r!)"
 				""
-				"This item takes you to your bed/spawn when used, provided its in range of the mirror."
+				"이 아이템을 사용하면 침대/스폰 지점으로 이동할 수 있습니다. 단, 미러의 범위 내에 있어야 합니다.(This item takes you to your bed/spawn when used, provided its in range of the mirror.)"
 				""
-				"&6Relic Experience&r can be used to upgrade the range."
+				"&6유물 경험치&f로 미러의 범위를 업그레이드할 수 있습니다.(&6Relic Experience&r can be used to upgrade the range.)"
 			]
 			icon: "furniture:sewing_kit"
 			id: "7591439B35772AB2"
@@ -798,20 +798,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "보상: 매직 미러(Magic Mirror)"
+			subtitle: "보상: 매직 미러(Reward: Magic Mirror)"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "38C738638838D769"
 				stat: "minecraft:play_time"
-				title: "공예실 완성하기"
+				title: "Complete the Crafts Room"
 				type: "stat"
 				value: 1
 			}]
-			title: "공예실 완료!"
+			title: "공예실 완성!(Crafts Room Completed!)"
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-	subtitle: ["보상: 매직 미러(Magic Mirror)"]
 	title: "공예실(Crafts Room)"
 }

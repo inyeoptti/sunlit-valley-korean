@@ -12,11 +12,11 @@
 	quests: [
 		{
 			dependencies: ["617AC2E80908BFD7"]
-                        description: [
-                                "모든 방어구는 가죽 또는 양모를 기본으로 제작해야 합니다."
-                                ""
-                                "양모 의류는 &6가죽세공인&r 주민에게서 &6재봉대&r를 구해 바느질할 수 있습니다"
-                        ]
+			description: [
+				"모든 방어구는 가죽 또는 양모(울)로 시작해야 합니다.",
+				"",
+				"양모 옷은 &6가죽공(Leatherworker)&r 주민에게서 &6재봉틀(Sewing Table)&r을 구하면 직접 만들 수도 있습니다."
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:leather_chestplate"
@@ -91,10 +91,10 @@
 						]
 					}
 				}
-                                title: "가죽 또는 양모 방어구"
+				title: "아무 가죽 또는 양모 방어구(Any Leather or Wool Armor)"
 				type: "item"
 			}]
-                        title: "가죽 방어구"
+			title: "가죽 방어구(Leather Armor)"
 			x: -8.0d
 			y: -3.0d
 		}
@@ -146,10 +146,10 @@
 						]
 					}
 				}
-                                title: "사슬 방어구"
+				title: "아무 사슬 방어구(Any Chainmail armor)"
 				type: "item"
 			}]
-                        title: "사슬 방어구"
+			title: "사슬 방어구(Chainmail Armor)"
 			x: -6.0d
 			y: -3.0d
 		}
@@ -201,10 +201,10 @@
 						]
 					}
 				}
-                                title: "금 방어구"
+				title: "아무 금 방어구(Any Gold Armor)"
 				type: "item"
 			}]
-                        title: "금 방어구"
+			title: "금 방어구(Gold Armor)"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -256,10 +256,10 @@
 						]
 					}
 				}
-                                title: "철 방어구"
+				title: "아무 철 방어구(Any Iron Armor)"
 				type: "item"
 			}]
-                        title: "철 방어구"
+			title: "철 방어구(Iron Armor)"
 			x: -4.0d
 			y: -3.0d
 		}
@@ -311,10 +311,10 @@
 						]
 					}
 				}
-                                title: "다이아몬드 방어구"
+				title: "아무 다이아몬드 방어구(Any Diamond armor)"
 				type: "item"
 			}]
-                        title: "다이아몬드 방어구"
+			title: "다이아몬드 방어구(Diamond Armor)"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -366,20 +366,20 @@
 						]
 					}
 				}
-                                title: "네더라이트 방어구"
+				title: "아무 네더라이트 방어구(Any Netherite Armor)"
 				type: "item"
 			}]
-                        title: "네더라이트 방어구"
+			title: "네더라이트 방어구(Netherite Armor)"
 			x: 2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["38A0B8D54F85B846"]
-                        description: [
-                                "&3넵투늄&r은 넵튠의 보물상자, 게 덫, 네프투나에서 얻을 수 있습니다."
-                                ""
-                                "이 방어구들은 수중 이동과 호흡, 다양한 편의 효과를 부여합니다."
-                        ]
+			description: [
+				"&3넵투늄(Neptunium)&r은 Neptune's Bounty, Crab Traps, Neptuna에서 얻을 수 있습니다.",
+				"",
+				"이 방어구들은 수중 이동, 호흡, 유틸리티에 버프를 제공합니다."
+			]
 			icon: {
 				Count: 1
 				id: "aquaculture:neptunium_chestplate"
@@ -426,10 +426,10 @@
 						]
 					}
 				}
-                                title: "넵투늄 방어구"
+				title: "아무 넵투늄 방어구(Any Neptunium armor)"
 				type: "item"
 			}]
-                        title: "넵투늄 방어구"
+			title: "넵투늄 방어구(Neptunium Armor)"
 			x: 2.0d
 			y: -4.5d
 		}
@@ -488,10 +488,10 @@
 						]
 					}
 				}
-                                title: "나무 도구"
+				title: "아무 나무 도구(Any Wood tool)"
 				type: "item"
 			}]
-                        title: "나무 도구"
+			title: "나무 도구(Wood Tools)"
 			x: -8.0d
 			y: -1.0d
 		}
@@ -550,10 +550,10 @@
 						]
 					}
 				}
-                                title: "돌 도구"
+				title: "아무 돌 도구(Any Stone tool)"
 				type: "item"
 			}]
-                        title: "돌 도구"
+			title: "돌 도구(Stone Tools)"
 			x: -6.0d
 			y: -1.0d
 		}
@@ -612,10 +612,10 @@
 						]
 					}
 				}
-                                title: "금 도구"
+				title: "아무 금 도구(Any Gold tool)"
 				type: "item"
 			}]
-                        title: "금 도구"
+			title: "금 도구(Gold Tools)"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -674,10 +674,10 @@
 						]
 					}
 				}
-                                title: "철 도구"
+				title: "아무 철 도구(Any Iron tool)"
 				type: "item"
 			}]
-                        title: "철 도구"
+			title: "철 도구(Iron Tools)"
 			x: -4.0d
 			y: -1.0d
 		}
@@ -736,10 +736,10 @@
 						]
 					}
 				}
-                                title: "다이아몬드 도구"
+				title: "아무 다이아몬드 도구(Any Diamond tool)"
 				type: "item"
 			}]
-                        title: "다이아몬드 도구"
+			title: "다이아몬드 도구(Diamond Tools)"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -798,20 +798,20 @@
 						]
 					}
 				}
-                                title: "네더라이트 도구"
+				title: "아무 네더라이트 도구(Any Netherite tool)"
 				type: "item"
 			}]
-                        title: "네더라이트 도구"
+			title: "네더라이트 도구(Netherite Tools)"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["54301E900FFA56D7"]
-                        description: [
-                                "&3넵투늄&r은 넵튠의 보물상자, 게 덫, 네프투나에서 얻을 수 있습니다."
-                                ""
-                                "이 도구들은 주로 수중 채굴 패널티를 제거하며, 무기는 물속에서 더 높은 피해를 줍니다."
-                        ]
+			description: [
+				"&3넵투늄(Neptunium)&r은 Neptune's Bounty, Crab Traps, Neptuna에서 얻을 수 있습니다.",
+				"",
+				"이 도구들은 수중 채광 페널티를 제거하고 수중에서 더 많은 피해를 줍니다."
+			]
 			icon: {
 				Count: 1
 				id: "aquaculture:neptunium_pickaxe"
@@ -867,20 +867,20 @@
 						]
 					}
 				}
-                                title: "넵투늄 도구"
+				title: "아무 넵투늄 도구(Any Neptunium tool)"
 				type: "item"
 			}]
-                        title: "넵투늄 도구"
+			title: "넵투늄 도구(Neptunium Tools)"
 			x: 2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["319129CE8210964A"]
-                        description: [
-                                "&d갤럭시 소드&r는 게임에서 가장 강력한 검입니다. 대장장이 주민에게서 &d프리즘 샤드&r와 교환할 수 있습니다."
-                                ""
-                                "새로운 검이기 때문에, 교환한 검의 인챈트는 유지되지 않습니다."
-                        ]
+			description: [
+				"The &dGalaxy Sword&r is the most powerful sword in the game. It can be traded with a &dPrismatic Shard&r from the Blacksmith villager."
+				""
+				"Note that it's a brand new sword- your enchantments will not carry over from the sword you trade."
+			]
 			id: "0B85DF081F75ECA7"
 			rewards: [{
 				id: "2605209B1A6CAD51"
@@ -903,11 +903,11 @@
 		}
 		{
 			dependencies: ["3B30AFF91D59746A"]
-                        description: [
-                                "&6플라마랑&r은 &6피카라랑&r의 상위 버전으로 용암에 파괴되지 않습니다."
-                                ""
-                                "더 높은 공격력과 내구도를 자랑합니다."
-                        ]
+			description: [
+				"The &6Flamarang&r is the upgraded version of &6Pickarang&r that cannot be destroyed by lava."
+				""
+				"It also has higher damage and durability."
+			]
 			id: "33176CD4D28070D3"
 			rewards: [{
 				id: "11DEF451B99DD9F9"
@@ -930,11 +930,11 @@
 		}
 		{
 			dependencies: ["1E5531421815CDB3"]
-                        description: [
-                                "이 장에서는 땅을 정복하는 여정에 도움이 되는 방어구와 도구, 무기 등 다양한 아이템을 소개합니다."
-                                ""
-                                "또한 도구의 발전 단계도 확인할 수 있습니다."
-                        ]
+			description: [
+				"이 챕터에서는 모험에 도움이 될 방어구, 도구, 무기, 기타 아이템을 소개합니다.",
+				"",
+				"또한 도구의 성장 단계를 안내합니다."
+			]
 			id: "617AC2E80908BFD7"
 			optional: true
 			size: 2.0d
@@ -948,21 +948,21 @@
 				}
 				id: "531DADCAC7BBB3D6"
 				stat: "minecraft:play_time"
-                                title: "도구 제작"
+				title: "도구 제작하기(Craft a tool)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "장비"
+			title: "장비(Equipment)"
 			x: -10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["34206688082CCC57"]
-                        description: [
-                                "&6피카라랑&r을 사용하면 원거리에서도 광물을 캘 수 있으며, 아이템이 자동으로 되돌아옵니다."
-                                ""
-                                "다이아 곡괭이, 삽, 도끼가 캘 수 있는 모든 블록에 사용 가능합니다."
-                        ]
+			description: [
+				"&6Pickarangs&r can be used to mine at range, bringing drops back for you. "
+				""
+				"It works on any type of block a Diamond Pickaxe, Shovel, or Axe can."
+			]
 			id: "3B30AFF91D59746A"
 			rewards: [{
 				id: "5AFEED8149346DA0"
@@ -985,13 +985,13 @@
 		}
 		{
 			dependencies: ["617AC2E80908BFD7"]
-                        description: [
-                                "&6후크&r를 사용하면 빠르게 구덩이에서 나오거나 높은 산을 오를 수 있습니다."
-                                ""
-                                "큐리오 슬롯에 착용하고 단축키로 사용합니다."
-                                ""
-                                "&6대장장이&r에게서 구매할 수 있습니다."
-                        ]
+			description: [
+				"&6Hooks&r allow you to get out of ditches fast and climb tall mountains."
+				""
+				"They need to be in your curio slot and are activated using a hotkey."
+				""
+				"You can buy one from the &6Blacksmith&r."
+			]
 			id: "10C0B87E2EA1C8A5"
 			rewards: [{
 				id: "478FF52B8E89F86D"
@@ -1008,11 +1008,11 @@
 		}
 		{
 			dependencies: ["54301E900FFA56D7"]
-                        description: [
-                                "&6드래곤투스 도끼&r는 모험가 스킬 트리에서 &6드래곤슬레이어&r 기술이 있어야만 사용할 수 있습니다."
-                                ""
-                                "속도는 느리지만 매우 강력하며, 도끼가 할 수 있는 모든 작업을 수행합니다!"
-                        ]
+			description: [
+				"The &6Dragontooth Axe&r can only be wielded if you have the skill &6Dragonslayer&r on the Adventurer skill tree."
+				""
+				"It's slow, extremely powerful, and does all the things an axe can! "
+			]
 			id: "2447ECC5ACB657A7"
 			tasks: [{
 				id: "679F77AC09496A00"
@@ -1030,7 +1030,7 @@
 		}
 		{
 			dependencies: ["10C0B87E2EA1C8A5"]
-                        description: ["&6아이언 후크&r는 두 개의 훅을 지니고 있어 공중에 떠 있을 수 있습니다."]
+			description: ["&6Iron Hooks&r have two hooks, allowing you to float in midair."]
 			id: "702A9E699FC422CC"
 			rewards: [{
 				id: "44E2A57DD54F4A43"
@@ -1064,7 +1064,7 @@
 		}
 		{
 			dependencies: ["5C8CF40663CCE754"]
-                        description: ["&6엔더 후크&r는 가장 빠르고 사거리가 길지만 훅이 하나뿐입니다. 이동에는 좋지만 건설에는 다소 불편합니다."]
+			description: ["The &6Ender Hook&r is the fastest and highest range of all hooks, but only has one hook. Best for traveling, not as good for building."]
 			id: "001F144802D59DB4"
 			rewards: [{
 				id: "39CEA2F22564D0FB"
@@ -1081,7 +1081,7 @@
 		}
 		{
 			dependencies: ["5C8CF40663CCE754"]
-                        description: ["&6블레이즈 후크&r는 속도가 향상된 업그레이드 버전이며, 두 개의 훅만 있습니다. 훅 사슬을 통과한 몹에게 불을 붙입니다."]
+			description: ["The &6Blaze Hook&r is a direct upgrade in speed, but only has two hooks. It also sets mobs on fire if they pass through the hook chain."]
 			id: "4F54E885ECC26922"
 			rewards: [{
 				id: "7FFD73B83D19A769"
@@ -1098,20 +1098,20 @@
 		}
 		{
 			dependencies: ["5C8CF40663CCE754"]
-                        description: [
-                                "&6레드 후크&r는 훅이 닿은 작은 구역 안에서 크리에이티브 비행을 할 수 있게 해 주는 특별한 후크입니다."
-                                ""
-                                "덕분에 이동용으로는 다소 쓸모가 없습니다."
-                                ""
-                                "크리에이티브 비행은 귀하므로 아마 처음 접하게 될 방법일 것입니다."
-                        ]
+			description: [
+				"The &6Red Hook&r is a special one that allows you to have creative flight in a small area defined by the hooks."
+				""
+				"This makes your hook fairly useless for traveling however."
+				""
+				"Creative flight is rare, so this will likely be your first way of obtaining it."
+			]
 			id: "18274B43429F2808"
 			rewards: [{
 				id: "5BEDBA63B9A11483"
 				item: "numismatics:cog"
 				type: "item"
 			}]
-                        subtitle: "크리에이티브 비행 흉내"
+			subtitle: "Creative-ish flight"
 			tasks: [{
 				id: "325E99B9F0E958C5"
 				item: "rehooked:red_hook"
@@ -1122,7 +1122,7 @@
 		}
 		{
 			dependencies: ["617AC2E80908BFD7"]
-                        description: ["&6백탱크&r는 크리에이트 회전을 이용해 공기를 충전할 수 있으며, 다이빙 헬멧을 착용했을 때 수중 호흡에 사용할 수 있습니다."]
+			description: ["&6Backtanks&r can be charged with air via create rotation, and store air that can be used to breathe underwater while wearing a diving helmet."]
 			icon: {
 				Count: 1
 				id: "create:copper_backtank"
@@ -1136,7 +1136,7 @@
 				item: "numismatics:sprocket"
 				type: "item"
 			}]
-                        subtitle: "심해 잠수"
+			title: "공압 장비(Pneumatic Equipment)"
 			tasks: [
 				{
 					id: "683268C23DA4539C"
@@ -1161,17 +1161,17 @@
 					type: "item"
 				}
 			]
-                        title: "공압 장비"
+			title: "Pneumatic Equipment"
 			x: -13.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4EFD1F876D69591E"]
-                        description: [
-                                "&6네더라이트&r 백탱크와 다이빙 헬멧을 사용하면 공기가 있는 한 용암 속을 잠수할 수 있습니다."
-                                ""
-                                "이를 위해서는 &6네더라이트&r 장비 전체 세트가 필요합니다."
-                        ]
+			description: [
+				"The &6Netherite&r variants of the Backtank and Diving Helmet let you dive in lava, provided you have air."
+				""
+				"You'll also need the full set of &6Netherite&r equipment to do so."
+			]
 			icon: {
 				Count: 1
 				id: "create:netherite_diving_helmet"
@@ -1185,7 +1185,7 @@
 				item: "numismatics:sun"
 				type: "item"
 			}]
-                        subtitle: "용암 잠수"
+			title: "용암 다이빙(Lava diving)"
 			tasks: [
 				{
 					id: "428FFD2A753C865A"
@@ -1237,14 +1237,14 @@
 		}
 		{
 			dependencies: ["4EFD1F876D69591E"]
-                        description: ["&6포테이토 캐넌&r은 백탱크의 공기를 사용해 채소를 위험한 속도로 발사합니다."]
+			description: ["The &6Potato Cannon&r uses air in your backtank to launch vegetables at dangerous velocity."]
 			id: "4BC9FE01DC8D5ADB"
 			rewards: [{
 				id: "4FD79C56D7547153"
 				item: "numismatics:cog"
 				type: "item"
 			}]
-                        subtitle: "한 방 날리기"
+			subtitle: "Shooting your shot"
 			tasks: [{
 				id: "3FABAD861E31703F"
 				item: {
@@ -1261,14 +1261,14 @@
 		}
 		{
 			dependencies: ["4EFD1F876D69591E"]
-                        description: ["&6익스텐도 그립&r은 공기를 사용해 블록 설치, 파괴, 공격 범위를 확장합니다."]
+			description: ["The &6Extendo-Grip&r uses air to extend your reach for both placing, breaking, and attacking."]
 			id: "5E89F151176083E6"
 			rewards: [{
 				id: "5CCF1F636469BF46"
 				item: "numismatics:cog"
 				type: "item"
 			}]
-                        subtitle: "손길 확장"
+			subtitle: "Extending Reach"
 			tasks: [{
 				id: "64F4D6DFFD587DC0"
 				item: {
@@ -1285,7 +1285,7 @@
 		}
 		{
 			dependencies: ["617AC2E80908BFD7"]
-                        description: ["곡괭이와 삽만이 블록을 캘 수 있는 것은 아닙니다. 이러한 도구들은 광질을 더욱 수월하게 만들어 주는 다양한 효과를 제공합니다."]
+			description: ["Pickaxes and shovels aren't the only way to mine blocks. These tools are sidegrades for mining that have various effects that make mining easier."]
 			icon: {
 				Count: 1
 				id: "justhammers:netherite_destructor_hammer"
@@ -1298,13 +1298,13 @@
 				id: "75D3693267CE0239"
 				type: "checkmark"
 			}]
-                        title: "대체 채굴법"
+			title: "대체 채굴 도구(Alternative Mining)"
 			x: -10.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["34206688082CCC57"]
-                        description: ["&6마이닝 다이너마이트&r는 돌을 빠르게 파괴하며, 터진 지점에 모든 아이템을 떨어뜨립니다."]
+			description: ["&6Mining Dynamite&r is highly efficient at breaking stone, dropping all the items on the ground at the point of contact."]
 			id: "55A3F4C2B6F3460B"
 			rewards: [{
 				id: "33550E79FF5DE2D6"
@@ -1321,13 +1321,13 @@
 		}
 		{
 			dependencies: ["34206688082CCC57"]
-                        description: [
-                                "&6해머&r는 한 번에 여러 블록을 부술 수 있는 강력한 도구입니다."
-                                ""
-                                "제작 시 코어가 필요하며, 사거리와 금속 등급을 향상시키기 위해 업그레이드할 수 있습니다."
-                                ""
-                                "안타깝게도 모드팩 문제로 업그레이드 시 인챈트가 전달되지 않습니다. 죄송합니다!"
-                        ]
+			description: [
+				"&6Hammers&r are powerful tools that will let you break multiple blocks at a time."
+				""
+				"They require cores to be crafted, and can be upgraded to increase range and metal tier."
+				""
+				"Unfortunately, &l&6they do not pass enchantments to the upgraded tool&r due to a bug that the modpack dev can't figure out. Sorry!"
+			]
 			icon: {
 				Count: 1
 				id: "justhammers:iron_destructor_hammer"
@@ -1383,20 +1383,20 @@
 						]
 					}
 				}
-                                title: "아무 해머 코어"
+				title: "아무 해머 코어(Any hammer core)"
 				type: "item"
 			}]
-                        title: "채굴 해머"
+			title: "채굴 해머(Mining Hammers)"
 			x: -11.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["617AC2E80908BFD7"]
-                        description: [
-                                "&6메이스&r는 차후 마인크래프트 버전에 등장할 스컬 캐번 전용 무기로, 낙하 후 적을 공격하면 피해량이 증가합니다. 높이 떨어질수록 더 강력해집니다!"
-                                ""
-                                "시험의 방에서 얻은 재료로 제작할 수 있습니다."
-                        ]
+			description: [
+				"&6Mace&r's are a Skull-Cavern exclusive weapon from the next major version of Minecraft. Their damage increases if you hit your target after a fall. The higher you fall from, the more damage!"
+				""
+				"They can be crafted from items found in trial chambers."
+			]
 			id: "5F4010794D91F156"
 			rewards: [{
 				id: "19C3A68AD67F9FEC"
@@ -1465,10 +1465,10 @@
 						]
 					}
 				}
-                                title: "마나스틸 방어구"
+				title: "아무 마나스틸 방어구(Any Manasteel armor)"
 				type: "item"
 			}]
-                        title: "마나스틸 방어구"
+			title: "마나스틸 방어구(Manasteel Armor)"
 			x: -2.0d
 			y: -4.5d
 		}
@@ -1520,10 +1520,10 @@
 						]
 					}
 				}
-                                title: "테라스틸 방어구"
+				title: "아무 테라스틸 방어구(Any Terrasteel Armor)"
 				type: "item"
 			}]
-                        title: "테라스틸 방어구"
+			title: "테라스틸 방어구(Terrasteel Armor)"
 			x: 2.0d
 			y: -6.0d
 		}
@@ -1575,13 +1575,13 @@
 						]
 					}
 				}
-                                title: "엘레멘티움 방어구"
+				title: "아무 엘레멘티움 방어구(Any Elementium armor)"
 				type: "item"
 			}]
-                        title: "엘레멘티움 방어구"
+			title: "엘레멘티움 방어구(Elementium Armor)"
 			x: 0.0d
 			y: -4.5d
 		}
 	]
-        title: "장비"
+	title: "Equipment"
 }

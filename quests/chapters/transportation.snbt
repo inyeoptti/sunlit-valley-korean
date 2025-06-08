@@ -11,28 +11,28 @@
 	quests: [
 		{
 			description: [
-                                "선릿 밸리에는 여러 유형의 플레이어를 위한 다양한 이동 수단이 준비되어 있습니다."
-                                ""
-                                "이 페이지에서는 세계를 돌아다니기 위한 모든 선택지를 소개합니다."
+				"선릿 밸리(Sunlit Valley)에는 다양한 플레이어를 위한 여러 교통 수단이 있습니다."
+				""
+				"이 페이지에서는 월드에서 이동할 수 있는 모든 방법을 정리해 보여줍니다."
 			]
 			icon: "minecraft:minecart"
 			id: "4622E3EC44CED1B6"
 			size: 2.0d
 			tasks: [{
 				id: "5172EF5DBC41D8A8"
-                                title: "이해했습니다"
+				title: "이해했어요(Understood)"
 				type: "checkmark"
 			}]
-                        title: "이동 수단 옵션(Transportation Options)"
+			title: "교통 수단(Transportation Options)"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4622E3EC44CED1B6"]
 			description: [
-                                "광차는 아이템과 플레이어, 몹을 옮길 수 있는 초중반 이동 수단입니다."
-                                ""
-                                "간단하면서도 우아하며, 더 빠르게 만들 수 있는 방법도 있습니다."
+				"광산 수레(Minecarts)는 아이템, 플레이어, 몹 모두를 위한 초중반 이동 수단입니다."
+				""
+				"단순하지만 우아하며, 더 빠르게 만들 수 있는 옵션도 있습니다."
 			]
 			id: "0C5B1C74E340882B"
 			rewards: [{
@@ -50,7 +50,7 @@
 		}
 		{
 			dependencies: ["0C5B1C74E340882B"]
-                        description: ["&6목재 레일(Wooden Rails)&r은 저렴하지만 최고 속도가 느립니다."]
+			description: ["&6나무 레일(Wooden Rails)&r은 더 저렴하지만 최대 속도가 느립니다."]
 			id: "0F77A3F0506C76B2"
 			rewards: [
 				{
@@ -76,7 +76,7 @@
 		}
 		{
 			dependencies: ["0C5B1C74E340882B"]
-                        description: ["&6마그레브 레일(Maglev rails)&r은 일반 레일보다 훨씬 높은 최고 속도를 자랑합니다."]
+			description: ["&6마그레브 레일(Maglev rails)&r은 일반 레일보다 훨씬 더 높은 최대 속도를 가집니다."]
 			id: "1FE9F1AD269303B3"
 			rewards: [{
 				count: 4
@@ -94,7 +94,7 @@
 		}
 		{
 			dependencies: ["0C5B1C74E340882B"]
-                        description: ["&6라이트스피드 레일(Lightspeed Rails)&r은 매우 높은 최고 속도를 지니지만, 경사나 곡선이 불가능합니다."]
+			description: ["&6광속 레일(Lightspeed Rails)&r은 매우 높은 최대 속도를 가지지만, 경사나 회전을 할 수 없습니다."]
 			id: "6E7B80C8D3FD952D"
 			rewards: [{
 				count: 2
@@ -113,13 +113,13 @@
 		{
 			dependencies: ["71C32483EE2418CA"]
 			description: [
-                                "품질 좋은 길이 연결되어 있다면 표지판 두 개를 순간이동기로 연결할 수 있습니다."
-                                ""
-                                "&6Shift + 왼쪽 클릭&r으로 연결을 시작하거나 끝내며, 연결하려면 길을 따라 이동해야 합니다."
-                                ""
-                                "&6왼쪽 클릭&r으로 연결이 완료된 후 이동할 수 있습니다"
-                                ""
-                                "JEI에서 \"&6#path_block&r\"을 검색하면 사용 가능한 길 블록을 모두 볼 수 있습니다."
+				"고품질 경로가 있다면 두 표지판을 순간이동기로 연결할 수 있습니다."
+				""
+				"&6Shift + 좌클릭(Left Click)&r로 연결 시작/종료. 연결할 표지판까지 경로를 따라 이동해야 합니다."
+				""
+				"&6좌클릭(Left Click)&r으로 연결된 후 이동"
+				""
+				"JEI에서 \"&6#path_block&r\"을 검색하면 모든 유효한 경로 블록을 볼 수 있습니다."
 			]
 			icon: "supplementaries:sign_post_oak"
 			id: "42A10CEE57513522"
@@ -128,7 +128,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "간편한 즉시 순간이동"
+			subtitle: "접근성 높은 즉시 순간이동(Accessibile Instant Teleportation)"
 			tasks: [{
 				id: "2357521C6ACA2F39"
 				item: {
@@ -138,19 +138,19 @@
 						value: "forge:sign"
 					}
 				}
-                                title: "표지판 아무거나(Sign)"
+				title: "아무 표지판(Any Sign)"
 				type: "item"
 			}]
-                        title: "길 포장하기(Paving the Road)"
+			title: "길 닦기(Paving the Road)"
 			x: -0.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4622E3EC44CED1B6"]
 			description: [
-                                "Create Trains는 여러 객차를 연결한 대형 기관차를 직접 제작할 수 있는 최고의 철도 교통수단입니다."
-                                ""
-                                "또한 &6Train Schedules&r을 이용해 아이템과 액체를 자동으로 운송할 수도 있습니다."
+				"Create 트레인은 철도 운송의 궁극적인 형태로, 여러 객차가 달린 대형 맞춤형 기관차를 만들 수 있습니다."
+				""
+				"&6트레인 스케줄(Train Schedules)&r을 이용해 아이템과 액체를 자동으로 운송할 수도 있습니다."
 			]
 			icon: "create:track"
 			id: "53836B96EE81A695"
@@ -165,16 +165,16 @@
 				item: "create:controls"
 				type: "item"
 			}]
-                        title: "고급 열차(Advanced Trains)"
+			title: "고급 트레인(Advanced Trains)"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4622E3EC44CED1B6"]
 			description: [
-                                "&6스몰 쉽(Small Ships)&r을 이용하면 바다를 빠르게 이동할 수 있으며, 바다 생태에 따라 성능이 다른 여러 종류가 있습니다."
-                                ""
-                                "대형 인벤토리를 지니고 있으며 대포를 장착하거나 염료로 색을 바꿀 수도 있습니다."
+				"&6소형 선박(Small Ships)&r을 이용하면 바다를 빠르게 횡단할 수 있습니다. 다양한 해양 생물군계에 따라 성능이 다른 여러 종류가 있습니다."
+				""
+				"대형 인벤토리를 가지고 있으며, 대포를 장착하거나 염료로 색칠할 수도 있습니다."
 			]
 			icon: "smallships:oak_brigg"
 			id: "3BC6467B02D74FAC"
@@ -192,21 +192,21 @@
 						value: "smallships:ships"
 					}
 				}
-                                title: "작은 배 아무거나(Small Ship)"
+				title: "아무 소형 선박(Any Small Ship)"
 				type: "item"
 			}]
-                        title: "선박 제작(Shipmaking)"
+			title: "선박 제작(Shipmaking)"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0C5B1C74E340882B"]
 			description: [
-                                "&6홀로그래픽 레일(Holograph Rails)&r은 앞으로 투사되는 가상 레일을 생성합니다. "
-                                ""
-                                "레드스톤 신호를 주면 위쪽으로 기울일 수 있습니다. "
-                                ""
-                                "목재형과 마그레브형이 있어 각각 최대 길이가 다릅니다."
+				"&6홀로그램 레일(Holograph Rails)&r은 바깥쪽으로 홀로그램 레일을 투사합니다."
+				""
+				"레드스톤 신호를 주면 위로 각도를 조절할 수 있습니다."
+				""
+				"나무와 마그레브 두 종류가 있으며, 각각 최대 길이가 다릅니다."
 			]
 			icon: "moreminecarts:wooden_projector_rail"
 			id: "7BFB656868B2395C"
@@ -237,16 +237,16 @@
 						]
 					}
 				}
-                                title: "홀로그래픽 레일 아무거나(Holographic Rail)"
+				title: "아무 홀로그램 레일(Any Holographic Rail)"
 				type: "item"
 			}]
-                        title: "홀로그래픽 레일(Holograph Rails)"
+			title: "홀로그램 레일(Holograph Rails)"
 			x: -9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0C5B1C74E340882B"]
-                        description: ["광차는 &6Mob Spring&r 또는 &6Cart Coupling&r을 사용해 서로 연결할 수 있습니다."]
+			description: ["광산 수레는 &6몹 스프링(Mob Spring)&r 또는 &6카트 커플링(Cart Coupling)&r을 사용해 연결할 수 있습니다."]
 			icon: {
 				Count: 1
 				id: "moreminecarts:coupler"
@@ -277,19 +277,19 @@
 						]
 					}
 				}
-                                title: "카트 연결기 아무거나(cart linker)"
+				title: "아무 카트 연결기(Any cart linker)"
 				type: "item"
 			}]
-                        title: "카트 연결하기"
+			title: "카트 연결(Linking Carts)"
 			x: -8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["53836B96EE81A695"]
 			description: [
-                                "&6Create Railways Navigator&r 모드는 노선과 역을 더 자세히 보여 주는 애드온입니다. "
-                                ""
-                                "서버 철도망에 안성맞춤입니다."
+				"&6Create Railways Navigator&r는 노선과 역을 더 자세히 표시할 수 있게 해주는 애드온입니다."
+				""
+				"서버 철도에 완벽합니다."
 			]
 			icon: "createrailwaysnavigator:advanced_display_block"
 			id: "32A9D7283F680AE3"
@@ -310,16 +310,16 @@
 					type: "item"
 				}
 			]
-                        title: "승객용 철도(Passenger Rails)"
+			title: "여객 철도(Passenger Rails)"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4622E3EC44CED1B6"]
 			description: [
-                                "&6겉날개(Elytra)&r는 이제 엔드 도시에서 찾을 수 없고 오직 &6드래곤 알(Dragon Eggs)&r만 얻을 수 있습니다."
-                                ""
-                                "하늘을 정복하려면 값비싼 부품을 구입하고 &6스컬 카번(Skull Cavern)&r을 공략해야 합니다."
+				"&6겉날개(Elytra)&r는 이제 엔드 시티에서 찾을 수 없고, &6드래곤 알(Dragon Eggs)&r에서만 얻을 수 있습니다."
+				""
+				"비싼 부품을 구매하고, &6해골 동굴(Skull Cavern)&r을 정복해야 하늘을 정복할 수 있습니다."
 			]
 			id: "164AAAAD6433695A"
 			rewards: [{
@@ -338,18 +338,18 @@
 				}
 				type: "item"
 			}]
-                        title: "하늘 높이 날기(Flying High)"
+			title: "높이 날기(Flying High)"
 			x: -6.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4622E3EC44CED1B6"]
 			description: [
-                                "세계 곳곳에 옥수수 밭이 늘어선 고속도로를 건설해 보세요, 진정한 자본가의 꿈입니다."
-                                ""
-                                "&6자동 정비 테이블(Auto Mechanic Table)&r에서 제작한 부품을 &6자동차 조립기(Automobile Assembler)&r로 조립할 수 있습니다."
-                                ""
-                                "&o오프로드 바퀴를 추천합니다&r"
+				"옥수수밭이 늘어선 고속도로를 건설하세요. 이것이야말로 진정한 자본가의 꿈입니다."
+				""
+				"&6자동차 정비대(Auto Mechanic Table)&r에서 자동차 부품을 만들고, &6자동차 조립기(Automobile Assembler)&r에서 조립할 수 있습니다."
+				""
+				"&o오프로드 바퀴 추천(Off-road wheels recommended)&r"
 			]
 			icon: {
 				Count: 1
@@ -384,16 +384,16 @@
 					type: "item"
 				}
 			]
-                        title: "자동차(Cars)"
+			title: "자동차(Cars)"
 			x: -2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5A0AA87EA971F13F"]
 			description: [
-                                "&6크로우바(Crowbar)&r로 자동차를 완전히 분해해 위기에서 벗어날 수 있지만, 최후의 수단입니다. "
-                                ""
-                                "&6차 키(Car Key)&r를 이용하면 오토모빌 차량을 \"주차\"하여 보관할 수 있습니다."
+				"&6크로우바(Crowbar)&r는 자동차를 완전히 분해해서 빠져나올 수 있게 해주지만, 정말 최후의 수단입니다."
+				""
+				"&6자동차 키(Car Key)&r를 사용하면 Automobility 차량을 키 안에 '주차'할 수 있어 이 문제를 해결할 수 있습니다."
 			]
 			id: "7EE92D71D7478FA4"
 			rewards: [{
@@ -407,16 +407,16 @@
 				item: "society:car_key"
 				type: "item"
 			}]
-                        title: "장기 주차(Long Term Parking)"
+			title: "장기 주차(Long Term Parking)"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71C32483EE2418CA"]
 			description: [
-                                "&6하스스톤(Hearthstone)&r은 어디서든 자신의 스폰 지점으로 순간이동시켜 주는 고가의 일회용 아이템으로, &6성직자(Cleric)&r에게서 구입할 수 있습니다."
-                                ""
-                                "&o언브레이킹 마법을 부여하면 약간 더 사용할 수 있지만, 내구도가 1이라 수선은 무의미합니다.&r"
+				"&6하스스톤(Hearthstone)&r은 &6클레릭(Cleric)&r이 판매하는 비싼 1회용 아이템으로, 어디서든 스폰 지점으로 순간이동할 수 있습니다."
+				""
+				"&o내구성 부여(Unbreaking) 인챈트를 하면 추가 사용이 가능하지만, 수선(Mending)은 내구도가 1이라 의미가 없습니다.&r"
 			]
 			id: "2D553026BFCB2CF0"
 			rewards: [{
@@ -436,16 +436,16 @@
 				}
 				type: "item"
 			}]
-                        title: "최후의 수단(Last Resort)"
+			title: "최후의 수단(Last Resort)"
 			x: -2.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2D553026BFCB2CF0"]
 			description: [
-                                "설명대로, &6하스스톤&r에 번개를 맞히면 한 위치에 묶을 수 있습니다. 그 외의 성능은 동일합니다."
-                                ""
-                                "폭풍우가 칠 때 &6충전 막대(Charging Rod)&r로 쉽게 수행할 수 있습니다."
+				"설명대로, &6하스스톤(Hearthstone)&r에 번개를 맞히면 한 위치에 고정시킬 수 있습니다. 그 외의 특성은 동일합니다."
+				""
+				"폭풍우 때 &6충전봉(Charging Rod)&r을 사용하면 쉽게 번개를 맞힐 수 있습니다."
 			]
 			id: "5A3012C1FA5184A2"
 			rewards: [{
@@ -464,18 +464,18 @@
 				}
 				type: "item"
 			}]
-                        title: "강화된 스톤(Enhanced Stone)"
+			title: "강화된 스톤(Enhanced Stone)"
 			x: -2.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["71C32483EE2418CA"]
 			description: [
-                                "&6매직 미러(Magic Mirror)&r는 범위 안에 있으면 스폰 지점으로 순간이동시켜 줍니다."
-                                ""
-                                "업그레이드하면 사거리와 차원 간 이동이 가능해집니다."
-                                ""
-                                "&6공예실(Crafts Room)&r을 완료하면 얻을 수 있습니다."
+				"&6매직 미러(Magic Mirror)&r는 범위 내에 있다면 스폰 지점으로 순간이동시켜줍니다."
+				""
+				"범위는 업그레이드할 수 있고, 차원 간에도 작동합니다."
+				""
+				"&6공예실(Crafts Room)&r을 완료하면 보상으로 받을 수 있습니다."
 			]
 			id: "562817C23134A26D"
 			rewards: [{
@@ -508,19 +508,19 @@
 		{
 			dependencies: ["4622E3EC44CED1B6"]
 			description: [
-				"Teleportation is rare and expensive in this pack, encouraging you to build out your infrastructure at first."
+				"이 팩에서 순간이동은 희귀하고 비싸므로, 초반에는 인프라 구축을 권장합니다."
 				""
-				"[ \"If you cannot live without it, take a look at the \", { \"text\": \"Paving The Road\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"42A10CEE57513522\" } }, \" quest first!\" ]"
+				"[ \"만약 순간이동 없이는 못 산다면, 먼저 \", { \"text\": \"길 닦기(Paving The Road)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"42A10CEE57513522\" } }, \" 퀘스트를 확인하세요!\" ]"
 			]
 			icon: "minecraft:ender_eye"
 			id: "71C32483EE2418CA"
 			size: 1.0d
 			tasks: [{
 				id: "6E03C1C00F4D8506"
-                                title: "이해했습니다"
+				title: "이해했어요(Understood)"
 				type: "checkmark"
 			}]
-                        title: "텔레포트 옵션(Teleportation Options)"
+			title: "순간이동 수단(Teleportation Options)"
 			x: -2.5d
 			y: -5.0d
 		}
@@ -530,9 +530,9 @@
 				"71C32483EE2418CA"
 			]
 			description: [
-                                "&6쉐어스톤(Sharestones)&r은 &6신비한 식물학자&r이 판매하며 같은 색끼리 순간이동할 수 있습니다."
-                                ""
-                                "네 가지를 모두 모으면 &6웨이스톤(Waystone)&r으로 조합할 수 있으며, 스크롤이나 워프 스톤으로 이동할 수 있습니다."
+				"&6쉐어스톤(Sharestones)&r은 &6신비한 식물학자(Mystical Botanist)&r가 판매하며, 같은 색의 쉐어스톤끼리 순간이동할 수 있습니다."
+				""
+				"4개를 모두 모으면 &6웨이스톤(Waystone)&r으로 조합할 수 있으며, 웨이스톤은 스크롤과 워프 스톤(Warp Stones)으로도 순간이동이 가능합니다."
 			]
 			id: "693FFA0C3FD1A078"
 			rewards: [{
@@ -566,13 +566,13 @@
 						]
 					}
 				}
-                                title: "쉐어스톤 아무거나(Sharestone)"
+				title: "아무 쉐어스톤(Any Sharestone)"
 				type: "item"
 			}]
-                        title: "웨이스톤 \\& 쉐어스톤(Waystones & Sharestones)"
+			title: "웨이스톤 & 쉐어스톤(Waystones & Sharestones)"
 			x: -4.5d
 			y: -6.0d
 		}
 	]
-        title: "이동 수단(Transportation)"
+	title: "교통(Transportation)"
 }

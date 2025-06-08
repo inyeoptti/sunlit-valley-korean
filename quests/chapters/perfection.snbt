@@ -33,11 +33,11 @@
 				}
 				id: "2C02508B4ADC5EF3"
 				stat: "minecraft:play_time"
-                                title: "작물 컬렉션 완료"
+				title: "농작물 수집 완료(Crop collection completed)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 작물"
+			title: "수집: 농작물(Collection: Crops)"
 			x: 6.5d
 			y: -3.5d
 		}
@@ -66,11 +66,11 @@
 				}
 				id: "2F6745B71CE2EE40"
 				stat: "minecraft:play_time"
-                                title: "물고기 컬렉션 완료"
+				title: "물고기 수집 완료(Fish collection completed)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 물고기"
+			title: "수집: 물고기(Collection: Fish)"
 			x: 4.5d
 			y: -4.0d
 		}
@@ -99,11 +99,11 @@
 				}
 				id: "0F890C6BB5B2D327"
 				stat: "minecraft:play_time"
-                                title: "광물 컬렉션 완료"
+				title: "광물 수집 완료(Mineral collection complete)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 광물"
+			title: "수집: 광물(Collection: Minerals)"
 			x: 4.0d
 			y: -6.0d
 		}
@@ -132,11 +132,11 @@
 				}
 				id: "3A37B10C5BC6FC29"
 				stat: "minecraft:play_time"
-                                title: "보석 컬렉션 완료"
+				title: "보석 수집 완료(Gem collection complete)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 보석"
+			title: "수집: 보석(Collection: Gems)"
 			x: 4.5d
 			y: -8.0d
 		}
@@ -165,11 +165,11 @@
 				}
 				id: "22040C7E30885D07"
 				stat: "minecraft:play_time"
-                                title: "유물 컬렉션 완료"
+				title: "유물 수집 완료(Relic collection complete)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 유물"
+			title: "수집: 유물(Collection: Relics)"
 			x: 6.5d
 			y: -8.5d
 		}
@@ -198,11 +198,11 @@
 				}
 				id: "501BDACA22C4758C"
 				stat: "minecraft:play_time"
-                                title: "고대 유물 컬렉션 완료"
+				title: "양조 수집 완료(Brews collection complete)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 고대 유물"
+			title: "수집: 양조(Collection: Brews)"
 			x: 8.5d
 			y: -8.0d
 		}
@@ -231,11 +231,11 @@
 				}
 				id: "2B09ED928759E57E"
 				stat: "minecraft:play_time"
-                                title: "양조물 컬렉션 완료"
+				title: "요리 수집 완료(Cooking collection complete)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 양조물"
+			title: "수집: 요리(Collection: Cooking)"
 			x: 9.0d
 			y: -6.5d
 		}
@@ -264,11 +264,11 @@
 				}
 				id: "261A61CC96B6691E"
 				stat: "minecraft:play_time"
-                                title: "요리 컬렉션 완료"
+				title: "요리 수집 완료(Cooking collection complete)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 요리"
+			title: "수집: 요리(Collection: Cooking)"
 			x: 8.5d
 			y: -4.0d
 		}
@@ -285,9 +285,9 @@
 				"5314070EE4EEF773"
 			]
 			description: [
-				"You've scoured the lands, pillaged the mines, and annoyingly crafted too much food."
+				"당신은 땅을 샅샅이 뒤지고, 광산을 약탈하며, 너무 많은 음식을 귀찮게 만들었습니다."
 				""
-				"Doing this insane task is only part of the way towards having the perfect capitalist empire."
+				"이 미친 작업을 해내는 것은 완벽한 자본주의 제국을 이루는 과정의 일부에 불과합니다."
 			]
 			icon: "supplementaries:present_blue"
 			id: "272D9228BC46AEE0"
@@ -297,16 +297,16 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "Complete all collections"
+			subtitle: "모든 수집 완성(Complete all collections)"
 			tasks: [{
 				icon: "supplementaries:present_blue"
 				id: "0229473CF1E31A5E"
 				stat: "minecraft:play_time"
-				title: "Complete all Collections"
+				title: "모든 수집 완성(Complete all Collections)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collectathon"
+			title: "수집광(Collectathon)"
 			x: 6.5d
 			y: -6.0d
 		}
@@ -319,9 +319,9 @@
 				"06EDF98282351F85"
 			]
 			description: [
-				"This will likely be your first and easiest stop to attaining perfection, but it's one you cannot skip."
+				"이것은 아마도 완벽에 도달하는 첫 번째이자 가장 쉬운 관문이겠지만, 결코 건너뛸 수 없습니다."
 				""
-				"Completing each room has its own rewards and merits."
+				"각 방을 완성하면 각각의 보상과 의미가 있습니다."
 			]
 			icon: "society:furniture_box"
 			id: "45120BEE01BB36B4"
@@ -331,16 +331,16 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "Complete all Bundles"
+			subtitle: "모든 번들 완성(Complete all Bundles)"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "7D559D380A8E31EE"
 				stat: "minecraft:play_time"
-				title: "All Bundles completed"
+				title: "모든 번들 완성(All Bundles completed)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Rebuilder"
+			title: "재건자(Rebuilder)"
 			x: 20.0d
 			y: -6.0d
 		}
@@ -360,11 +360,11 @@
 				}
 				id: "0A12C2A9D0646C09"
 				stat: "minecraft:play_time"
-				title: "Pantry complete"
+				title: "식료품 저장실 완성(Pantry complete)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Complete the Pantry"
+			title: "식료품 저장실 완성(Complete the Pantry)"
 			x: 20.0d
 			y: -8.5d
 		}
@@ -384,11 +384,11 @@
 				}
 				id: "1D4B6399A99F53CB"
 				stat: "minecraft:play_time"
-				title: "Vault complete"
+				title: "금고 완성(Vault complete)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Complete the Vault"
+			title: "금고 완성(Complete the Vault)"
 			x: 21.5d
 			y: -8.0d
 		}
@@ -408,11 +408,11 @@
 				}
 				id: "55DE40F8D224D72D"
 				stat: "minecraft:play_time"
-				title: "Fish Tank complete"
+				title: "어항 완성(Fish Tank complete)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Complete the Fish Tank"
+			title: "어항 완성(Complete the Fish Tank)"
 			x: 20.0d
 			y: -3.5d
 		}
@@ -432,11 +432,11 @@
 				}
 				id: "7059824FCE38CB5A"
 				stat: "minecraft:play_time"
-				title: "Boiler Room complete"
+				title: "보일러룸 완성(Boiler Room complete)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Complete the Boiler Room"
+			title: "보일러룸 완성(Complete the Boiler Room)"
 			x: 22.5d
 			y: -6.0d
 		}
@@ -456,19 +456,19 @@
 				}
 				id: "4CCED45B2E1CCFBA"
 				stat: "minecraft:play_time"
-				title: "Crafts Room complete"
+				title: "공예실 완성(Crafts Room complete)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Complete the Crafts Room"
+			title: "공예실 완성(Complete the Crafts Room)"
 			x: 21.5d
 			y: -4.5d
 		}
 		{
 			description: [
-				"&6Sharestones&r can teleport you to any of the same color. All 4 are needed to attain perfection."
+				"&6쉐어스톤(Sharestones)&r은 같은 색의 쉐어스톤끼리 순간이동할 수 있습니다. 완벽을 달성하려면 4개 모두 필요합니다."
 				""
-				"&oYou don't have to read the other Sharestone quests.&r"
+				"&o다른 쉐어스톤 퀘스트는 읽지 않아도 됩니다.&r"
 			]
 			id: "5875FF0D35A7E422"
 			rewards: [{
@@ -486,9 +486,9 @@
 		}
 		{
 			description: [
-				"&6Sharestones&r can teleport you to any of the same color. All 4 are needed to attain perfection."
+				"&6쉐어스톤(Sharestones)&r은 같은 색의 쉐어스톤끼리 순간이동할 수 있습니다. 완벽을 달성하려면 4개 모두 필요합니다."
 				""
-				"&oYou don't have to read the other Sharestone quests.&r"
+				"&o다른 쉐어스톤 퀘스트는 읽지 않아도 됩니다.&r"
 			]
 			id: "769AC695FD3F8DC9"
 			rewards: [{
@@ -506,9 +506,9 @@
 		}
 		{
 			description: [
-				"&6Sharestones&r can teleport you to any of the same color. All 4 are needed to attain perfection."
+				"&6쉐어스톤(Sharestones)&r은 같은 색의 쉐어스톤끼리 순간이동할 수 있습니다. 완벽을 달성하려면 4개 모두 필요합니다."
 				""
-				"&oYou don't have to read the other Sharestone quests.&r"
+				"&o다른 쉐어스톤 퀘스트는 읽지 않아도 됩니다.&r"
 			]
 			id: "3E074A7E5B773419"
 			rewards: [{
@@ -526,9 +526,9 @@
 		}
 		{
 			description: [
-				"&6Sharestones&r can teleport you to any of the same color. All 4 are needed to attain perfection."
+				"&6쉐어스톤(Sharestones)&r은 같은 색의 쉐어스톤끼리 순간이동할 수 있습니다. 완벽을 달성하려면 4개 모두 필요합니다."
 				""
-				"&oYou don't have to read the other Sharestone quests.&r"
+				"&o다른 쉐어스톤 퀘스트는 읽지 않아도 됩니다.&r"
 			]
 			id: "6C342B7B66C29823"
 			rewards: [{
@@ -546,11 +546,11 @@
 		}
 		{
 			description: [
-				"Clocking in at &616 million &rcoins, the &6Golden Clock&r is one of the most excruciatingly and unnecessarily expensive items in the game."
+				"무려 &616백만&r 코인에 달하는 &6황금 시계(Golden Clock)&r는 게임에서 가장 고통스럽고 불필요하게 비싼 아이템 중 하나입니다."
 				""
-				"It will randomly progress all artisan machines in its 5x5x5 area, centered around the clock."
+				"시계를 중심으로 5x5x5 범위 내의 모든 장인 기계를 무작위로 진행시킵니다."
 				""
-				"Not that you really need the money at this point."
+				"이쯤 되면 돈이 정말 필요하지도 않을 겁니다."
 			]
 			id: "0A1FA99B227284C7"
 			rewards: [{
@@ -560,13 +560,13 @@
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "The Money Sink"
+			subtitle: "돈 먹는 하마(The Money Sink)"
 			tasks: [{
 				id: "7959848F2CA6F6F6"
 				item: "society:golden_clock"
 				type: "item"
 			}]
-			title: "The Golden Clock"
+			title: "황금 시계(The Golden Clock)"
 			x: 13.5d
 			y: -10.0d
 		}
@@ -582,11 +582,11 @@
 				"4A708E01E3A3B8D3"
 			]
 			description: [
-				"You've done absolutely everything there is to offer in &6Society: Sunlit Valley&r. Your farm is the envy of all your neighbors for miles."
+				"&6소사이어티: 선릿 밸리(Society: Sunlit Valley)&r에서 할 수 있는 모든 것을 완벽히 해냈습니다. 당신의 농장은 수 마일 이내 모든 이웃의 부러움입니다."
 				""
-				"You feel empty inside. The &dTrophy of Perfection&r gives you unlimited &dPrismatic Shards&r, but you fail to see the use of them at this point."
+				"왠지 마음이 공허합니다. &d완벽의 트로피(Trophy of Perfection)&r로 &d프리즘 샤드(Prismatic Shards)&r를 무한히 얻을 수 있지만, 이쯤 되면 쓸모가 없어 보입니다."
 				""
-				"...maybe try a speedrun?"
+				"...이제 스피드런에 도전해볼까요?"
 			]
 			icon: {
 				Count: 1
@@ -613,16 +613,16 @@
 			}]
 			shape: "octagon"
 			size: 3.0d
-			subtitle: "Realist Capitalist"
+			subtitle: "현실주의 자본가(Realist Capitalist)"
 			tasks: [{
 				icon: "fantasyfurniture:decorations/bone_skeleton_skull_blossoms"
 				id: "09B79BA0E1E2F6AA"
 				stat: "minecraft:play_time"
-				title: "Achieve perfection"
+				title: "완벽 달성(Achieve perfection)"
 				type: "stat"
 				value: 1
 			}]
-			title: "&dPerfection"
+			title: "&d완벽(Perfection)"
 			x: 13.5d
 			y: -6.0d
 		}
@@ -642,11 +642,11 @@
 				}
 				id: "31D755B4F7304289"
 				stat: "minecraft:play_time"
-				title: "Abandoned Farm complete"
+				title: "버려진 농장 완성(Abandoned Farm complete)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Complete the Abandoned Farm"
+			title: "버려진 농장 완성(Complete the Abandoned Farm)"
 			x: 13.625000000000007d
 			y: -1.3214285714285765d
 		}
@@ -675,14 +675,14 @@
 				}
 				id: "436BC7D1A7138973"
 				stat: "minecraft:play_time"
-                                title: "슬라임 컬렉션 완료"
+				title: "슬라임 수집 완료(Slimes collection complete)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "컬렉션: 슬라임"
+			title: "수집: 슬라임(Collection: Slimes)"
 			x: 9.0d
 			y: -5.0d
 		}
 	]
-        title: "완벽"
+	title: "완벽(Perfection)"
 }

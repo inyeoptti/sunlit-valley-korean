@@ -289,7 +289,7 @@
 		}
 		{
 			id: "6C7A3AB4B9DEA9A7"
-                    subtitle: "완성도 배너에 포함되지 않음"
+			subtitle: "완성주의자 배너에 포함되지 않음(Not counted in Completionist Banner)"
 			tasks: [{
 				id: "36C8CCACAD0C7F54"
 				item: {
@@ -562,7 +562,7 @@
 		}
 		{
 			id: "70E664D2389F628D"
-			subtitle: "완성도 배너에 포함되지 않음"
+			subtitle: "완성주의자 배너에 포함되지 않음(Not counted in Completionist Banner)"
 			tasks: [{
 				id: "2460CAE307110F0E"
 				item: {
@@ -579,7 +579,7 @@
 		}
 		{
 			id: "13298D80ED38BE30"
-			subtitle: "완성도 배너에 포함되지 않음"
+			subtitle: "완성주의자 배너에 포함되지 않음(Not counted in Completionist Banner)"
 			tasks: [{
 				id: "1647165DF9095719"
 				item: "society:ancient_vespertine"
@@ -591,7 +591,7 @@
 		{
 			description: [""]
 			id: "5B2FC6D0E6C24D83"
-			subtitle: "완성도 배너에 포함되지 않음"
+			subtitle: "완성주의자 배너에 포함되지 않음(Not counted in Completionist Banner)"
 			tasks: [{
 				id: "380E354FD04802EA"
 				item: "society:dewy_star"
@@ -662,7 +662,7 @@
 		}
 		{
 			id: "611336F023B21ADF"
-			subtitle: "&6Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Netherite Brewingstation)"
 			tasks: [{
 				id: "582D79D40E8FC73F"
 				item: "society:beer_london"
@@ -673,7 +673,7 @@
 		}
 		{
 			id: "29C3F528FEC4D0C7"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "69D9A11A299DDC22"
 				item: "brewery:whiskey_jojannik"
@@ -684,7 +684,7 @@
 		}
 		{
 			id: "7B08E22C0E8DE900"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "4C2EE8B0FB6D5A51"
 				item: "brewery:whiskey_cristelwalker"
@@ -695,7 +695,7 @@
 		}
 		{
 			id: "20F2517A081999C2"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "5AC862C17D9623E3"
 				item: "brewery:whiskey_ak"
@@ -706,7 +706,7 @@
 		}
 		{
 			id: "4041362E384D0744"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "588F67E2C1D9C39F"
 				item: "brewery:whiskey_jamesons_malt"
@@ -717,7 +717,7 @@
 		}
 		{
 			id: "381A3B258ACE31FD"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "3732721665734BF7"
 				item: "brewery:whiskey_smokey_reverie"
@@ -728,7 +728,7 @@
 		}
 		{
 			id: "597C843B42219362"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "46349E6D0727EA6E"
 				item: "brewery:whiskey_lilitusinglemalt"
@@ -739,7 +739,7 @@
 		}
 		{
 			id: "6742B0BA3DD56AE8"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "4DF3A48534A13957"
 				item: "brewery:whiskey_highland_hearth"
@@ -750,7 +750,7 @@
 		}
 		{
 			id: "6327893DC34214E6"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "08F4CDB641D728DE"
 				item: "brewery:whiskey_carrasconlabel"
@@ -761,7 +761,7 @@
 		}
 		{
 			id: "6A5A513E8C0455AF"
-			subtitle: "&6Copper or Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Copper or Netherite Brewingstation)"
 			tasks: [{
 				id: "59815ADCEF0DF505"
 				item: "brewery:whiskey_maggoallan"
@@ -772,7 +772,7 @@
 		}
 		{
 			id: "580FA272625D0922"
-			subtitle: "&6Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Netherite Brewingstation)"
 			tasks: [{
 				id: "71A678A4807CADA8"
 				item: "brewery:dark_brew"
@@ -996,11 +996,11 @@
 				icon: "vinery:fermentation_barrel"
 				id: "2B67A83CE639308D"
 				stat: "minecraft:play_time"
-                                title: "모든 와인 획득"
+				title: "Obtain all wines"
 				type: "stat"
 				value: 1
 			}]
-                        title: "마스터 소믈리에(Master Sommelier)"
+			title: "마스터 소믈리에(Master Sommelier)"
 			x: -3.0d
 			y: -5.5d
 		}
@@ -1040,11 +1040,11 @@
 				icon: "brewery:wooden_brewingstation"
 				id: "59C99166EA79DA39"
 				stat: "minecraft:play_time"
-                                title: "양조 스테이션 브루 모두 획득"
+				title: "Obtain all Brewingstation brews"
 				type: "stat"
 				value: 1
 			}]
-                        title: "마스터 브루어(Master Brewer)"
+			title: "마스터 브루어(Master Brewer)"
 			x: 10.5d
 			y: -5.0d
 		}
@@ -1081,11 +1081,11 @@
 				icon: "society:espresso_machine"
 				id: "33563F224C8ECB6C"
 				stat: "minecraft:play_time"
-                                title: "모든 차와 커피 획득"
+				title: "Obtain all Teas and Cofees"
 				type: "stat"
 				value: 1
 			}]
-                        title: "마스터 바리스타(Master Barista)"
+			title: "마스터 바리스타(Master Barista)"
 			x: -16.0d
 			y: -5.5d
 		}
@@ -1139,17 +1139,17 @@
 				}
 				id: "66521C3EA4D8D1C9"
 				stat: "minecraft:play_time"
-                                title: "모든 브루 수집"
+				title: "Collect all brews"
 				type: "stat"
 				value: 1
 			}]
-                        title: "브루 수집 완료!"
+			title: "양조 컬렉션 완성!(Brews Collection Complete!)"
 			x: -3.0d
 			y: -9.0d
 		}
 		{
 			id: "47DE6A5A64755084"
-			subtitle: "완성도 배너에 포함되지 않음"
+			subtitle: "완성주의자 배너에 포함되지 않음(Not counted in Completionist Banner)"
 			tasks: [{
 				id: "24D75B3E19F7C182"
 				item: "society:ancient_cider"
@@ -1160,7 +1160,7 @@
 		}
 		{
 			id: "5D6623B36EC39685"
-			subtitle: "완성도 배너에 포함되지 않음"
+			subtitle: "완성주의자 배너에 포함되지 않음(Not counted in Completionist Banner)"
 			tasks: [{
 				id: "2808E4462151788B"
 				item: "society:star_coquito"
@@ -1171,7 +1171,7 @@
 		}
 		{
 			id: "3FF6591FC54809B1"
-			subtitle: "&6Netherite Brewingstation"
+			subtitle: "네더라이트 양조대(&6Netherite Brewingstation)"
 			tasks: [{
 				id: "3A9415935DFC0CBD"
 				item: "society:starcardi"
@@ -1182,7 +1182,7 @@
 		}
 		{
 			id: "5D95CBE19118EAD4"
-			subtitle: "완성도 배너에 포함되지 않음"
+			subtitle: "완성주의자 배너에 포함되지 않음(Not counted in Completionist Banner)"
 			tasks: [{
 				id: "1A39CD674981C1E7"
 				item: {
@@ -1218,5 +1218,5 @@
 			y: -2.5d
 		}
 	]
-        title: "브루"
+	title: "음료(Brews)"
 }

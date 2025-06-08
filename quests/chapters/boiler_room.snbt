@@ -26,11 +26,11 @@
 				"52A3D52D6251EDB6"
 			]
 			description: [
-				"Completing the Boiler Room gives you the &6Kinetic Blueprint&r!"
+				"보일러실을 완성하면 &6키네틱 청사진&f을 받을 수 있습니다!(Completing the Boiler Room gives you the &6Kinetic Blueprint&r!)"
 				""
-				"This item allows you to craft power sources for the &6Create&r mod, allowing you to fully automate your farm! "
+				"이 아이템은 &6Create&f 모드의 동력원을 제작할 수 있게 해주며, 농장을 완전히 자동화할 수 있습니다!(This item allows you to craft power sources for the &6Create&r mod, allowing you to fully automate your farm!) "
 				""
-				"You can also craft the workstation for the &6Kinetic Mechanic&r, a villager that sells items crafted with the &6Kinetic Blueprint&r for convenience."
+				"또한 &6키네틱 메카닉&f 작업대를 제작할 수 있으며, 이 주민은 &6키네틱 청사진&f으로 제작한 아이템을 편리하게 판매합니다.(You can also craft the workstation for the &6Kinetic Mechanic&r, a villager that sells items crafted with the &6Kinetic Blueprint&r for convenience.)"
 			]
 			icon: "furniture:tool_box"
 			id: "3428ADDC87A77916"
@@ -54,16 +54,16 @@
 					type: "item"
 				}
 			]
-                        subtitle: "보상: Create 동력원"
+			subtitle: "보상: Create 동력원(Reward: Create Power Sources)"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "4F5C6E42993777F4"
 				stat: "minecraft:play_time"
-                                title: "보일러 룸 완료"
+				title: "Completed Boiler Room"
 				type: "stat"
 				value: 1
 			}]
-                        title: "보일러 룸 완료!"
+			title: "보일러실 완성!(Boiler Room Completed!)"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -102,7 +102,7 @@
 					type: "item"
 				}
 			]
-                        title: "대장장이의 보따리"
+			title: "대장장이 꾸러미(Blacksmith's Bundle)"
 			x: -3.0d
 			y: 0.2d
 		}
@@ -141,7 +141,7 @@
 					type: "item"
 				}
 			]
-                        title: "지질학자의 보따리"
+			title: "지질학자 꾸러미(Geologist's Bundle)"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -176,7 +176,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -201,7 +201,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -226,7 +226,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -251,7 +251,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -276,7 +276,7 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 				{
@@ -301,11 +301,11 @@
 							]
 						}
 					}
-					title: "선택 아이템"
+					title: "선택 아이템(Choice Item)"
 					type: "item"
 				}
 			]
-                        title: "광물학자의 보따리"
+			title: "광물학자 꾸러미(Mineralogist's Bundle)"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -379,11 +379,11 @@
 					type: "item"
 				}
 			]
-                        title: "모험가의 보따리"
+			title: "모험가 꾸러미(Adventurer's Bundle)"
 			x: 3.0d
 			y: 0.2d
 		}
 	]
-        subtitle: ["보상: Create 발전기"]
-    title: "보일러 룸"
+	subtitle: ["보상: Create 동력원(Reward: Create Power Generators)"]
+	title: "보일러실(Boiler Room)"
 }

@@ -169,14 +169,14 @@
 				icon: "society:omni_geode_node"
 				id: "5D3AF2A372B781AC"
 				stat: "minecraft:play_time"
-                                title: "모든 보석을 모으기"
+				title: "모든 보석 수집(Collect all gems)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "보석 수집 완료!"
+			title: "보석 컬렉션 완성!(Gem Collection Complete!)"
 			x: -1.0d
 			y: 3.0d
 		}
 	]
-        title: "보석"
+	title: "보석(Gems)"
 }

@@ -229,11 +229,11 @@
 				icon: "society:heart_of_neptunium"
 				id: "30CB90A24037FCC0"
 				stat: "minecraft:play_time"
-                                title: "모든 유물 수집"
+				title: "모든 유물 수집(Collect all artifacts)"
 				type: "stat"
 				value: 1
 			}]
-                        title: "유물 수집 완료!"
+			title: "유물 컬렉션 완성!(Artifact Collection Complete!)"
 			x: -1.0d
 			y: 5.0d
 		}
@@ -268,5 +268,5 @@
 			y: 1.5d
 		}
 	]
-        title: "유물"
+	title: "유물(Artifacts)"
 }

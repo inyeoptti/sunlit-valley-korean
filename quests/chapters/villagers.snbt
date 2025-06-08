@@ -11,13 +11,13 @@
 	quests: [
 		{
 			description: [
-                                "총 13종류의 주민에게서 여러 물품을 구매할 수 있습니다!"
-                                ""
-                                "이 페이지에서 &6작업대 목록&r을 보거나 JEI에서 \"Workstation\"을 검색해 보세요."
-                                ""
-                                "특정 주민 전용 아이템은 JEI에서 \"Sold by\" 다음에 주민 종류를 검색하면 찾을 수 있습니다."
-                                ""
-                                "주민은 레벨이 올라가도 더 많은 아이템을 해금하지 않습니다."
+				"총 13가지 종류의 주민이 있으며 다양한 물품을 구매할 수 있습니다!"
+				""
+				"이 페이지에서 &6작업대(Workstations)&r 목록을 볼 수 있으며, JEI에서 'Workstation'을 검색해도 확인할 수 있습니다."
+				""
+				"특정 주민이 판매하는 아이템은 JEI에서 'Sold by'와 주민 종류를 검색해 찾을 수 있습니다."
+				""
+				"주민은 레벨업해도 더 많은 아이템을 판매하지 않습니다."
 			]
 			id: "20C76D194ECEDB76"
 			rewards: [{
@@ -32,20 +32,20 @@
 				id: "75FBBBD9C62288F7"
 				observe_type: 5
 				timer: 0L
-                                title: "주민 바라보기"
+				title: "주민 바라보기(Look at a villager)"
 				to_observe: "minecraft:villager"
 				type: "observation"
 			}]
-                        title: "물품 구매"
+			title: "물품 구매(Buying Goods)"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
 			description: [
-                                "&6대장장이&r 주민은 금속 주괴와 지오드 가공 도구를 판매하는 매우 중요한 주민입니다."
-                                ""
-                                "또한 &6네더&r에 갈 수 있는 부싯돌과 부시도 판매합니다."
+				"&6대장장이(Blacksmith)&r 주민은 가장 중요한 주민 중 하나로, 주괴와 지오드 가공 도구를 판매합니다."
+				""
+				"또한 &6네더(Nether)&r로 가는 부싯돌과 강철도 판매합니다."
 			]
 			id: "6E798A5692446D56"
 			rewards: [{
@@ -53,98 +53,98 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "대장장이 작업대(Smithing Table)"
+			subtitle: "대장장이 작업대(Smithing Table)"
 			tasks: [{
 				id: "734BF4DD565B786C"
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-                        title: "대장장이"
+			title: "대장장이(Blacksmith)"
 			x: 0.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
-                        description: ["&6바드&r는 음악, 사진, 그리고 커스텀 그림을 위한 재미있는 도구를 판매합니다."]
+			description: ["&6음유시인(Bard)&r 주민은 음악, 사진, 커스텀 그림을 위한 재미있는 도구를 판매합니다."]
 			id: "0D63E5BAB6620706"
 			rewards: [{
 				id: "7AB5189776F8A5E5"
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "노트 블록(Note Block)"
+			subtitle: "노트 블록(Note Block)"
 			tasks: [{
 				id: "0AB4554DAFC8EA32"
 				item: "minecraft:note_block"
 				type: "item"
 			}]
-                        title: "바드"
+			title: "음유시인(Bard)"
 			x: -1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
-                        description: ["&6은행원&r은 다른 플레이어와 거래할 때 필요한 도구를 판매합니다."]
+			description: ["&6은행원(Banker)&r 주민은 다른 플레이어와의 거래에 관련된 도구를 판매합니다."]
 			id: "3132B8E599090E29"
 			rewards: [{
 				id: "39E8AD303D93AC6A"
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "지도 제작대(Cartography Table)"
+			subtitle: "지도 제작대(Cartography Table)"
 			tasks: [{
 				id: "40C7E8E6AA4DE844"
 				item: "minecraft:cartography_table"
 				type: "item"
 			}]
-                        title: "은행원"
+			title: "은행원(Banker)"
 			x: 2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
-                        description: ["&6농부&r는 비료와 농사 도구를 판매하는 매우 중요한 주민입니다."]
+			description: ["&6농부(Farmer)&r 주민은 가장 중요한 주민 중 하나로, 비료와 농사 도구를 판매합니다."]
 			id: "3684F1F871DD6C8A"
 			rewards: [{
 				id: "4C5A9ED5FC01B7AD"
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "퇴비통(Composter)"
+			subtitle: "퇴비통(Composter)"
 			tasks: [{
 				id: "6270C3292FB01553"
 				item: "minecraft:composter"
 				type: "item"
 			}]
-                        title: "농부"
+			title: "농부(Farmer)"
 			x: -2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
-                        description: ["&6사서&r는 종이 제품과 마법 부여 도구, 그리고 &6수선(Mending)&r 책을 판매합니다."]
+			description: ["&6사서(Librarian)&r 주민은 종이 관련 아이템, 인챈트 도구, &6수선(Mending)&r 책을 판매합니다."]
 			id: "41418A5AEE77DEED"
 			rewards: [{
 				id: "225410BA5158358E"
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "독서대(Lectern)"
+			subtitle: "독서대(Lectern)"
 			tasks: [{
 				id: "0AAF9D33B6DE9AEB"
 				item: "minecraft:lectern"
 				type: "item"
 			}]
-                        title: "사서"
+			title: "사서(Librarian)"
 			x: 3.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
 			description: [
-                                "&6어부&r는 &6낚싯대(Fishing Rod)&r와 그 업그레이드를 판매합니다."
-                                ""
-                                "물고기는 가치가 높아 초반 자금 마련에 좋습니다."
+				"&6어부(Fisher)&r 주민은 &6낚싯대(Fishing Rods)&r와 그 업그레이드를 판매합니다."
+				""
+				"물고기는 가치가 높으며, 초반에 돈을 벌기 좋은 방법입니다."
 			]
 			id: "261CCCC35F53BF1E"
 			rewards: [{
@@ -152,42 +152,42 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "통(Barrel)"
+			subtitle: "통(Barrel)"
 			tasks: [{
 				id: "04F63F9436B1A12A"
 				item: "minecraft:barrel"
 				type: "item"
 			}]
-                        title: "어부"
+			title: "어부(Fisher)"
 			x: -2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
-                        description: ["&6양치기&r는 &6동물 사료(Animal Feed)&r와 &6우유 양동이(Milk Pail)&r 같은 가축 관리 도구를 판매합니다. 시작용으로 몇 마리의 농장 동물도 구입할 수 있습니다."]
+			description: ["&6양치기(Shepherd)&r 주민은 &6동물 사료(Animal Feed)&r, &6우유통(Milk Pails)&r 등 사육 장비를 판매합니다. 시작용 가축도 소량 구매할 수 있습니다."]
 			id: "435D4462F1039E28"
 			rewards: [{
 				id: "1598751B4934C39E"
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "베틀(Loom)"
+			subtitle: "베틀(Loom)"
 			tasks: [{
 				id: "68E5A8284804352B"
 				item: "minecraft:loom"
 				title: "Loom"
 				type: "item"
 			}]
-                        title: "양치기"
+			title: "양치기(Shepherd)"
 			x: -2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
 			description: [
-                                "&6스토리지스미스&r는 보관 서랍과 상자용 값비싼 업그레이드를 판매합니다."
-                                ""
-                                "또한 상자를 자동으로 정리해 주는 &6Tom's Simple Storage&r 시스템 부품도 취급합니다."
+				"&6저장장인(Storagesmith)&r 주민은 저장 서랍과 상자를 위한 고가의 업그레이드를 판매합니다."
+				""
+				"또한 &6Tom's Simple Storage&r 시스템 부품도 판매하여 상자를 자동으로 정리할 수 있습니다."
 			]
 			id: "3F1DEDF21B61F11F"
 			rewards: [{
@@ -195,38 +195,38 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "연마석(Grindstone)"
+			subtitle: "숫돌(Grindstone)"
 			tasks: [{
 				id: "095FCBF8DBCD93AF"
 				item: "minecraft:grindstone"
 				type: "item"
 			}]
-                        title: "스토리지스미스"
+			title: "저장장인(Storagesmith)"
 			x: -1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
-                        description: ["&6성직자&r는 마법봉과 경험치, 그리고 고급 포션과 양조 장비를 판매합니다."]
+			description: ["&6클레릭(Cleric)&r 주민은 완드, 경험, 고급 물약 및 양조 장비를 판매합니다."]
 			id: "016654B067477BFD"
 			rewards: [{
 				id: "7BEA48770B50AD77"
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-                        subtitle: "양조기(Brewing Stand)"
+			subtitle: "양조대(Brewing Stand)"
 			tasks: [{
 				id: "1DF866025118592F"
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-                        title: "성직자"
+			title: "클레릭(Cleric)"
 			x: 3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["774B43FCB1FFE9CC"]
-                        description: ["&6마스터 경작자(Master Cultivator)&r는 더 귀하고 가치 있는 고급 씨앗을 판매합니다."]
+			description: ["&6마스터 재배자(Master Cultivator)&r 주민은 더 가치 있는 고급 씨앗을 판매합니다."]
 			hide_until_deps_visible: true
 			id: "019719A32C5E6E62"
 			rewards: [{
@@ -237,10 +237,10 @@
 			tasks: [{
 				id: "6B3278D45DAED2F9"
 				item: "candlelight:cooking_pot"
-                                title: "마스터 요리 냄비(Master Cooking Pot)"
+				title: "마스터 요리 냄비(Master Cooking Pot)"
 				type: "item"
 			}]
-                        title: "마스터 경작자"
+			title: "마스터 재배자(Master Cultivator)"
 			x: -1.0d
 			y: 4.5d
 		}
@@ -250,9 +250,9 @@
 				"20C76D194ECEDB76"
 			]
 			description: [
-                                "&6키네틱 정비공(Kinetic Mechanic)&r은 편의를 위해 키네틱 설계도(Kinetic Blueprint)로 제작된 아이템을 판매하며 일부 아이템을 다른 상인보다 저렴하게 판매합니다."
-                                ""
-                                "이 주민을 이용하려면 &6보일러실(Boiler Room)&r을 완료해야 합니다."
+				"&6키네틱 정비공(Kinetic Mechanic)&r 주민은 키네틱 설계도를 이용해 제작된 아이템을 편리하게 판매합니다. 일부 아이템은 다른 상인보다 저렴하게 판매합니다."
+				""
+				"이 주민을 이용하려면 &6보일러룸(Boiler Room)&r을 완료해야 합니다."
 			]
 			id: "2BC1A3E1327B1F30"
 			rewards: [{
@@ -260,22 +260,22 @@
 				item: "numismatics:sprocket"
 				type: "item"
 			}]
-                        subtitle: "목재 절단기(Woodcutter)"
+			subtitle: "목재 절단기(Woodcutter)"
 			tasks: [{
 				id: "08D6583950F6274F"
 				item: "meadow:woodcutter"
 				type: "item"
 			}]
-                        title: "키네틱 정비공"
+			title: "키네틱 정비공(Kinetic Mechanic)"
 			x: 3.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
 			description: [
-                                "&6바텐더(Barkeeper)&r는 편의를 위해 기본적인 음식을 판매합니다."
-                                ""
-                                "여러 종류의 음식을 담아 바로 먹을 수 있는 &6런치박스(Lunchbox)&r도 구매할 수 있습니다."
+				"&6바텐더(Barkeeper)&r 주민은 편의를 위해 기본 음식을 판매합니다."
+				""
+				"또한 다양한 음식을 담을 수 있고 바로 먹을 수 있는 &6도시락(Lunchboxes)&r도 구매할 수 있습니다."
 			]
 			id: "4DF11DD3A8FBBEFD"
 			rewards: [{
@@ -283,41 +283,41 @@
 				item: "numismatics:sprocket"
 				type: "item"
 			}]
-                        subtitle: "티키 바(Tiki Bar)"
+			subtitle: "티키 바(Tiki Bar)"
 			tasks: [{
 				id: "386CF363F2DDC7C7"
 				item: "beachparty:tiki_bar"
 				type: "item"
 			}]
-                        title: "바텐더"
+			title: "바텐더(Barkeeper)"
 			x: 0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
 			description: [
-                                "&6스컬 캐번&r 깊은 곳의 옴니 지오드와 시험의 방에서 무지갯빛 조각(Prismatic Shard)을 찾을 수 있습니다."
-                                ""
-                                "이것으로 고급 주민 작업대를 제작할 수 있습니다..."
+				"해골 동굴(Skull Caverns) 깊은 곳에서 옴니 지오드(Omni Geodes)와 트라이얼 챔버(Trial Chambers)에서 프리즘 샤드(Prismatic Shards)를 찾을 수 있습니다."
+				""
+				"이것들은 고급 주민 작업대를 제작하는 데 사용됩니다..."
 			]
 			icon: "society:prismatic_shard"
 			id: "774B43FCB1FFE9CC"
 			size: 1.5d
 			tasks: [{
 				id: "3B8424059D5FE50D"
-                                title: "알겠습니다!"
+				title: "이해했어요!(Understood!)"
 				type: "checkmark"
 			}]
-                        title: "고급 주민"
+			title: "고급 주민(Advanced Villagers)"
 			x: 0.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["774B43FCB1FFE9CC"]
 			description: [
-                                "&6이국 무역상(Exotic Trader)&r은 얻기 어려운 아이템을 특별한 물품과 교환합니다."
-                                ""
-                                "다른 주민보다 재고가 한정되어 있으니 참고하세요!"
+				"&6이국적인 상인(Exotic Trader)&r 주민은 구하기 어려운 아이템과 교환할 수 있는 특별한 아이템을 판매합니다."
+				""
+				"이 주민은 다른 주민에 비해 재고가 한정되어 있습니다!"
 			]
 			id: "7384B959FEEC54F1"
 			rewards: [{
@@ -325,22 +325,22 @@
 				item: "numismatics:sprocket"
 				type: "item"
 			}]
-                        subtitle: "화살 제작대(Fletching Table)"
+			subtitle: "화살 제작대(Fletching Table)"
 			tasks: [{
 				id: "4943DC0F7E44BDF4"
 				item: "minecraft:fletching_table"
 				type: "item"
 			}]
-                        title: "이국 무역상"
+			title: "이국적인 상인(Exotic Trader)"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["774B43FCB1FFE9CC"]
 			description: [
-                                "&6신비한 식물학자(Mystical Botanist)&r는 특별한 가구 제작에 쓰이는 가구 카탈로그와 신비한 순간 이동석을 판매합니다."
-                                ""
-                                "값이 만만치 않아요!"
+				"&6신비한 식물학자(Mystical Botanist)&r 주민은 특수 가구 제작에 사용되는 가구 카탈로그와 신비한 순간이동석을 판매합니다."
+				""
+				"이 아이템들은 저렴하지 않습니다!"
 			]
 			id: "4CD86031FF05AC1F"
 			rewards: [{
@@ -348,35 +348,35 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-                        subtitle: "식물학자 작업대(Botanist Workbench)"
+			subtitle: "식물학자 작업대(Botanist Workbench)"
 			tasks: [{
 				id: "2010D08970F3DA02"
 				item: "beautify:botanist_workbench"
 				type: "item"
 			}]
-                        title: "신비한 식물학자"
+			title: "신비한 식물학자(Mystical Botanist)"
 			x: 0.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["20C76D194ECEDB76"]
-                        description: ["&6가죽공&r은 여러 가죽 제품과 바느질 도구를 판매합니다. 특히 스폰 지점을 변경하지 않고 잠잘 수 있게 해주는 &6침낭(Sleeping Bag)&r이 중요합니다."]
+			description: ["&6가죽공예가(Leatherworker)&r 주민은 다양한 가죽 제품과 재봉 아이템을 판매합니다. 가장 중요한 것은 &6침낭(Sleeping Bags)&r으로, 스폰을 설정하지 않고도 잘 수 있습니다."]
 			id: "1A59CD9C40CABBF7"
 			rewards: [{
 				id: "08DEEF5FCE990037"
 				item: "numismatics:cog"
 				type: "item"
 			}]
-                        subtitle: "가마솥(Cauldron)"
+			subtitle: "가마솥(Cauldron)"
 			tasks: [{
 				id: "0E99012F5152AFAA"
 				item: "minecraft:cauldron"
 				type: "item"
 			}]
-                        title: "가죽공"
+			title: "가죽공예가(Leatherworker)"
 			x: 2.0d
 			y: 0.5d
 		}
 	]
-        title: "주민"
+	title: "주민(Villagers)"
 }
