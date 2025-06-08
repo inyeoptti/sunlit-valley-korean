@@ -651,11 +651,11 @@
 				}
 				id: "13FE62BC8E043289"
 				stat: "minecraft:play_time"
-				title: "Collect all fish"
+                                title: "모든 물고기 모으기"
 				type: "stat"
 				value: 1
 			}]
-			title: "Fish Collection Complete!"
+                        title: "물고기 수집 완료!"
 			x: 7.5d
 			y: -2.0d
 		}
@@ -880,5 +880,5 @@
 			y: 0.5d
 		}
 	]
-	title: "Fish"
+        title: "물고기"
 }

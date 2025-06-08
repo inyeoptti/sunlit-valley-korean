@@ -289,7 +289,7 @@
 		}
 		{
 			id: "6C7A3AB4B9DEA9A7"
-			subtitle: "Not counted in Completionist Banner"
+                    subtitle: "완성도 배너에 포함되지 않음"
 			tasks: [{
 				id: "36C8CCACAD0C7F54"
 				item: {
@@ -562,7 +562,7 @@
 		}
 		{
 			id: "70E664D2389F628D"
-			subtitle: "Not counted in Completionist Banner"
+			subtitle: "완성도 배너에 포함되지 않음"
 			tasks: [{
 				id: "2460CAE307110F0E"
 				item: {
@@ -579,7 +579,7 @@
 		}
 		{
 			id: "13298D80ED38BE30"
-			subtitle: "Not counted in Completionist Banner"
+			subtitle: "완성도 배너에 포함되지 않음"
 			tasks: [{
 				id: "1647165DF9095719"
 				item: "society:ancient_vespertine"
@@ -591,7 +591,7 @@
 		{
 			description: [""]
 			id: "5B2FC6D0E6C24D83"
-			subtitle: "Not counted in Completionist Banner"
+			subtitle: "완성도 배너에 포함되지 않음"
 			tasks: [{
 				id: "380E354FD04802EA"
 				item: "society:dewy_star"
@@ -996,11 +996,11 @@
 				icon: "vinery:fermentation_barrel"
 				id: "2B67A83CE639308D"
 				stat: "minecraft:play_time"
-				title: "Obtain all wines"
+                                title: "모든 와인 획득"
 				type: "stat"
 				value: 1
 			}]
-			title: "Master Sommelier"
+                        title: "마스터 소믈리에(Master Sommelier)"
 			x: -3.0d
 			y: -5.5d
 		}
@@ -1040,11 +1040,11 @@
 				icon: "brewery:wooden_brewingstation"
 				id: "59C99166EA79DA39"
 				stat: "minecraft:play_time"
-				title: "Obtain all Brewingstation brews"
+                                title: "양조 스테이션 브루 모두 획득"
 				type: "stat"
 				value: 1
 			}]
-			title: "Master Brewer"
+                        title: "마스터 브루어(Master Brewer)"
 			x: 10.5d
 			y: -5.0d
 		}
@@ -1081,11 +1081,11 @@
 				icon: "society:espresso_machine"
 				id: "33563F224C8ECB6C"
 				stat: "minecraft:play_time"
-				title: "Obtain all Teas and Cofees"
+                                title: "모든 차와 커피 획득"
 				type: "stat"
 				value: 1
 			}]
-			title: "Master Barista"
+                        title: "마스터 바리스타(Master Barista)"
 			x: -16.0d
 			y: -5.5d
 		}
@@ -1139,17 +1139,17 @@
 				}
 				id: "66521C3EA4D8D1C9"
 				stat: "minecraft:play_time"
-				title: "Collect all brews"
+                                title: "모든 브루 수집"
 				type: "stat"
 				value: 1
 			}]
-			title: "Brews Collection Complete!"
+                        title: "브루 수집 완료!"
 			x: -3.0d
 			y: -9.0d
 		}
 		{
 			id: "47DE6A5A64755084"
-			subtitle: "Not counted in Completionist Banner"
+			subtitle: "완성도 배너에 포함되지 않음"
 			tasks: [{
 				id: "24D75B3E19F7C182"
 				item: "society:ancient_cider"
@@ -1160,7 +1160,7 @@
 		}
 		{
 			id: "5D6623B36EC39685"
-			subtitle: "Not counted in Completionist Banner"
+			subtitle: "완성도 배너에 포함되지 않음"
 			tasks: [{
 				id: "2808E4462151788B"
 				item: "society:star_coquito"
@@ -1182,7 +1182,7 @@
 		}
 		{
 			id: "5D95CBE19118EAD4"
-			subtitle: "Not counted in Completionist Banner"
+			subtitle: "완성도 배너에 포함되지 않음"
 			tasks: [{
 				id: "1A39CD674981C1E7"
 				item: {
@@ -1218,5 +1218,5 @@
 			y: -2.5d
 		}
 	]
-	title: "Brews"
+        title: "브루"
 }

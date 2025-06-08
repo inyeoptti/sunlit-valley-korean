@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This questline will take you through the basics of the pack to get you started farming."]
+                        description: ["이 퀘스트 라인은 팩의 기본을 안내하여 농사를 시작할 수 있게 해줍니다."]
 			id: "3862A7D1A471A215"
 			rewards: [{
 				count: 4
@@ -24,18 +24,18 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			title: "The Basics"
+			title: "기초 다지기"
 			x: -4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3862A7D1A471A215"]
 			description: [
-				"Upgrading your tools past wood requires a &6Smithing Table&r. At higher tiers it will require a Smithing Template purchased from a &6Blacksmith Villager&r."
+				"나무 도구보다 높은 단계로 업그레이드하려면 &6대장장이 작업대(Smithing Table)&r가 필요합니다. 더 높은 단계에서는 &6대장장이 주민(Blacksmith Villager)&r에게서 구입한 스미싱 템플릿(Smithing Template)이 필요합니다."
 				""
-				"Tools can be repaired in an anvil infinitely, and enchantments also carry over when upgrading!"
+				"도구는 모루에서 무한히 수리할 수 있으며 업그레이드해도 인챈트가 유지됩니다!"
 				""
-				"Search for an item in the item list sidebar and &6Left Click&r on it to see its recipes."
+				"아이템 목록 사이드바에서 원하는 아이템을 검색한 뒤 &6왼쪽 클릭&r하면 제작법을 볼 수 있습니다."
 			]
 			id: "1E5531421815CDB3"
 			rewards: [
@@ -112,16 +112,16 @@
 				title: "Any wood tool"
 				type: "item"
 			}]
-			title: "Upgrading Tools?"
+			title: "도구 업그레이드?"
 			x: -2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1E5531421815CDB3"]
 			description: [
-				"To get started making money, you'll need a &6Basic Shipping Bin&r."
+				"돈을 벌기 시작하려면 &6기본 배송 상자(Basic Shipping Bin)&r가 필요합니다."
 				""
-				"Items placed inside that have will be sold at &66 AM&r for the value listed in the tooltip."
+				"상자에 넣은 아이템은 툴팁에 표시된 가치로 &66 AM&r에 판매됩니다."
 			]
 			id: "3F759C6DEEBC61FD"
 			rewards: [
@@ -143,13 +143,13 @@
 				item: "shippingbin:basic_shipping_bin"
 				type: "item"
 			}]
-			title: "Making Money"
+			title: "돈 벌기"
 			x: 0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3F759C6DEEBC61FD"]
-			description: ["Coins can also be found in loot chests around the world. Exploring is a good option before you get your roots farming!"]
+			description: ["세계 곳곳의 보물 상자에서도 동전을 얻을 수 있습니다. 농사를 시작하기 전에 탐험을 해 보는 것도 좋습니다!"]
 			icon: "lootr:trophy"
 			id: "6BCAB845986C9D3A"
 			rewards: [{
@@ -165,21 +165,21 @@
 			}]
 			tasks: [{
 				id: "3315F950E66CDDD5"
-				title: "Understood"
+				title: "알겠습니다"
 				type: "checkmark"
 			}]
-			title: "Looting Coins"
+			title: "동전 약탈"
 			x: 0.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1E5531421815CDB3"]
 			description: [
-				"You found a &6Geode&r! Place it in your offhand, and right click with a &6Geode Buster&r to open it."
+				"&6지오드(Geode)&r를 발견했다면 보조 손에 들고 &6지오드 부스터(Geode Buster)&r로 우클릭해 열 수 있습니다."
 				""
-				"If you're lucky you might get a valuable gem."
+				"운이 좋다면 귀한 보석을 얻을 수도 있습니다."
 				""
-				"If not, there's more where that came from! Geode Busters can be bought from the &6Blacksmith&r villager."
+				"운이 없더라도 걱정 마세요. 지오드 부스터는 &6대장장이&r 주민에게서 구매할 수 있습니다."
 			]
 			id: "3C54AC272D438F76"
 			invisible: true
@@ -194,16 +194,16 @@
 				item: "society:geode"
 				type: "item"
 			}]
-			title: "Eggs of the King"
+			title: "왕의 알"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3C54AC272D438F76"]
 			description: [
-				"Tired of paying the Blacksmith to open &6Geodes&r? Buy the &6Extractinator&r from one!"
+				"지오드를 열 때마다 대장장이에게 돈을 지불하기 지겹다면 &6추출기(Extractinator)&r를 하나 구입하세요!"
 				""
-				"Right click it with a &6Geode&r to pop it open, free of charge."
+				"&6지오드&r를 들고 우클릭하면 무료로 열 수 있습니다."
 			]
 			hide_until_deps_visible: true
 			id: "5B7E846EEFCA5603"
@@ -217,16 +217,16 @@
 				item: "extractinator:extractinator"
 				type: "item"
 			}]
-			title: "Free Geode Busting"
+			title: "무료 지오드 깨기"
 			x: -2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["472F40ECF199DD42"]
 			description: [
-				"There are 6 main tiers of &6Coins&r, and they can be crafted up or down from the previous tier."
+				"동전에는 6가지 주요 등급이 있으며, 이전 등급을 활용해 상위 혹은 하위 등급으로 조합할 수 있습니다."
 				""
-				"These are their values:"
+				"이들의 가치는 다음과 같습니다:"
 				""
 				"- Copper (&61&r)"
 				"- Zinc (&68&r)"
@@ -247,16 +247,16 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "All About Coins"
+			title: "동전 완전 정복"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["73A85902CE35A43A"]
 			description: [
-				"With coins in your pocket, you have enough capital to start spending freely!"
+				"주머니에 동전이 생겼다면 이제 마음껏 소비할 자본이 생긴 것입니다!"
 				""
-				"Start your village off with a &6Blacksmith&r, an essential villager that can help you upgrade tools, open geodes, and get to the &6Nether&r."
+				"마을을 시작할 때는 도구 업그레이드와 지오드 개봉, 네더 진입을 도와줄 &6대장장이(Blacksmith)&r부터 들여놓으세요."
 				""
 				"[ \"See \", { \"text\": \"Buying Goods\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"20C76D194ECEDB76\" } }, \" for more info.\" ]"
 			]
@@ -270,19 +270,19 @@
 			}]
 			tasks: [{
 				id: "0E99D2F7380F51CF"
-				title: "Understood!"
+				title: "알겠습니다!"
 				type: "checkmark"
 			}]
-			title: "Starting Your Village"
+			title: "마을 시작하기"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66D159252C70D5F2"]
 			description: [
-				"By now you've probably become annoyed with storing the many items on your journey."
+				"지금쯤 여행 중 모아진 수많은 아이템을 보관하느라 지치셨을 겁니다."
 				""
-				"A &6Backpack&r will come in handy, purchase one from the &6Leatherworker&r villager."
+				"&6가죽공(Leatherworker)&r 주민에게서 &6배낭(Backpack)&r을 구입하면 큰 도움이 됩니다."
 			]
 			id: "679F77E46148B5D1"
 			rewards: [{
@@ -315,16 +315,16 @@
 				}
 				type: "item"
 			}]
-			title: "Early Game Storage"
+			title: "초반 보관 방법"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73A85902CE35A43A"]
 			description: [
-				"Hoarding your coins in random chests isn't ideal. The &6Bank Terminal&r is an ATM, allowing you to store your coins safely. You can access your money from any other Bank Terminal, like an Ender Chest."
+				"동전을 아무 상자에나 넣어두는 것은 좋지 않습니다. &6은행 단말기(Bank Terminal)&r를 사용하면 동전을 안전하게 보관하고 다른 단말기에서도 엔더 상자처럼 접근할 수 있습니다."
 				""
-				"It can be purchased from the &6Banker&r villager."
+				"이는 &6은행원(Banker)&r 주민에게서 구입할 수 있습니다."
 			]
 			icon: "numismatics:bank_terminal"
 			id: "77E2AE3656E32182"
@@ -339,18 +339,18 @@
 				item: { Count: 4, id: "numismatics:cog" }
 				type: "item"
 			}]
-			title: "Storing Money"
+			title: "돈 보관하기"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73A85902CE35A43A"]
 			description: [
-				"The &6Bounty Board&r will have bounties requesting different items or tasks done in exchange for coins or other items."
+				"&6현상수배 게시판(Bounty Board)&r에는 다양한 아이템이나 작업을 요구하는 의뢰가 있어 동전이나 다른 아이템으로 보상을 받을 수 있습니다."
 				""
-				"Right click a completed bounty on the board to complete."
+				"현상수배 조건을 달성했다면 게시판에서 우클릭하여 완료하세요."
 				""
-				"By default it will come with one of four different types of &6Decrees&r, which determine which items will be requested."
+				"기본적으로 네 가지 &6명령서(Decrees)&r 중 하나가 포함되어 있으며, 어떤 아이템이 요구될지는 이것에 따라 결정됩니다."
 			]
 			icon: "bountiful:bountyboard"
 			id: "34FCF481CDFD3380"
@@ -370,18 +370,18 @@
 				item: "bountiful:bountyboard"
 				type: "item"
 			}]
-			title: "Bounties"
+			title: "현상 수배"
 			x: 6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["34FCF481CDFD3380"]
 			description: [
-				"&6Prize Tickets&r can be found as a reward from some harder bounties."
+				"어려운 현상수배를 완료하면 &6경품 티켓(Prize Tickets)&r을 얻을 수 있습니다."
 				""
-				"Each time you submit one to a &6Prize Machine&r, you'll recieve an item. The more you submit, the better the rewards are until it loops."
+				"&6경품 기계(Prize Machine)&r에 티켓을 넣을 때마다 아이템을 받으며, 넣을수록 보상이 좋아지다가 일정 시점 이후 반복됩니다."
 				""
-				"Right click on the &6Prize Machine&r for a hint on the next prize!"
+				"다음 보상에 대한 힌트를 보려면 &6경품 기계&r를 우클릭하세요!"
 			]
 			id: "3385C414574E7FE2"
 			rewards: [{
@@ -394,24 +394,24 @@
 				item: "society:prize_ticket"
 				type: "item"
 			}]
-			title: "Cool Prizes"
+			title: "멋진 보상"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["73A85902CE35A43A"]
 			description: [
-				"There are 4 skill trees that can be leveled, unlocking special abilities useful to you. You can view these trees using &6K&r by default."
+				"레벨을 올릴 수 있는 4가지 스킬 트리가 있으며, 유용한 특수 능력을 해금합니다. 기본 키 &6K&r로 확인할 수 있습니다."
 				""
 				"&6Farming&r experience comes from harvesting crops, eating cooked meals, and using Artisan Machines (Such as Preserves Jars or Looms)"
 				""
-				"&6Husbandry&r experience comes from taking care of animals"
+				"&6축산(Husbandry)&r 경험치는 동물을 돌볼 때 얻습니다"
 				""
-				"&6Mining&r experience comes from mining ores and Geode Nodes, provided you aren't using Silk Touch"
+				"&6채광(Mining)&r 경험치는 실크 터치 없이 광석이나 지오드 노드를 채굴할 때 얻습니다"
 				""
-				"&6Fishing&r experience comes from catching fish, crafting fishing equipment, and harvesting from Fish Ponds"
+				"&6낚시(Fishing)&r 경험치는 물고기 낚시, 낚시 도구 제작, 어장 수확으로 얻습니다"
 				""
-				"&6Adventuring&r experience comes from killing mobs and especially from looting chests."
+				"&6모험(Adventuring)&r 경험치는 몬스터 처치와 특히 상자를 약탈할 때 많이 획득합니다."
 			]
 			icon: "society:book_of_stars"
 			id: "459BA5CC983CFAB9"
@@ -435,22 +435,22 @@
 				type: "stat"
 				value: 10
 			}]
-			title: "Skills and Levels"
+			title: "기술과 레벨"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["66D159252C70D5F2"]
 			description: [
-				"Gather logs and stone, and submit them to this quest in order to recieve a free starter farmhouse."
+				"통나무와 돌을 모아 이 퀘스트에 제출하면 무료로 초보자용 농가를 받을 수 있습니다."
 				""
-				"You can see a preview of these in the Building Shop."
+				"건축 상점에서 미리 보기를 확인할 수 있습니다."
 				""
-				"&6Right Click&r with a Capsule to preview the structure. Click again to build."
+				"&6캡슐(Capsule)&r을 들고 우클릭하면 구조물을 미리 볼 수 있으며 다시 클릭하면 건설됩니다."
 				""
-				"&6Left Click&r to rotate, &6Shift + Left Click&r to mirror"
+				"&6왼쪽 클릭&r으로 회전, &6Shift + 왼쪽 클릭&r으로 반전"
 				""
-				"&oNote: If the preview doesn't show at first, use &6Left Click&r&o to rotate."
+				"&o참고: 미리 보기가 보이지 않으면 &6왼쪽 클릭&r&o으로 회전해 보세요."
 			]
 			icon: "tanukidecor:antique_bed"
 			id: "1A4FD076999BF29F"
@@ -485,18 +485,18 @@
 					type: "item"
 				}
 			]
-			title: "Constructing a Farmhouse"
+			title: "농가 건설하기"
 			x: 10.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["472F40ECF199DD42"]
 			description: [
-				"You may notice the tiers of armor and tools has been slightly tweaked."
+				"방어구와 도구의 등급이 약간 조정되었습니다."
 				""
-				"Iron now upgrades to &6Gold&r before &bDiamond&r, adding another step in progression."
+				"이제 철 장비는 &6금(Gold)&r을 거쳐 &b다이아몬드(Diamond)&r로 업그레이드되어 한 단계가 더 추가됩니다."
 				""
-				"Unlike vanilla, the &6Gold&r tools are balanced inbetween both tiers."
+				"바닐라와 달리 &6금(Gold)&r 도구는 두 단계 사이의 균형을 이루도록 조정되었습니다."
 			]
 			id: "287FFC7E15278504"
 			rewards: [{
@@ -516,18 +516,18 @@
 				}
 				type: "item"
 			}]
-			title: "Changed Tiers"
+			title: "변경된 단계"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1E5531421815CDB3"]
 			description: [
-				"Wondering why your tools aren't breaking? All of the main tools and armors have &6infinite&r durability when used."
+				"도구가 왜 부서지지 않는지 궁금하신가요? 주요 도구와 방어구는 사용 시 &6무한(Infinite)&r 내구도를 가집니다."
 				""
-				"There's one small tradeoff: these tools lose 15% + 15 durability on death. This only applies to equipment in your hotbar and armor."
+				"단 한 가지 단점은 사망 시 이러한 장비의 내구도가 15% + 15 감소한다는 것입니다. 이 효과는 핫바와 착용 중인 장비에만 적용됩니다."
 				""
-				"Tools can be repaired in an anvil infinitely, with significantly lower experience costs. Unbreaking also reduces the amount of durability lost."
+				"모루에서 경험치 소모를 크게 줄여 무한히 수리할 수 있으며, 언브레이킹 마법은 잃는 내구도 양을 줄여 줍니다."
 			]
 			icon: "minecraft:anvil"
 			id: "28029230D7FD63D6"
@@ -545,21 +545,21 @@
 			subtitle: "Not quite..."
 			tasks: [{
 				id: "787836F003705C9D"
-				title: "Understood'"
+				title: "알겠습니다"
 				type: "checkmark"
 			}]
-			title: "No Durability?"
+			title: "내구도 없음?"
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3F759C6DEEBC61FD"]
 			description: [
-				"Unlike vanilla Minecraft, crops need water to grow, and farmland won't be hydrated from nearby water!"
+				"바닐라와 달리 작물이 자라려면 물이 필요하며 주변 물만으로는 밭이 촉촉해지지 않습니다!"
 				""
-				"They can be watered using a &6Watering Can&r, which will need to be done every day."
+				"&6물뿌리개(Watering Can)&r로 매일 물을 주어야 합니다."
 				""
-				"Every morning at &66 AM&r, farmland will dry up and crops will grow on your farm. If the farmland is dry, your crops will die!"
+				"매일 아침 &66 AM&r이 되면 밭이 마르고 작물이 성장합니다. 밭이 마른 상태라면 작물은 죽습니다!"
 			]
 			id: "472F40ECF199DD42"
 			rewards: [{
@@ -584,16 +584,16 @@
 				}
 				type: "item"
 			}]
-			title: "Watering Crops"
+			title: "농작물에 물 주기"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["472F40ECF199DD42"]
 			description: [
-				"Crops have 3 different tiers of Quality: &7Iron&r, &6Gold&r, and &bDiamond&r."
+				"작물에는 &7철(Iron)&r, &6금(Gold)&r, &b다이아몬드(Diamond)&r의 세 가지 품질 단계가 있습니다."
 				""
-				"The value of the crop increases based on the tier of quality, and is reflected in the tooltip!"
+				"품질 등급이 높을수록 작물의 가치가 상승하며, 이는 툴팁에 표시됩니다!"
 			]
 			icon: {
 				Count: 1
@@ -622,20 +622,20 @@
 			}]
 			tasks: [{
 				id: "62ECA90727ED1D30"
-				title: "Understood!"
+				title: "알겠습니다!"
 				type: "checkmark"
 			}]
-			title: "Crop Quality"
+			title: "작물 품질"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66D159252C70D5F2"]
 			description: [
-				"&6Villagers&r can be tough to move around. You can carry them by &6shift + right clicking&r when both hands are empty. This also works on animals too!"
+				"&6주민(Villagers)&r을 옮기기 어렵다면 양손이 비어 있을 때 &6Shift + 우클릭&r으로 들어 옮길 수 있습니다. 동물에게도 적용됩니다!"
 				""
 				"If you're out of &6Villager Spawn Crates&r, "
-				"{ \"text\": \"more can be bought from the Market.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6ADD884F3FFE5D42\" } }"
+				"{ \"text\": \"시장(Market)에서 더 구입할 수 있습니다.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6ADD884F3FFE5D42\" } }"
 			]
 			icon: "minecraft:villager_spawn_egg"
 			id: "443F42C8AFDA0C36"
@@ -649,7 +649,7 @@
 				item: "minecraft:cartography_table"
 				type: "item"
 			}]
-			title: "Managing Villagers"
+			title: "주민 관리"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -659,11 +659,11 @@
 				"73A85902CE35A43A"
 			]
 			description: [
-				"Some biomes such as &6Savannas&r and &6Jungles&r will always be treated as &6Summer&r for crop growth only. They will be marked as \"Wet Season\" and \"Dry Season\"."
+				"일부 바이옴(예: &6사바나(Savanna)&r와 &6정글(Jungle)&r)은 작물 성장에 한해 항상 &6여름(Summer)&r으로 간주되며 "Wet Season"과 "Dry Season"으로 표시됩니다."
 				""
-				"This can be used to create a secondary farm that has no need to worry about seasons!"
+				"이를 활용해 계절을 신경 쓸 필요 없는 보조 농장을 만들 수 있습니다!"
 				""
-				"The same applies to frozen biomes for &6Winter&r."
+				"동결 바이옴은 항상 &6겨울(Winter)&r로 취급됩니다."
 			]
 			icon: "atmospheric:sun_pottery_sherd"
 			id: "7D1394F6356086D0"
@@ -675,13 +675,13 @@
 			tasks: [{
 				biome: "#sereneseasons:tropical_biomes"
 				id: "62FF92E353562969"
-				title: "Visit a Summer Biome"
+				title: "여름 바이옴 방문"
 				type: "biome"
 			}]
-			title: "Eternal Summer"
+			title: "끝없는 여름"
 			x: 6.0d
 			y: 0.0d
 		}
 	]
-	title: "I - Getting Started"
+	title: "I - 시작하기"
 }
