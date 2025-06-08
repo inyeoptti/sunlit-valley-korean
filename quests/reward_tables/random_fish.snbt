@@ -11,5 +11,5 @@
 		{ item: "aquaculture:perch" }
 		{ item: "aquaculture:atlantic_cod" }
 	]
-	title: "Random Fish"
+        title: "무작위 물고기"
 }

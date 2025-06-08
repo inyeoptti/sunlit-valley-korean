@@ -9,5 +9,5 @@
 		{ item: "society:wet_weekly" }
 		{ item: "society:combat_quarterly" }
 	]
-	title: "Random Experience Book"
+        title: "랜덤 경험치 책(Random Experience Book)"
 }
