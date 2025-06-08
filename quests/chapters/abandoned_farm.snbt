@@ -28,7 +28,7 @@
 				"7CBAF0748446A0C2"
 				"7591439B35772AB2"
 			]
-			description: ["Only &66&r required for bundle completion."]
+                        description: ["번들 완수를 위해 &66&r 개만 필요합니다."]
 			icon: "supplementaries:present_green"
 			id: "661A3A466ABF29BA"
 			min_required_dependencies: 2
@@ -123,13 +123,13 @@
 					type: "item"
 				}
 			]
-			title: "The Missing Bundle"
+                        title: "사라진 꾸러미"
 			x: 0.0d
 			y: -1.3d
 		}
 		{
 			dependencies: ["661A3A466ABF29BA"]
-			description: ["Completeting the Abandoned Farm gives you a &3Petal Apothecary&r. This is your entry point into Botania, a magical automation mod that will help with certain tasks around the farm."]
+                        description: ["버려진 농장을 완료하면 &3페탈 연금단지&r를 획득합니다. 이 장치는 보타니아 모드의 시작점으로, 농장 작업을 도와주는 마법 자동화 모드입니다."]
 			hide_details_until_startable: false
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
@@ -155,19 +155,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reward: Petal Apothecary (Botania)"
+                        subtitle: "보상: 페탈 연금단지 (보타니아)"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "3D497F4CF396A37A"
 				stat: "minecraft:play_time"
-				title: "Complete the Abandoned Farm"
+                                title: "버려진 농장 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Abandoned Farm Completed!"
+                        title: "버려진 농장 완료!"
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-	title: "Abandoned Farm"
+        title: "버려진 농장"
 }
