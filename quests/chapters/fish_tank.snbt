@@ -59,7 +59,7 @@
 					type: "item"
 				}
 			]
-			title: "Freshwater Fish Bundle"
+                        title: "민물 물고기 꾸러미"
 			x: -3.0d
 			y: 0.2d
 		}
@@ -98,7 +98,7 @@
 					type: "item"
 				}
 			]
-			title: "River Fish Bundle"
+                        title: "강 물고기 꾸러미"
 			x: 0.0d
 			y: -1.3d
 		}
@@ -137,7 +137,7 @@
 					type: "item"
 				}
 			]
-			title: "Ocean Fish Bundle"
+                        title: "바다 물고기 꾸러미"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -228,11 +228,11 @@
 							]
 						}
 					}
-					title: "Choice Item"
+                                        title: "선택 아이템"
 					type: "item"
 				}
 			]
-			title: "Nether Fish Bundle"
+                        title: "네더 물고기 꾸러미"
 			x: 3.0d
 			y: 0.2d
 		}
@@ -267,7 +267,7 @@
 					type: "item"
 				}
 			]
-			title: "Crab Trap Bundle"
+                        title: "크랩 트랩 꾸러미(Crab Trap Bundle)"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -279,7 +279,7 @@
 				"03F3D0F74A5BC0C4"
 				"3129F3C2D43EE6EE"
 			]
-			description: ["Completeting the Fish Tank gives you &34 Neptunium Ingots&r. These should be used wisely to either upgrade tools, or craft useful fish related machines."]
+                        description: ["어항을 완성하면 &34 네프튜늄 주괴(Neptunium Ingots)&r를 얻을 수 있습니다. 이 주괴는 도구 업그레이드나 유용한 어장 관련 기계 제작에 현명하게 사용하세요."]
 			icon: "furniture:iron_fish_tank"
 			id: "469CEB4C8B3C0EA9"
 			rewards: [
@@ -303,20 +303,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reward: 4x Neptunium Ingots"
+                        subtitle: "보상: 네프튜늄 주괴 4개(Neptunium Ingots)"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "46B1148F60C66C53"
 				stat: "minecraft:play_time"
-				title: "Complete the Fish Tank"
+                                title: "어항 완성하기"
 				type: "stat"
 				value: 1
 			}]
-			title: "Fish Tank Completed!"
+                        title: "어항 완료!"
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-	subtitle: ["Reward: 4x Neptunium Ingots"]
-	title: "Fish Tank"
+        subtitle: ["보상: 네프튜늄 주괴 4개(Neptunium Ingots)"]
+        title: "어항"
 }
