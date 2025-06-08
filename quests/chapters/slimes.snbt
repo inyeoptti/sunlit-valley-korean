@@ -464,14 +464,14 @@
 				icon: "splendid_slimes:slime_incubator"
 				id: "43DD84D56E2DAB2B"
 				stat: "minecraft:play_time"
-				title: "Collect all Slimes"
+                                title: "모든 슬라임 수집하기(Collect all Slimes)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Slimes Collection Complete!"
+                        title: "슬라임 수집 완료!(Slimes Collection Complete!)"
 			x: -0.6071428571428541d
 			y: 6.202380952380956d
 		}
 	]
-	title: "Slimes"
+        title: "슬라임(Slimes)"
 }

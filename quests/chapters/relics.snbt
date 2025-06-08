@@ -817,7 +817,7 @@
 		}
 		{
 			id: "19B466150B9315AE"
-			subtitle: "Crafts Room reward"
+                        subtitle: "공예실 보상(Crafts Room reward)"
 			tasks: [{
 				id: "7322736239F1AAB7"
 				item: {
@@ -963,14 +963,14 @@
 				}
 				id: "4A70A735A003E168"
 				stat: "minecraft:play_time"
-				title: "Collect all Relics"
+                                title: "모든 유물 수집하기(Collect all Relics)"
 				type: "stat"
 				value: 1
 			}]
-			title: "Relic Collection Complete!"
+                        title: "유물 수집 완료!(Relic Collection Complete!)"
 			x: -0.25d
 			y: 4.0d
 		}
 	]
-	title: "Relics"
+        title: "유물(Relics)"
 }
