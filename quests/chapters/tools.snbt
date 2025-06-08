@@ -18,28 +18,28 @@
 	quests: [
 		{
 			description: [
-				"This chapter lists tools that will help you in building beautiful monuments to capitalism, or quaint farms."
-				""
-				"As you can imagine, this is all very optional."
+                                "이 챕터에서는 자본주의의 아름다운 기념물이나 아담한 농장을 짓는 데 도움이 되는 도구들을 나열합니다."
+                                ""
+                                "알다시피, 이는 전부 선택 사항입니다."
 			]
 			icon: "meadow:fire_log"
 			id: "31F6C5811A72396C"
 			size: 2.0d
 			tasks: [{
 				id: "4FBF100AF8AE2641"
-				title: "Understood"
+                                title: "이해했습니다"
 				type: "checkmark"
 			}]
-			title: "Building Tools"
+                        title: "건축 도구(Building Tools)"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
 			description: [
-				"&6Gadgets&r can be used to create, exchange, copy, and destroy portions of the world."
-				""
-				"They are extremely powerful once you learn how to use them, but the UI may be confusing to newcomers. &6Gadgets for Derps&r explains how to use them in detail."
+                                "&6가젯(Gadgets)&r은 세계의 일부를 만들고 교환하며 복사하고 파괴하는 데 사용할 수 있습니다."
+                                ""
+                                "사용법을 익히면 매우 강력하지만 인터페이스가 초보자에게는 혼란스러울 수 있습니다. &6가젯 포 더프(Gadgets for Derps)&r에서 자세한 사용법을 설명합니다."
 			]
 			icon: {
 				Count: 1
@@ -98,7 +98,7 @@
 							]
 						}
 					}
-					title: "Any Building Gadget"
+                                        title: "건설 가젯 아무거나(Building Gadget)"
 					type: "item"
 				}
 			]
@@ -108,11 +108,11 @@
 		{
 			dependencies: ["31F6C5811A72396C"]
 			description: [
-				"&6Copycat Blocks&r mimic the texture of the block that you right click with."
-				""
-				"This can be used to make stairs, ladders, and other variants of blocks that don't have them (e.g concrete blocks)."
-				""
-				"This also comes in variants that don't normally exist in Minecraft, such as slopes."
+                                "&6카피캣 블록(Copycat Blocks)&r은 우클릭한 블록의 텍스처를 모방합니다."
+                                ""
+                                "이를 이용하면 계단, 사다리 등 기본적으로 존재하지 않는 블록(예: 콘크리트)의 변형을 만들 수 있습니다."
+                                ""
+                                "마인크래프트에 존재하지 않는 경사면 같은 형태도 제공합니다."
 			]
 			icon: "copycats:copycat_stairs"
 			id: "23EFDF37F9BCD63B"
@@ -239,16 +239,16 @@
 						]
 					}
 				}
-				title: "Any copycat block"
+                                title: "카피캣 블록 아무거나(copycat block)"
 				type: "item"
 			}]
-			title: "Copycat Blocks"
+                        title: "카피캣 블록(Copycat Blocks)"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
-			description: ["&6Construction Wands&r allow you to quickly place blocks in a line or surface. Each tier increases durability, and the amount of blocks that can be placed at a time."]
+                        description: ["&6건설 지팡이(Construction Wands)&r를 사용하면 직선이나 면에 블록을 빠르게 배치할 수 있습니다. 등급이 올라갈수록 내구도와 한 번에 배치 가능한 블록 수가 증가합니다."]
 			icon: {
 				Count: 1
 				id: "constructionwand:infinity_wand"
@@ -262,7 +262,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-			subtitle: "Mass block placement"
+                        subtitle: "대량 블록 배치"
 			tasks: [{
 				id: "7093310473EC2AE3"
 				item: {
@@ -304,10 +304,10 @@
 						]
 					}
 				}
-				title: "Any Construction Wand"
+                                title: "건설 지팡이 아무거나(Construction Wand)"
 				type: "item"
 			}]
-			title: "Building Wands"
+                        title: "건축 지팡이(Building Wands)"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -343,19 +343,19 @@
 						]
 					}
 				}
-				title: "Any wand core"
+                                title: "지팡이 코어 아무거나(wand core)"
 				type: "item"
 			}]
-			title: "Building Wand Cores"
+                        title: "건축 지팡이 코어(Building Wand Cores)"
 			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
 			description: [
-				"The &6Wand of Symmetry&r places a mirror in the world that mirros block placement."
-				""
-				"Shift + Right click lets you switch the pattern of placement."
+                                "&6대칭의 지팡이(Wand of Symmetry)&r는 블록 배치를 반사하는 거울을 세계에 설치합니다."
+                                ""
+                                "Shift + 우클릭으로 배치 패턴을 변경할 수 있습니다."
 			]
 			id: "6DAD35E264D3E056"
 			rewards: [{
@@ -384,13 +384,13 @@
 				}
 				type: "item"
 			}]
-			title: "Placing Symmetrically"
+                        title: "대칭 배치하기"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
-			description: ["The &6Trowel&r places blocks in your hotbar randomly. Good for paving long paths of gravel and stone!"]
+                        description: ["&6흙손(Trowel)&r은 핫바의 블록을 무작위로 배치합니다. 자갈과 돌로 긴 길을 포장할 때 유용합니다!"]
 			id: "4EAA3F652AE923B4"
 			rewards: [{
 				id: "61764C3CB845951F"
@@ -402,17 +402,16 @@
 				item: "quark:trowel"
 				type: "item"
 			}]
-			title: "Random Placement"
+                        title: "무작위 배치"
 			x: 2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
 			description: [
-				"The &6Hammer&r can be used to crush stones into other forms, i.e Stone -> Cobblestone -> Gravel."
-				""
-				""
-				"The &6Chisel&r turns blocks into their chiseled variants if they exist."
+                                "&6망치(Hammer)&r로 돌을 다른 형태로 부술 수 있습니다. 예: 돌 → 조약돌 → 자갈."
+                                ""
+                                "&6정(Chisel)&r은 블록을 존재한다면 조각된 형태로 바꿉니다."
 			]
 			icon: {
 				Count: 1
@@ -451,13 +450,13 @@
 					type: "item"
 				}
 			]
-			title: "Chiseling and Cracking"
+                        title: "조각과 분쇄(Chiseling and Cracking)"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
-			description: ["The &6Abacus&r measures the distance between two blocks using right click."]
+                        description: ["&6주판(Abacus)&r은 우클릭으로 두 블록 사이의 거리를 잽니다."]
 			id: "574978CE534E254B"
 			rewards: [{
 				id: "62B37F698B356D6C"
@@ -469,13 +468,13 @@
 				item: "quark:abacus"
 				type: "item"
 			}]
-			title: "Measuring Blocks"
+                        title: "블록 측정하기"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
-			description: ["&6Frames&r are placeholder blocks for builds that can be quickly replaced by right clicking with a block. "]
+                        description: ["&6프레임(Frame)&r은 건축 시 임시로 쓰이는 블록으로, 우클릭으로 다른 블록으로 빠르게 대체할 수 있습니다. "]
 			id: "7BCC4E221CF97D0B"
 			rewards: [{
 				id: "40EE8779B79BE00E"
@@ -487,18 +486,18 @@
 				item: "etcetera:frame"
 				type: "item"
 			}]
-			title: "Framing out a Building"
+                        title: "건물 틀 잡기"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
 			description: [
-				"The &6Workbench&r is used for crafting advanced furniture, and blocks from furniture catalogs!"
-				""
-				"It can be purchased from the &6Blacksmith&r but requires power to operate. "
-				""
-				"You can burn solid fuel in a generator and connect it to the &6Workbench&r using the &6Electric Wrench&r."
+                                "&6작업대(Workbench)&r는 고급 가구와 가구 카탈로그의 블록을 제작할 때 사용합니다!"
+                                ""
+                                "&6대장장이(Blacksmith)&r에게서 구입할 수 있지만 작동하려면 전력이 필요합니다. "
+                                ""
+                                "발전기에 고체 연료를 넣어 태우고 &6전기 렌치(Electric Wrench)&r를 사용해 &6작업대&r와 연결하세요."
 			]
 			icon: "refurbished_furniture:workbench"
 			id: "12ED0E637AD47FD4"
@@ -519,18 +518,18 @@
 					type: "item"
 				}
 			]
-			title: "Furniture Crafting"
+                        title: "가구 제작"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["12ED0E637AD47FD4"]
 			description: [
-				"To craft special furniture using the &6Workbench&r, you may need items purchased from a catalog."
-				""
-				"These can be bought from a &6Mystical Botanist&r, and placed in world. "
-				""
-				"Right click them with &6Netherite Coins&r to purchase the crafting items for that furniture set."
+                                "&6작업대&r로 특수 가구를 제작하려면 카탈로그에서 구입한 아이템이 필요할 수 있습니다."
+                                ""
+                                "이는 &6신비한 식물학자(Mystical Botanist)&r에게서 구입해 세계에 배치할 수 있습니다. "
+                                ""
+                                "&6네더라이트 코인(Netherite Coins)&r으로 우클릭하면 해당 가구 세트의 제작 아이템을 살 수 있습니다."
 			]
 			icon: "society:tanuki_catalog"
 			id: "100B4D3BEEE9C433"
@@ -562,16 +561,16 @@
 						]
 					}
 				}
-				title: "Any Furniture Catalog"
+                                title: "가구 카탈로그 아무거나(Furniture Catalog)"
 				type: "item"
 			}]
-			title: "Furniture Catalogs"
+                        title: "가구 카탈로그(Furniture Catalogs)"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["31F6C5811A72396C"]
-			description: ["The &6Saw&r cuts logs into any type of wooden item. Useful for building or annoying crafts."]
+                        description: ["&6톱(Saw)&r은 통나무를 다양한 목재 아이템으로 자를 수 있습니다. 건축이나 귀찮은 제작에 유용합니다."]
 			id: "6933B95631B3A039"
 			rewards: [{
 				count: 16
@@ -590,9 +589,9 @@
 		{
 			dependencies: ["100B4D3BEEE9C433"]
 			description: [
-				"The &6DIY Workbench&r crafts any Furniture Catalog item for a very low material cost."
-				""
-				"It is also excruciatingly and unnecessarily expensive."
+                                "&6DIY 작업대(DIY Workbench)&r는 아주 적은 재료 비용으로 모든 가구 카탈로그 아이템을 제작합니다."
+                                ""
+                                "하지만 가격은 터무니없이 비쌉니다."
 			]
 			id: "4A4474120CD64CBD"
 			rewards: [
@@ -613,7 +612,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "The Money Sink"
+                        subtitle: "돈 먹는 구멍(The Money Sink)"
 			tasks: [{
 				id: "3FCFDD9F4F2A7544"
 				item: "tanukidecor:diy_workbench"
@@ -623,5 +622,5 @@
 			y: 6.0d
 		}
 	]
-	title: "Building Tools"
+        title: "건축 도구(Building Tools)"
 }
