@@ -53,7 +53,7 @@
 					type: "item"
 				}
 			]
-			title: "Spring Crops Bundle"
+                        title: "봄 작물 꾸러미"
 			x: -3.0d
 			y: 0.2d
 		}
@@ -93,7 +93,7 @@
 					type: "item"
 				}
 			]
-			title: "Summer Crops Bundle"
+                        title: "여름 작물 꾸러미"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -133,7 +133,7 @@
 					type: "item"
 				}
 			]
-			title: "Autumn Crops Bundle"
+                        title: "가을 작물 꾸러미"
 			x: 0.0d
 			y: -1.3d
 		}
@@ -252,7 +252,7 @@
 					type: "item"
 				}
 			]
-			title: "Husbandry Bundle"
+                        title: "축산 꾸러미"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -299,7 +299,7 @@
 					type: "item"
 				}
 			]
-			title: "Beekeeping Bundle"
+                        title: "양봉 꾸러미"
 			x: 3.0d
 			y: 0.2d
 		}
@@ -335,20 +335,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reward: Greenhouse Starter"
+                        subtitle: "보상: 온실 스타터"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "713FD6544CCC4F5C"
 				stat: "minecraft:play_time"
-				title: "Complete the Pantry"
+                                title: "식료품 저장실 완성"
 				type: "stat"
 				value: 1
 			}]
-			title: "Pantry Completed!"
+                        title: "식료품 저장실 완료!"
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-	subtitle: ["Reward: Greenhouse Starter"]
-	title: "Pantry"
+        subtitle: ["보상: 온실 스타터"]
+        title: "식료품 저장실"
 }

@@ -480,11 +480,11 @@
 				icon: "society:geode"
 				id: "1FD6880BC6E90A7E"
 				stat: "minecraft:play_time"
-				title: "Find all Geode minerals"
+                                title: "모든 지오드 광물 발견"
 				type: "stat"
 				value: 1
 			}]
-			title: "Geode Mineral Collection Complete!"
+                        title: "지오드 광물 수집 완료!"
 			x: 9.0d
 			y: -2.5d
 		}
@@ -519,11 +519,11 @@
 				icon: "society:magma_geode"
 				id: "7BA4C34E2910EBC5"
 				stat: "minecraft:play_time"
-				title: "Find all Magma Geode minerals"
+                                title: "모든 마그마 지오드 광물 발견"
 				type: "stat"
 				value: 1
 			}]
-			title: "Magma Geode Mineral Collection Complete!"
+                        title: "마그마 지오드 광물 수집 완료!"
 			x: 9.0d
 			y: 8.5d
 		}
@@ -559,11 +559,11 @@
 				icon: "society:frozen_geode"
 				id: "2313FD2F31AC09D4"
 				stat: "minecraft:play_time"
-				title: "Find all Frozen Geode minerals"
+                                title: "모든 프로즌 지오드 광물 발견"
 				type: "stat"
 				value: 1
 			}]
-			title: "Frozen Geode Mineral Collection Complete!"
+                        title: "프로즌 지오드 광물 수집 완료!"
 			x: 9.0d
 			y: 3.0d
 		}
@@ -622,11 +622,11 @@
 				icon: "society:omni_geode"
 				id: "445CBBEAFC66083B"
 				stat: "minecraft:play_time"
-				title: "Collect all minerals"
+                                title: "모든 광물 수집"
 				type: "stat"
 				value: 1
 			}]
-			title: "Mineral Collection Complete!"
+                        title: "광물 수집 완성!"
 			x: 13.0d
 			y: 3.0d
 		}

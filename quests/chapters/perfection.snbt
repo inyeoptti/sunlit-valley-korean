@@ -33,11 +33,11 @@
 				}
 				id: "2C02508B4ADC5EF3"
 				stat: "minecraft:play_time"
-				title: "Crop collection completed"
+                                title: "작물 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Crops"
+                        title: "컬렉션: 작물"
 			x: 6.5d
 			y: -3.5d
 		}
@@ -66,11 +66,11 @@
 				}
 				id: "2F6745B71CE2EE40"
 				stat: "minecraft:play_time"
-				title: "Fish collection completed"
+                                title: "물고기 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Fish"
+                        title: "컬렉션: 물고기"
 			x: 4.5d
 			y: -4.0d
 		}
@@ -99,11 +99,11 @@
 				}
 				id: "0F890C6BB5B2D327"
 				stat: "minecraft:play_time"
-				title: "Mineral collection complete"
+                                title: "광물 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Minerals"
+                        title: "컬렉션: 광물"
 			x: 4.0d
 			y: -6.0d
 		}
@@ -132,11 +132,11 @@
 				}
 				id: "3A37B10C5BC6FC29"
 				stat: "minecraft:play_time"
-				title: "Gem collection complete"
+                                title: "보석 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Gems"
+                        title: "컬렉션: 보석"
 			x: 4.5d
 			y: -8.0d
 		}
@@ -165,11 +165,11 @@
 				}
 				id: "22040C7E30885D07"
 				stat: "minecraft:play_time"
-				title: "Artifact collection complete"
+                                title: "유물 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Artifacts"
+                        title: "컬렉션: 유물"
 			x: 6.5d
 			y: -8.5d
 		}
@@ -198,11 +198,11 @@
 				}
 				id: "501BDACA22C4758C"
 				stat: "minecraft:play_time"
-				title: "Relic collection complete"
+                                title: "고대 유물 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Relics"
+                        title: "컬렉션: 고대 유물"
 			x: 8.5d
 			y: -8.0d
 		}
@@ -231,11 +231,11 @@
 				}
 				id: "2B09ED928759E57E"
 				stat: "minecraft:play_time"
-				title: "Brews collection complete"
+                                title: "양조물 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Brews"
+                        title: "컬렉션: 양조물"
 			x: 9.0d
 			y: -6.5d
 		}
@@ -264,11 +264,11 @@
 				}
 				id: "261A61CC96B6691E"
 				stat: "minecraft:play_time"
-				title: "Cooking collection complete"
+                                title: "요리 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Cooking"
+                        title: "컬렉션: 요리"
 			x: 8.5d
 			y: -4.0d
 		}
@@ -675,14 +675,14 @@
 				}
 				id: "436BC7D1A7138973"
 				stat: "minecraft:play_time"
-				title: "Slimes collection complete"
+                                title: "슬라임 컬렉션 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Collection: Slimes"
+                        title: "컬렉션: 슬라임"
 			x: 9.0d
 			y: -5.0d
 		}
 	]
-	title: "Perfection"
+        title: "완벽"
 }
