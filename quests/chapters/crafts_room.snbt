@@ -137,7 +137,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -231,7 +231,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -279,7 +279,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -306,11 +306,11 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 			]
-			title: "Winemaker's Bundle"
+			title: "와인메이커의 보따리(Winemaker's Bundle)"
 			x: -3.0d
 			y: 0.2d
 		}
@@ -358,7 +358,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -408,7 +408,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -454,11 +454,11 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 			]
-			title: "Brewer's Bundle"
+			title: "양조사의 보따리(Brewer's Bundle)"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -548,7 +548,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -586,7 +586,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -595,7 +595,7 @@
 					type: "item"
 				}
 			]
-			title: "Artisan's Bundle"
+			title: "장인의 보따리(Artisan's Bundle)"
 			x: 0.0d
 			y: -1.3d
 		}
@@ -699,7 +699,7 @@
 					type: "item"
 				}
 			]
-			title: "Chef's Bundle"
+			title: "요리사의 보따리(Chef's Bundle)"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -743,7 +743,7 @@
 					type: "item"
 				}
 			]
-			title: "Fermenter's Bundle"
+			title: "발효자의 보따리(Fermenter's Bundle)"
 			x: 3.0d
 			y: 0.2d
 		}
@@ -798,20 +798,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reward: Magic Mirror"
+			subtitle: "보상: 매직 미러(Magic Mirror)"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "38C738638838D769"
 				stat: "minecraft:play_time"
-				title: "Complete the Crafts Room"
+				title: "공예실 완성하기"
 				type: "stat"
 				value: 1
 			}]
-			title: "Crafts Room Completed!"
+			title: "공예실 완료!"
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-	subtitle: ["Reward: Magic Mirror"]
-	title: "Crafts Room"
+	subtitle: ["보상: 매직 미러(Magic Mirror)"]
+	title: "공예실(Crafts Room)"
 }

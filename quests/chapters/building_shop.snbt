@@ -42,7 +42,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "17 blocks deep, 13 blocks wide, and 11 blocks tall"
+			subtitle: "깊이 17블록, 너비 13블록, 높이 11블록"
 			tasks: [
 				{
 					count: 4L
@@ -76,11 +76,11 @@
 					layer: false
 					name: "barn"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Basic Barn"
+			title: "기본 헛간(Basic Barn)"
 			x: -16.0d
 			y: -7.0d
 		}
@@ -115,7 +115,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "17 blocks deep, 13 blocks wide, and 11 blocks tall"
+			subtitle: "깊이 17블록, 너비 13블록, 높이 11블록"
 			tasks: [
 				{
 					count: 4L
@@ -149,11 +149,11 @@
 					layer: false
 					name: "barn_cherry"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Cherry Barn"
+			title: "체리 헛간(Cherry Barn)"
 			x: -17.5d
 			y: -7.0d
 		}
@@ -188,7 +188,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "15 blocks deep, 11 blocks wide, and 7 blocks tall"
+			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
 			tasks: [
 				{
 					count: 4L
@@ -222,11 +222,11 @@
 					layer: false
 					name: "shed"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Shed"
+			title: "창고(Shed)"
 			x: -4.0d
 			y: -7.0d
 		}
@@ -264,7 +264,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "20 blocks deep, 20 blocks wide, and 13 blocks tall"
+			subtitle: "깊이 20블록, 너비 20블록, 높이 13블록"
 			tasks: [
 				{
 					count: 4L
@@ -298,11 +298,11 @@
 					layer: false
 					name: "large_shed"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Large Shed"
+			title: "큰 창고(Large Shed)"
 			x: -4.0d
 			y: -5.0d
 		}
@@ -337,7 +337,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "20 blocks deep, 20 blocks wide, and 13 blocks tall"
+			subtitle: "깊이 20블록, 너비 20블록, 높이 13블록"
 			tasks: [
 				{
 					count: 4L
@@ -371,11 +371,11 @@
 					layer: false
 					name: "large_shed_cherry"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Cherry Large Shed"
+			title: "체리 큰 창고(Cherry Large Shed)"
 			x: -2.5d
 			y: -5.0d
 		}
@@ -392,10 +392,10 @@
 			size: 1.5d
 			tasks: [{
 				id: "5C2383EED4776FAE"
-				title: "Understood"
+				title: "이해했습니다"
 				type: "checkmark"
 			}]
-			title: "Sheds"
+			title: "창고들(Sheds)"
 			x: -6.5d
 			y: -7.0d
 		}
@@ -430,7 +430,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "15 blocks deep, 11 blocks wide, and 7 blocks tall"
+			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
 			tasks: [
 				{
 					count: 4L
@@ -464,11 +464,11 @@
 					layer: false
 					name: "shed_cherry"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Cherry Shed"
+			title: "체리 창고(Cherry Shed)"
 			x: -2.5d
 			y: -7.0d
 		}
@@ -485,10 +485,10 @@
 			size: 1.5d
 			tasks: [{
 				id: "57A6189427F3031E"
-				title: "Understood"
+				title: "이해했습니다"
 				type: "checkmark"
 			}]
-			title: "Large Sheds"
+			title: "큰 창고들(Large Sheds)"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -505,10 +505,10 @@
 			size: 1.5d
 			tasks: [{
 				id: "2115EFA4F1F6CEB9"
-				title: "Understood"
+				title: "이해했습니다"
 				type: "checkmark"
 			}]
-			title: "Barns"
+			title: "헛간들(Barns)"
 			x: -13.5d
 			y: -7.0d
 		}
@@ -529,10 +529,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "2584D5E401EEFB26"
-				title: "Understood"
+				title: "이해했습니다"
 				type: "checkmark"
 			}]
-			title: "Building Shop"
+			title: "건축 상점"
 			x: -10.0d
 			y: -9.0d
 		}
@@ -569,7 +569,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "26 blocks deep, 15 blocks wide, and 14 blocks tall"
+			subtitle: "깊이 26블록, 너비 15블록, 높이 14블록"
 			tasks: [
 				{
 					count: 20L
@@ -603,11 +603,11 @@
 					layer: false
 					name: "deluxe_barn_entrana"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Entrana Deluxe Barn"
+			title: "엔트라나 고급 헛간(Entrana Deluxe Barn)"
 			x: -20.5d
 			y: -5.0d
 		}
@@ -624,10 +624,10 @@
 			size: 1.5d
 			tasks: [{
 				id: "441DDFCE3589E529"
-				title: "Understood"
+				title: "이해했습니다"
 				type: "checkmark"
 			}]
-			title: "Deluxe Barns"
+			title: "고급 헛간들(Deluxe Barns)"
 			x: -13.5d
 			y: -5.0d
 		}
@@ -650,10 +650,10 @@
 			subtitle: "&6Left Click&r the \"Preview structure\" task again to close the preview!"
 			tasks: [{
 				id: "26CC337AED0A141A"
-				title: "Understood!"
+				title: "이해했습니다!"
 				type: "checkmark"
 			}]
-			title: "Seeing the buildings in-world"
+			title: "게임 내에서 건물 보기"
 			x: -10.0d
 			y: -6.0d
 		}
@@ -670,10 +670,10 @@
 			size: 1.5d
 			tasks: [{
 				id: "7E975B5359DCAEA1"
-				title: "Understood"
+				title: "이해했습니다"
 				type: "checkmark"
 			}]
-			title: "Farmhouses"
+			title: "농가들(Farmhouses)"
 			x: -10.0d
 			y: -3.0d
 		}
@@ -708,7 +708,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "20 blocks deep, 11 blocks wide, and 15 blocks tall"
+			subtitle: "깊이 20블록, 너비 11블록, 높이 15블록"
 			tasks: [
 				{
 					count: 8L
@@ -735,11 +735,11 @@
 					layer: false
 					name: "home_tudor"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Tudor Farmhouse"
+			title: "튜더 농가(Tudor Farmhouse)"
 			x: -12.5d
 			y: -1.5d
 		}
@@ -774,7 +774,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "17 blocks deep, 19 blocks wide, and 8 blocks tall"
+			subtitle: "깊이 17블록, 너비 19블록, 높이 8블록"
 			tasks: [
 				{
 					count: 8L
@@ -808,11 +808,11 @@
 					layer: false
 					name: "home_siberian"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Siberian Farmhouse"
+			title: "시베리아 농가(Siberian Farmhouse)"
 			x: -9.0d
 			y: -1.5d
 		}
@@ -847,7 +847,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "15 blocks deep, 11 blocks wide, and 7 blocks tall"
+			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
 			tasks: [
 				{
 					count: 4L
@@ -881,11 +881,11 @@
 					layer: false
 					name: "shed_siberian"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Siberian Shed"
+			title: "시베리아 창고(Siberian Shed)"
 			x: -1.0d
 			y: -7.0d
 		}
@@ -918,7 +918,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "17 blocks deep, 13 blocks wide, and 11 blocks tall"
+			subtitle: "깊이 17블록, 너비 13블록, 높이 11블록"
 			tasks: [
 				{
 					count: 4L
@@ -952,11 +952,11 @@
 					layer: false
 					name: "barn_siberian"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Siberian Barn"
+			title: "시베리아 헛간(Siberian Barn)"
 			x: -19.0d
 			y: -7.0d
 		}
@@ -993,7 +993,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "15 blocks deep, 11 blocks wide, and 7 blocks tall"
+			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
 			tasks: [
 				{
 					count: 4L
@@ -1027,11 +1027,11 @@
 					layer: false
 					name: "shed_entrana"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Entrana Shed"
+			title: "엔트라나 창고(Entrana Shed)"
 			x: 0.5d
 			y: -7.0d
 		}
@@ -1068,7 +1068,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "18 blocks deep, 16 blocks wide, and 15 blocks tall"
+			subtitle: "깊이 18블록, 너비 16블록, 높이 15블록"
 			tasks: [
 				{
 					count: 8L
@@ -1096,7 +1096,7 @@
 					type: "item"
 				}
 			]
-			title: "Entrana Farmhouse"
+			title: "엔트라나 농가(Entrana Farmhouse)"
 			x: -7.5d
 			y: -1.5d
 		}
@@ -1133,7 +1133,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "15 blocks deep, 11 blocks wide, and 7 blocks tall"
+			subtitle: "깊이 15블록, 너비 11블록, 높이 7블록"
 			tasks: [
 				{
 					count: 4L
@@ -1167,11 +1167,11 @@
 					layer: false
 					name: "barn_entrana"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Entrana Barn"
+			title: "엔트라나 헛간(Entrana Barn)"
 			x: -20.5d
 			y: -7.0d
 		}
@@ -1208,7 +1208,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "21 blocks deep, 21 blocks wide, and 12 blocks tall"
+			subtitle: "깊이 21블록, 너비 21블록, 높이 12블록"
 			tasks: [
 				{
 					count: 4L
@@ -1242,11 +1242,11 @@
 					layer: false
 					name: "large_shed_entrana"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Entrana Large Shed"
+			title: "엔트라나 큰 창고(Entrana Large Shed)"
 			x: 0.5d
 			y: -5.0d
 		}
@@ -1279,7 +1279,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "22 blocks deep, 21 blocks wide, and 14 blocks tall"
+			subtitle: "깊이 22블록, 너비 21블록, 높이 14블록"
 			tasks: [
 				{
 					count: 4L
@@ -1313,11 +1313,11 @@
 					layer: false
 					name: "large_shed_siberian"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Siberian Large Shed"
+			title: "시베리아 큰 창고(Siberian Large Shed)"
 			x: -1.0d
 			y: -5.0d
 		}
@@ -1350,7 +1350,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "21 blocks deep, 19 blocks wide, and 13 blocks tall"
+			subtitle: "깊이 21블록, 너비 19블록, 높이 13블록"
 			tasks: [
 				{
 					count: 8L
@@ -1377,11 +1377,11 @@
 					layer: false
 					name: "home_cherry"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Cherry Farmhouse"
+			title: "체리 농가(Cherry Farmhouse)"
 			x: -11.0d
 			y: -1.5d
 		}
@@ -1414,7 +1414,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "27 blocks deep, 21 blocks wide, and 14 blocks tall"
+			subtitle: "깊이 27블록, 너비 21블록, 높이 14블록"
 			tasks: [
 				{
 					count: 20L
@@ -1448,11 +1448,11 @@
 					layer: false
 					name: "deluxe_barn_siberian"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Siberian Deluxe Barn"
+			title: "시베리아 고급 헛간(Siberian Deluxe Barn)"
 			x: -19.0d
 			y: -5.0d
 		}
@@ -1485,7 +1485,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "27 blocks deep, 21 blocks wide, and 12 blocks tall"
+			subtitle: "깊이 27블록, 너비 21블록, 높이 12블록"
 			tasks: [
 				{
 					count: 20L
@@ -1519,11 +1519,11 @@
 					layer: false
 					name: "deluxe_barn_cherry"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Cherry Deluxe Barn"
+			title: "체리 고급 헛간(Cherry Deluxe Barn)"
 			x: -17.5d
 			y: -5.0d
 		}
@@ -1556,7 +1556,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "27 blocks deep, 21 blocks wide, and 12 blocks tall"
+			subtitle: "깊이 27블록, 너비 21블록, 높이 12블록"
 			tasks: [
 				{
 					count: 20L
@@ -1590,14 +1590,14 @@
 					layer: false
 					name: "deluxe_barn"
 					rightclick: false
-					title: "Preview structure. Left Click again to cancel preview."
+					title: "미리보기 구조. 취소하려면 다시 좌클릭."
 					type: "questsadditions:structure"
 				}
 			]
-			title: "Deluxe Barn"
+			title: "고급 헛간(Deluxe Barn)"
 			x: -16.0d
 			y: -5.0d
 		}
 	]
-	title: "Building Shop"
+	title: "건축 상점"
 }

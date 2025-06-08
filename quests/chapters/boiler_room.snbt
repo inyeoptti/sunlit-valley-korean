@@ -54,16 +54,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reward: Create Power Sources"
+                        subtitle: "보상: Create 동력원"
 			tasks: [{
 				icon: "society:furniture_box"
 				id: "4F5C6E42993777F4"
 				stat: "minecraft:play_time"
-				title: "Completed Boiler Room"
+                                title: "보일러 룸 완료"
 				type: "stat"
 				value: 1
 			}]
-			title: "Boiler Room Completed!"
+                        title: "보일러 룸 완료!"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -102,7 +102,7 @@
 					type: "item"
 				}
 			]
-			title: "Blacksmith's Bundle"
+                        title: "대장장이의 보따리"
 			x: -3.0d
 			y: 0.2d
 		}
@@ -141,7 +141,7 @@
 					type: "item"
 				}
 			]
-			title: "Geologist's Bundle"
+                        title: "지질학자의 보따리"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -176,7 +176,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -201,7 +201,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -226,7 +226,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -251,7 +251,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -276,7 +276,7 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 				{
@@ -301,11 +301,11 @@
 							]
 						}
 					}
-					title: "Choice Item"
+					title: "선택 아이템"
 					type: "item"
 				}
 			]
-			title: "Mineralogist's Bundle"
+                        title: "광물학자의 보따리"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -379,11 +379,11 @@
 					type: "item"
 				}
 			]
-			title: "Adventurer's Bundle"
+                        title: "모험가의 보따리"
 			x: 3.0d
 			y: 0.2d
 		}
 	]
-	subtitle: ["Reward: Create Power Generators"]
-	title: "Boiler Room"
+        subtitle: ["보상: Create 발전기"]
+    title: "보일러 룸"
 }

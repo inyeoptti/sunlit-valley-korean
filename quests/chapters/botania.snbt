@@ -34,7 +34,7 @@
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			title: "Intro to Flower Magic"
+                        title: "꽃 마법 입문"
 			x: -2.5d
 			y: 0.0d
 		}
@@ -61,10 +61,10 @@
 						value: "society:botania_seeds"
 					}
 				}
-				title: "Any Mystical Flower Seed"
+                                title: "모든 신비한 꽃 씨앗"
 				type: "item"
 			}]
-			title: "Growing Mystical Flowers"
+                        title: "신비한 꽃 기르기"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -135,10 +135,10 @@
 						]
 					}
 				}
-				title: "Any Elven fruit"
+                                title: "아무 엘프 과일"
 				type: "item"
 			}]
-			title: "Elven Fruits"
+                        title: "엘프 과일"
 			x: 16.5d
 			y: -1.5d
 		}
@@ -178,7 +178,7 @@
 					type: "item"
 				}
 			]
-			title: "Gateway to Alfheim"
+                        title: "알프하임으로 가는 관문"
 			x: 15.5d
 			y: 0.0d
 		}
@@ -263,10 +263,10 @@
 						]
 					}
 				}
-				title: "Any Terrasteel Armor Peice"
+                                title: "테라스틸 방어구 아무 부위"
 				type: "item"
 			}]
-			title: "Terrasteel Armor"
+                        title: "테라스틸 방어구"
 			x: 12.5d
 			y: 1.5d
 		}
@@ -318,10 +318,10 @@
 						]
 					}
 				}
-				title: "Any Terra Tool"
+                                title: "테라 도구 아무것"
 				type: "item"
 			}]
-			title: "Terra Tools"
+                        title: "테라 도구"
 			x: 14.5d
 			y: 1.5d
 		}
@@ -346,7 +346,7 @@
 				item: "botania:white_petal"
 				type: "item"
 			}]
-			title: "The Mystical Petals"
+                        title: "신비한 꽃잎"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -390,7 +390,7 @@
 					type: "item"
 				}
 			]
-			title: "Storing Mana"
+                        title: "마나 저장"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -407,7 +407,7 @@
 				item: "numismatics:crown"
 				type: "item"
 			}]
-			subtitle: "The flowers demand payment"
+                    subtitle: "꽃들이 대가를 요구한다"
 			tasks: [{
 				id: "282D73A45C348D10"
 				item: "society:botanical_tribute"
@@ -434,7 +434,7 @@
 				item: "croptania:cropnolia"
 				type: "item"
 			}]
-			title: "The Magic of Crops"
+                        title: "작물의 마법"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -558,11 +558,11 @@
 							]
 						}
 					}
-					title: "Clement or Thunderous Shell"
+                                    title: "클레멘트 또는 썬더러스 조개"
 					type: "item"
 				}
 			]
-			title: "Magical Weather Shells"
+                        title: "마법의 날씨 조개"
 			x: 10.0d
 			y: -1.5d
 		}
@@ -589,7 +589,7 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			title: "Crafting Runes"
+                        title: "룬 제작"
 			x: 9.5d
 			y: 0.0d
 		}
@@ -612,7 +612,7 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			title: "The Mystical Arena"
+                        title: "신비한 투기장"
 			x: 19.0d
 			y: 0.0d
 		}
@@ -635,7 +635,7 @@
 				item: "society:cornucopia"
 				type: "item"
 			}]
-			title: "Magical Harvesting"
+                        title: "마법의 수확"
 			x: 16.5d
 			y: 1.5d
 		}
@@ -692,10 +692,10 @@
 						value: "botania:functional_special_flowers"
 					}
 				}
-				title: "Any Functional Flower"
+                                title: "아무 기능성 꽃"
 				type: "item"
 			}]
-			title: "Functional Flora"
+                        title: "기능성 플로라"
 			x: 10.0d
 			y: 1.5d
 		}
@@ -717,7 +717,7 @@
 				item: "society:mana_milker"
 				type: "item"
 			}]
-			title: "Mana Milking"
+                        title: "마나 착유"
 			x: 13.5d
 			y: -1.5d
 		}
@@ -746,13 +746,13 @@
 						value: "botania:generating_special_flowers"
 					}
 				}
-				title: "Any #botania:generating_special_flowers"
+                                title: "#botania:generating_special_flowers 아무 꽃"
 				type: "item"
 			}]
-			title: "Generating Flora"
+                        title: "생산 플로라"
 			x: 6.0d
 			y: 1.5d
 		}
 	]
-	title: "IV - Mystical Farming"
+    title: "IV - 신비한 농사"
 }
