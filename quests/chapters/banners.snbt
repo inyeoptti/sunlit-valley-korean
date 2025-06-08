@@ -48,7 +48,7 @@
 				"42D3B4C3895D8335"
 				"495F8C63FB25EB62"
 			]
-			description: ["Cook all dishes from &6Farm and Charm&r."]
+                        description: ["&6Farm and Charm&r의 모든 요리를 만들어 보세요."]
 			hide_dependency_lines: true
 			id: "1FFF66E7B3DE1E6D"
 			rewards: [{
@@ -61,11 +61,11 @@
 				icon: "farm_and_charm:scarecrow"
 				id: "60BC53B1056204F0"
 				stat: "minecraft:play_time"
-				title: "Complete Farm And Charm collection"
+                                title: "팜 앤 참 요리 완성"
 				type: "stat"
 				value: 1
 			}]
-			title: "Farm and Charmer"
+                        title: "팜 앤 참 마스터"
 			x: 1.5d
 			y: -6.0d
 		}
@@ -977,7 +977,7 @@
 				"15C9B5E9F455688F"
 				"438F91A0DCA3DDB0"
 			]
-			description: ["Cook all dishes from &6Farmer's Delight&r, &6Crabber's Delight&r, &6Veggies's Delight&r and &6Vintage Delight&r."]
+                        description: ["&6Farmer's Delight&r, &6Crabber's Delight&r, &6Veggies's Delight&r, &6Vintage Delight&r의 모든 요리를 만들어 보세요."]
 			hide_dependency_lines: true
 			id: "44256671D7500BEA"
 			rewards: [{
@@ -1016,11 +1016,11 @@
 				}
 				id: "4DF65AF04FBBC65C"
 				stat: "minecraft:play_time"
-				title: "Cook all delightful dishes"
+                                title: "맛있는 요리 전부 만들기"
 				type: "stat"
 				value: 1
 			}]
-			title: "Delightful Champion"
+                        title: "딜라이트 챔피언"
 			x: 1.5d
 			y: 2.5d
 		}
@@ -1074,11 +1074,11 @@
 				}
 				id: "38C343FDC4F440C9"
 				stat: "minecraft:play_time"
-				title: "Collect all dishes"
+                                title: "모든 요리 수집"
 				type: "stat"
 				value: 1
 			}]
-			title: "Cooking Collection Complete!"
+                        title: "요리 수집 완료!"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -1643,5 +1643,5 @@
 			y: 10.5d
 		}
 	]
-	title: "Cooking"
+        title: "요리"
 }
