@@ -487,7 +487,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "262E7E71CF6AD26A"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "4E0B4FEE5F9B497E"
 				item: "farmersdelight:cabbage"
@@ -513,7 +513,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "0FF95378E683DF5E"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "139EB44EBB2C6495"
 				item: "vintagedelight:peanut"
@@ -529,7 +529,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "18E4EF841B0D1DC7"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "4DC4C3119CF01A49"
 				item: "vintagedelight:ghost_pepper"
@@ -545,7 +545,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "56865D2E8C786C7D"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "552AA3E8B98FF5DB"
 				item: "vintagedelight:cucumber"
@@ -572,7 +572,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "3A1EFD1023C8C09B"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "36514AEE32301F45"
 				item: "pamhc2trees:lycheeitem"
@@ -588,7 +588,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "12716A71DB8FB7B8"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "1BC26BC3178F72D3"
 				item: "pamhc2trees:bananaitem"
@@ -604,7 +604,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "3E57558B04952D59"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "0130993A589F918B"
 				item: "pamhc2trees:peachitem"
@@ -620,7 +620,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "6C656EEBAD2B5DAF"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "71BEC726204AE10B"
 				item: "pamhc2trees:plumitem"
@@ -636,7 +636,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "071B9936A0F6425F"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "15A51121384FB49C"
 				item: "pamhc2trees:mangoitem"
@@ -652,7 +652,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "1D39A308673157BA"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "5347F6226E74E47C"
 				item: "atmospheric:orange"
@@ -668,7 +668,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "7ED74D28362C25CE"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "1CB79A19BD74B467"
 				item: "pamhc2trees:dragonfruititem"
@@ -684,7 +684,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "34AD1E2CEE6966B5"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "51D5DC2521CB0EFD"
 				item: "pamhc2trees:starfruititem"
@@ -816,11 +816,11 @@
 				}
 				id: "14B9889CA24FCD78"
 				stat: "minecraft:play_time"
-				title: "Collect all crops"
+				title: "모든 작물 수집"
 				type: "stat"
 				value: 1
 			}]
-			title: "Crop Collection Complete!"
+			title: "작물 수집 완료!"
 			x: 7.5d
 			y: -1.5d
 		}
@@ -839,7 +839,7 @@
 		{
 			description: ["Fruit tree sapling a possible reward from a &5Prize Machine&r."]
 			id: "751852642BED95D0"
-			subtitle: "&5Prize Machine"
+			subtitle: "&5경품 기계"
 			tasks: [{
 				id: "22919A73C577461C"
 				item: "pamhc2trees:pawpawitem"
@@ -851,7 +851,7 @@
 		{
 			description: ["Fruit tree sapling a possible reward from a &5Prize Machine&r."]
 			id: "449B0ECBBD4E743D"
-			subtitle: "&5Prize Machine"
+			subtitle: "&5경품 기계"
 			tasks: [{
 				id: "5703E9BC753916D6"
 				item: "pamhc2trees:hazelnutitem"
@@ -863,7 +863,7 @@
 		{
 			description: ["Cinnamon Tree Saplings have a rare chance to drop from &bWinter Zombies&r."]
 			id: "354AB867025A3019"
-			subtitle: "&bWinter Zombies"
+			subtitle: "&b겨울 좀비"
 			tasks: [{
 				id: "2E9453049DBD8724"
 				item: "pamhc2trees:cinnamonitem"
@@ -889,7 +889,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "5C6688D9ADAB129D"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "5BC5D85279454506"
 				item: "society:tubabacco_leaf"
@@ -955,7 +955,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "4CE5E17948C31E2A"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "53E8C57AF7BE0A8D"
 				item: "veggiesdelight:garlic"
@@ -991,7 +991,7 @@
 				"You'll need to find a &dPrismatic Shard&r deep in the Skull Cavern to craft their workstation."
 			]
 			id: "530890B3F0CE32B1"
-			subtitle: "&6Master Cultivator"
+			subtitle: "&6달인 경작자"
 			tasks: [{
 				id: "3D7DDDF60546C23E"
 				item: "veggiesdelight:sweet_potato"
@@ -1041,5 +1041,5 @@
 			y: 3.5d
 		}
 	]
-	title: "Crops"
+	title: "작물"
 }
