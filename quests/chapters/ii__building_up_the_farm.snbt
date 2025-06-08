@@ -14,15 +14,15 @@
 				"3F759C6DEEBC61FD"
 				"0A39B0C0A77E57B0"
 			]
-			description: [
-				"Your journey into farming starts with the &6Market&r, which sells a variety of basic seeds and saplings."
-				""
-				"Some crops only grow in certain seasons, which is designated in the crops's tooltip. "
-				""
-				"Seasons last &630 minecraft days&r, and hot or cold biomes will be always be Summer and Winter respectively."
-				""
-				"Equipping the Calendar will show the current sub-season in the top left of your screen."
-			]
+                        description: [
+                                "농사 여정은 &6시장(Market)&r에서 시작됩니다. 이곳에서는 기본 씨앗과 묘목을 판매합니다."
+                                ""
+                                "일부 작물은 특정 계절에만 자라며, 작물 툴팁에서 확인할 수 있습니다."
+                                ""
+                                "계절은 &630 마인크래프트 일&r 동안 지속되며, 더운 생물 군계는 항상 여름, 추운 곳은 항상 겨울입니다."
+                                ""
+                                "캘린더를 장비하면 화면 왼쪽 위에 현재 세부 계절이 표시됩니다."
+                        ]
 			id: "6ADD884F3FFE5D42"
 			rewards: [{
 				id: "2040ACC30B4DC0CC"
@@ -41,11 +41,11 @@
 		}
 		{
 			dependencies: ["6ADD884F3FFE5D42"]
-			description: [
-				"The &6Farmer&r sells supplies that'll help increase the efficiency of your farming, such as fertilizers."
-				""
-				"You can place the villager on the &6Seat&r to keep them from wandering off. "
-			]
+                        description: [
+                                "&6농부(Farmer)&r는 비료와 같이 농사 효율을 높여 주는 물품을 판매합니다."
+                                ""
+                                "마을 주민을 &6의자(Seat)&r에 앉히면 돌아다니는 것을 막을 수 있습니다."
+                        ]
 			id: "2134CA6B3880D089"
 			rewards: [
 				{
@@ -70,15 +70,15 @@
 		}
 		{
 			dependencies: ["6ADD884F3FFE5D42"]
-			description: [
-				"Watering your crops every morning gets old fast."
-				""
-				"&6Sprinklers&r help you out by keeping farmland hydrated in a radius around them."
-				""
-				"The basic Iron tier works in a 3x3 area centered around it."
-				""
-				"They can also be right clicked with a stick to add support for decoration."
-			]
+                        description: [
+                                "매일 아침 작물에 물을 주는 일은 금세 지루해집니다."
+                                ""
+                                "&6스프링클러(Sprinkler)&r를 설치하면 주변 농지를 자동으로 물을 주어 편리합니다."
+                                ""
+                                "기본 아이언 등급은 중심을 기준으로 3x3 영역을 커버합니다."
+                                ""
+                                "막대로 우클릭하면 장식을 달 수 있는 지지대를 추가할 수 있습니다."
+                        ]
 			id: "54B618CF0AB9DC20"
 			rewards: [{
 				id: "09B894343F6EDD1E"
@@ -94,11 +94,11 @@
 			y: -2.5d
 		}
 		{
-			description: [
-				"Once you find an appropriate place to start your farm, your first step should be preparing a field of farmland."
-				""
-				"Once fully grown, you can &6Right Click&r to harvest without losing the seed! Hoes can do this an an area."
-			]
+                        description: [
+                                "농장을 시작할 장소를 찾았다면, 가장 먼저 할 일은 경작지를 만드는 것입니다."
+                                ""
+                                "완전히 자란 작물은 &6우클릭&r만으로 씨앗을 잃지 않고 수확할 수 있습니다! 괭이로는 범위 수확도 가능합니다."
+                        ]
 			icon: "minecraft:farmland"
 			id: "0A39B0C0A77E57B0"
 			rewards: [{
@@ -129,11 +129,11 @@
 				"2134CA6B3880D089"
 				"3D324E99DF28D224"
 			]
-			description: [
-				"The &6Farmer's Almanac&r has detailed information of crops and farm animals, which is essential when deciding what to focus on every season."
-				""
-				"It is sold by the &6Farmer&r and &6Shepherd&r"
-			]
+                        description: [
+                                "&6농부의 연감(Farmer's Almanac)&r에는 각 계절마다 어떤 작물과 가축을 돌봐야 할지 결정할 때 필요한 상세 정보가 담겨 있습니다."
+                                ""
+                                "이 책은 &6농부(Farmer)&r와 &6양치기(Shepherd)&r가 판매합니다."
+                        ]
 			id: "596D2298299CCEED"
 			rewards: [{
 				count: 8
@@ -161,11 +161,11 @@
 				"54B618CF0AB9DC20"
 				"2134CA6B3880D089"
 			]
-			description: [
-				"By now you might have ran out of money while getting your crops started. "
-				""
-				"It's a good time to dig into stone to get materials needed to craft sprinklers or upgrade tools."
-			]
+                        description: [
+                                "지금쯤이면 작물을 심느라 자금이 바닥났을지도 모릅니다."
+                                ""
+                                "스프링클러 제작이나 도구 업그레이드에 필요한 광물을 캐러 돌 속으로 들어가 볼 때입니다."
+                        ]
 			icon: {
 				Count: 1
 				id: "minecraft:iron_pickaxe"
@@ -197,13 +197,13 @@
 		}
 		{
 			dependencies: ["02327F6FDF987266"]
-			description: [
-				"While caving, you might come across these rare minerals."
-				""
-				"&6Earth Crystals&r are an important crafting ingredient, so collect as many as you can."
-				""
-				"Their soft glow gives them away in dark caves."
-			]
+                        description: [
+                                "동굴을 탐험하다 보면 드물게 이런 광물을 발견할 수 있습니다."
+                                ""
+                                "&6지구 수정(Earth Crystal)&r은 중요한 제작 재료이니 많이 모아 두세요."
+                                ""
+                                "희미하게 빛나기 때문에 어두운 동굴에서도 쉽게 찾을 수 있습니다."
+                        ]
 			id: "07858B887B222BC2"
 			rewards: [{
 				id: "7400FB36CD4F9C87"
@@ -221,11 +221,11 @@
 		}
 		{
 			dependencies: ["2134CA6B3880D089"]
-			description: [
-				"&6Fertilizer&r is a huge step in upgrading how much your farm produces."
-				""
-				"Simply right click on the farmland to gain the affects. "
-			]
+                        description: [
+                                "&6비료(Fertilizer)&r를 사용하면 농장의 생산량을 크게 늘릴 수 있습니다."
+                                ""
+                                "농지에 우클릭만 하면 효과가 적용됩니다."
+                        ]
 			icon: "dew_drop_farmland_growth:weak_fertilizer"
 			id: "1D5820FBDD8EB900"
 			rewards: [

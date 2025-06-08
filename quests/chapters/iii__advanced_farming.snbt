@@ -9,11 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"The &6Nether&r is the next area to exploit for its natural resources."
-				""
-				"Getting there will prove fairly trivial, but surviving is a trial for the unprepared..."
-			]
+                        description: [
+                                "&6네더(Nether)&r는 다음으로 자원을 채취할 지역입니다."
+                                ""
+                                "도착하는 것은 어렵지 않지만, 준비가 되어 있지 않다면 생존이 힘들 것입니다..."
+                        ]
 			id: "66E1AC55824DF1D9"
 			rewards: [{
 				id: "6FDF35ACBB9324CF"
@@ -39,11 +39,11 @@
 		}
 		{
 			dependencies: ["66E1AC55824DF1D9"]
-			description: [
-				"&6Fire Quartz&r is the gate to more advanced farming equipment."
-				""
-				"It can be found scattered around the Nether, and glows brightly."
-			]
+                        description: [
+                                "&6파이어 석영(Fire Quartz)&r은 더 발전된 농업 장비로 가는 관문입니다."
+                                ""
+                                "네더 곳곳에 흩어져 있으며 밝게 빛납니다."
+                        ]
 			id: "0F176FBF01ABB774"
 			rewards: [{
 				count: 2
@@ -64,13 +64,13 @@
 				"4A48308E11476E9B"
 				"66E1AC55824DF1D9"
 			]
-			description: [
-				"In the Nether, native fish can be caught using the &6Lava Fishing Rod&r. "
-				""
-				"They will also randomly upgrade enchantments from succesful catches."
-				""
-				"Since the Nether has no season, the same fish can be caught at any time. Some fish are biome dependent though."
-			]
+                        description: [
+                                "네더에서 서식하는 물고기는 &6용암 낚싯대(Lava Fishing Rod)&r로 잡을 수 있습니다."
+                                ""
+                                "낚시에 성공하면 확률적으로 인챈트가 업그레이드되기도 합니다."
+                                ""
+                                "네더에는 계절이 없으므로 언제나 같은 물고기를 잡을 수 있지만, 일부는 생물 군계에 따라 달라집니다."
+                        ]
 			id: "11A36B05684D70A9"
 			rewards: [{
 				id: "64B8C750A013A432"
@@ -93,11 +93,11 @@
 		}
 		{
 			dependencies: ["66E1AC55824DF1D9"]
-			description: [
-				"In order to channel the power of lightning, a large amount of &6Blaze Rods&r will be needed. "
-				""
-				"Aim for at least &67&r of them."
-			]
+                        description: [
+                                "번개의 힘을 이용하려면 많은 양의 &6블레이즈 로드(Blaze Rods)&r가 필요합니다."
+                                ""
+                                "최소한 &67&r개 정도는 모아 두세요."
+                        ]
 			id: "41FD632FA78AFB49"
 			rewards: [{
 				count: 2
@@ -116,11 +116,11 @@
 		}
 		{
 			dependencies: ["41FD632FA78AFB49"]
-			description: [
-				"&6Charging Rods&r take lightning from storms and create Batteries, used in crafting items that use electricity."
-				""
-				"They don't work in Winter, as no stormy weather occurs."
-			]
+                        description: [
+                                "&6충전 봉(Charging Rods)&r은 폭풍에서 번개를 받아 전기를 사용하는 기계 제작에 쓰이는 배터리를 만들어 줍니다."
+                                ""
+                                "겨울에는 폭풍이 없으므로 작동하지 않습니다."
+                        ]
 			icon: "society:battery"
 			id: "0C7D8F89BCF645AA"
 			rewards: [{
@@ -147,11 +147,11 @@
 		}
 		{
 			dependencies: ["0C7D8F89BCF645AA"]
-			description: [
-				"Batteries are need to craft the &6Espresso Machine&r, which lets you make &6Espresso&r and &6Steamed Milk&r."
-				""
-				"Unlike other Artisan Machines, drinks made with &6Espresso&r are :corn: Farmer products."
-			]
+                        description: [
+                                "배터리는 &6에스프레소 머신(Espresso Machine)&r 제작에 필요하며, 이 장비로 &6에스프레소(Espresso)&r와 &6스팀 밀크(Steamed Milk)&r를 만들 수 있습니다."
+                                ""
+                                "다른 장인의 기계와 달리 &6에스프레소(Espresso)&r로 만든 음료는 :corn: 농부 상품으로 취급됩니다."
+                        ]
 			id: "4F698E7353FD76F1"
 			rewards: [{
 				id: "63206696243D6D35"
@@ -168,11 +168,11 @@
 		}
 		{
 			dependencies: ["0C7D8F89BCF645AA"]
-			description: [
-				"Expensive and slow, the &6Crystalarium&r will duplicate any gem or mineral placed inside. The amount of days to complete will depend on the inserted item."
-				""
-				"They should be your first goal if you dislike mining for crafting minerals."
-			]
+                        description: [
+                                "가격도 비싸고 느리지만, &6크리스탈라리움(Crystalarium)&r은 넣어 둔 보석이나 광물을 복제해 줍니다. 소요되는 일수는 넣은 아이템에 따라 달라집니다."
+                                ""
+                                "채굴을 좋아하지 않는다면 가장 먼저 목표로 삼아야 할 장비입니다."
+                        ]
 			id: "6EBF139D33C95729"
 			rewards: [{
 				id: "44F0B36D0FC6AF4C"
@@ -190,13 +190,13 @@
 		}
 		{
 			dependencies: ["0F176FBF01ABB774"]
-			description: [
-				"Wine can be made using a &6Fermentation Barrel&r. This is a lengthy process, but quite profitable."
-				""
-				"Wines also have special affects that improve overtime as the wine exists in the world."
-				""
-				"To start, use the &6Grapevine Pot&r to make juice. You can hold &6W&r while hovering to see how."
-			]
+                        description: [
+                                "&6발효 통(Fermentation Barrel)&r을 이용해 와인을 만들 수 있습니다. 시간이 오래 걸리지만 꽤 수익이 좋습니다."
+                                ""
+                                "와인은 시간이 지날수록 특별한 효과가 점차 향상됩니다."
+                                ""
+                                "먼저 &6포도나무 화분(Grapevine Pot)&r을 사용해 주스를 만들면 됩니다. 방법은 아이템에 마우스를 올리고 &6W&r 키를 누르면 볼 수 있습니다."
+                        ]
 			icon: "vinery:fermentation_barrel"
 			id: "18EB59F2591BAD51"
 			rewards: [{
